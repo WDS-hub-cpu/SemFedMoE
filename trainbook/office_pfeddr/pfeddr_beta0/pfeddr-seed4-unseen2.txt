@@ -1,0 +1,1514 @@
+===2026-08-26 23:21:37===
+===Setting===
+seed: 4
+args: Namespace(batch=32, beta=0, beta_logit=0.1, gate_unseen_weight=0.1, gpu='0', iters=120, log=True, lr=None, mode='pfeddr', mu=0.001, opt='adamw', resume=False, save_path='../checkpoint/office_pfeddr/pfeddr_beta0', seed=4, test=False, unseen_client=2, warmup=10, wk_iters=5)
+============ Train epoch 0 ============
+============ Train epoch 1 ============
+============ Train epoch 2 ============
+============ Train epoch 3 ============
+============ Train epoch 4 ============
+ Site-Amazon    | Train Loss: 2.2343 | Train Acc: 0.1774
+ Site-Caltech   | Train Loss: 2.1950 | Train Acc: 0.1452
+ Site-Webcam    | Train Loss: 2.1971 | Train Acc: 0.1935
+ Site-Amazon    | Val  Loss: 2.2450 | Val  Acc: 0.1400
+ Site-Caltech   | Val  Loss: 2.2519 | Val  Acc: 0.2600
+ Site-Webcam    | Val  Loss: 2.3973 | Val  Acc: 0.1000
+ Best site-Amazon     | Epoch:0 | Val Acc: 0.1400
+ Best site-Caltech    | Epoch:0 | Val Acc: 0.2600
+ Best site-Webcam     | Epoch:0 | Val Acc: 0.1000
+ Saving the local and server checkpoint to ../checkpoint/office_pfeddr/pfeddr_beta0/pfeddr_seed4_unseen2...
+ Test site-Amazon    | Epoch:0 | Test Acc: 0.1510
+ Test site-Caltech   | Epoch:0 | Test Acc: 0.1378
+ Test site-Webcam    | Epoch:0 | Test Acc: 0.1695
+Unseen site-DSLR       |Test site-Amazon    | Epoch:0 | Test Acc: 0.0625
+Unseen site-DSLR       |Test site-Caltech   | Epoch:0 | Test Acc: 0.0625
+Unseen site-DSLR       |Test site-Webcam    | Epoch:0 | Test Acc: 0.1875
+============ Train epoch 5 ============
+============ Train epoch 6 ============
+============ Train epoch 7 ============
+============ Train epoch 8 ============
+============ Train epoch 9 ============
+ Site-Amazon    | Train Loss: 2.0258 | Train Acc: 0.2903
+ Site-Caltech   | Train Loss: 2.0669 | Train Acc: 0.2419
+ Site-Webcam    | Train Loss: 1.9302 | Train Acc: 0.3871
+ Site-Amazon    | Val  Loss: 2.0951 | Val  Acc: 0.2600
+ Site-Caltech   | Val  Loss: 2.0593 | Val  Acc: 0.3600
+ Site-Webcam    | Val  Loss: 1.9631 | Val  Acc: 0.3200
+ Best site-Amazon     | Epoch:1 | Val Acc: 0.2600
+ Best site-Caltech    | Epoch:1 | Val Acc: 0.3600
+ Best site-Webcam     | Epoch:1 | Val Acc: 0.3200
+ Saving the local and server checkpoint to ../checkpoint/office_pfeddr/pfeddr_beta0/pfeddr_seed4_unseen2...
+ Test site-Amazon    | Epoch:1 | Test Acc: 0.2552
+ Test site-Caltech   | Epoch:1 | Test Acc: 0.2044
+ Test site-Webcam    | Epoch:1 | Test Acc: 0.4237
+Unseen site-DSLR       |Test site-Amazon    | Epoch:1 | Test Acc: 0.0938
+Unseen site-DSLR       |Test site-Caltech   | Epoch:1 | Test Acc: 0.2812
+Unseen site-DSLR       |Test site-Webcam    | Epoch:1 | Test Acc: 0.2188
+============ Train epoch 10 ============
+============ Train epoch 11 ============
+============ Train epoch 12 ============
+============ Train epoch 13 ============
+============ Train epoch 14 ============
+ Site-Amazon    | Train Loss: 1.8253 | Train Acc: 0.4194
+ Site-Caltech   | Train Loss: 1.9571 | Train Acc: 0.3065
+ Site-Webcam    | Train Loss: 1.8201 | Train Acc: 0.3871
+ Site-Amazon    | Val  Loss: 2.0656 | Val  Acc: 0.2200
+ Site-Caltech   | Val  Loss: 2.0219 | Val  Acc: 0.4400
+ Site-Webcam    | Val  Loss: 1.7041 | Val  Acc: 0.4600
+ Best site-Amazon     | Epoch:2 | Val Acc: 0.2200
+ Best site-Caltech    | Epoch:2 | Val Acc: 0.4400
+ Best site-Webcam     | Epoch:2 | Val Acc: 0.4600
+ Saving the local and server checkpoint to ../checkpoint/office_pfeddr/pfeddr_beta0/pfeddr_seed4_unseen2...
+ Test site-Amazon    | Epoch:2 | Test Acc: 0.2812
+ Test site-Caltech   | Epoch:2 | Test Acc: 0.2267
+ Test site-Webcam    | Epoch:2 | Test Acc: 0.5254
+Unseen site-DSLR       |Test site-Amazon    | Epoch:2 | Test Acc: 0.2500
+Unseen site-DSLR       |Test site-Caltech   | Epoch:2 | Test Acc: 0.3750
+Unseen site-DSLR       |Test site-Webcam    | Epoch:2 | Test Acc: 0.3750
+============ Train epoch 15 ============
+============ Train epoch 16 ============
+============ Train epoch 17 ============
+============ Train epoch 18 ============
+============ Train epoch 19 ============
+ Site-Amazon    | Train Loss: 1.9348 | Train Acc: 0.4032
+ Site-Caltech   | Train Loss: 1.8956 | Train Acc: 0.3548
+ Site-Webcam    | Train Loss: 1.7893 | Train Acc: 0.4194
+ Site-Amazon    | Val  Loss: 2.0600 | Val  Acc: 0.3000
+ Site-Caltech   | Val  Loss: 2.0333 | Val  Acc: 0.3800
+ Site-Webcam    | Val  Loss: 1.6083 | Val  Acc: 0.5600
+ Best site-Amazon     | Epoch:3 | Val Acc: 0.3000
+ Best site-Caltech    | Epoch:3 | Val Acc: 0.3800
+ Best site-Webcam     | Epoch:3 | Val Acc: 0.5600
+ Saving the local and server checkpoint to ../checkpoint/office_pfeddr/pfeddr_beta0/pfeddr_seed4_unseen2...
+ Test site-Amazon    | Epoch:3 | Test Acc: 0.3125
+ Test site-Caltech   | Epoch:3 | Test Acc: 0.2756
+ Test site-Webcam    | Epoch:3 | Test Acc: 0.5085
+Unseen site-DSLR       |Test site-Amazon    | Epoch:3 | Test Acc: 0.2500
+Unseen site-DSLR       |Test site-Caltech   | Epoch:3 | Test Acc: 0.4062
+Unseen site-DSLR       |Test site-Webcam    | Epoch:3 | Test Acc: 0.3125
+============ Train epoch 20 ============
+============ Train epoch 21 ============
+============ Train epoch 22 ============
+============ Train epoch 23 ============
+============ Train epoch 24 ============
+ Site-Amazon    | Train Loss: 1.7143 | Train Acc: 0.4516
+ Site-Caltech   | Train Loss: 1.8993 | Train Acc: 0.3548
+ Site-Webcam    | Train Loss: 2.0002 | Train Acc: 0.2903
+ Site-Amazon    | Val  Loss: 2.0023 | Val  Acc: 0.4000
+ Site-Caltech   | Val  Loss: 2.0097 | Val  Acc: 0.4400
+ Site-Webcam    | Val  Loss: 1.7394 | Val  Acc: 0.4600
+ Best site-Amazon     | Epoch:4 | Val Acc: 0.4000
+ Best site-Caltech    | Epoch:4 | Val Acc: 0.4400
+ Best site-Webcam     | Epoch:4 | Val Acc: 0.4600
+ Saving the local and server checkpoint to ../checkpoint/office_pfeddr/pfeddr_beta0/pfeddr_seed4_unseen2...
+ Test site-Amazon    | Epoch:4 | Test Acc: 0.4323
+ Test site-Caltech   | Epoch:4 | Test Acc: 0.2400
+ Test site-Webcam    | Epoch:4 | Test Acc: 0.3220
+Unseen site-DSLR       |Test site-Amazon    | Epoch:4 | Test Acc: 0.1562
+Unseen site-DSLR       |Test site-Caltech   | Epoch:4 | Test Acc: 0.1875
+Unseen site-DSLR       |Test site-Webcam    | Epoch:4 | Test Acc: 0.2188
+============ Train epoch 25 ============
+============ Train epoch 26 ============
+============ Train epoch 27 ============
+============ Train epoch 28 ============
+============ Train epoch 29 ============
+ Site-Amazon    | Train Loss: 2.0542 | Train Acc: 0.3226
+ Site-Caltech   | Train Loss: 2.0573 | Train Acc: 0.3226
+ Site-Webcam    | Train Loss: 1.7051 | Train Acc: 0.5161
+ Site-Amazon    | Val  Loss: 2.3869 | Val  Acc: 0.1800
+ Site-Caltech   | Val  Loss: 2.2227 | Val  Acc: 0.2600
+ Site-Webcam    | Val  Loss: 1.5652 | Val  Acc: 0.5200
+============ Train epoch 30 ============
+============ Train epoch 31 ============
+============ Train epoch 32 ============
+============ Train epoch 33 ============
+============ Train epoch 34 ============
+ Site-Amazon    | Train Loss: 1.6609 | Train Acc: 0.4677
+ Site-Caltech   | Train Loss: 1.8284 | Train Acc: 0.4516
+ Site-Webcam    | Train Loss: 1.7802 | Train Acc: 0.5000
+ Site-Amazon    | Val  Loss: 1.8906 | Val  Acc: 0.4000
+ Site-Caltech   | Val  Loss: 2.0207 | Val  Acc: 0.4200
+ Site-Webcam    | Val  Loss: 1.5343 | Val  Acc: 0.4400
+============ Train epoch 35 ============
+============ Train epoch 36 ============
+============ Train epoch 37 ============
+============ Train epoch 38 ============
+============ Train epoch 39 ============
+ Site-Amazon    | Train Loss: 1.7316 | Train Acc: 0.3548
+ Site-Caltech   | Train Loss: 1.6323 | Train Acc: 0.4839
+ Site-Webcam    | Train Loss: 1.6999 | Train Acc: 0.4194
+ Site-Amazon    | Val  Loss: 1.8220 | Val  Acc: 0.4600
+ Site-Caltech   | Val  Loss: 1.9117 | Val  Acc: 0.5200
+ Site-Webcam    | Val  Loss: 1.4497 | Val  Acc: 0.5200
+ Best site-Amazon     | Epoch:7 | Val Acc: 0.4600
+ Best site-Caltech    | Epoch:7 | Val Acc: 0.5200
+ Best site-Webcam     | Epoch:7 | Val Acc: 0.5200
+ Saving the local and server checkpoint to ../checkpoint/office_pfeddr/pfeddr_beta0/pfeddr_seed4_unseen2...
+ Test site-Amazon    | Epoch:7 | Test Acc: 0.4062
+ Test site-Caltech   | Epoch:7 | Test Acc: 0.3111
+ Test site-Webcam    | Epoch:7 | Test Acc: 0.5593
+Unseen site-DSLR       |Test site-Amazon    | Epoch:7 | Test Acc: 0.2188
+Unseen site-DSLR       |Test site-Caltech   | Epoch:7 | Test Acc: 0.4688
+Unseen site-DSLR       |Test site-Webcam    | Epoch:7 | Test Acc: 0.2188
+============ Train epoch 40 ============
+============ Train epoch 41 ============
+============ Train epoch 42 ============
+============ Train epoch 43 ============
+============ Train epoch 44 ============
+ Site-Amazon    | Train Loss: 1.5327 | Train Acc: 0.5323
+ Site-Caltech   | Train Loss: 1.7746 | Train Acc: 0.4355
+ Site-Webcam    | Train Loss: 1.4835 | Train Acc: 0.5323
+ Site-Amazon    | Val  Loss: 1.8575 | Val  Acc: 0.3600
+ Site-Caltech   | Val  Loss: 1.8835 | Val  Acc: 0.4200
+ Site-Webcam    | Val  Loss: 1.4424 | Val  Acc: 0.5800
+============ Train epoch 45 ============
+============ Train epoch 46 ============
+============ Train epoch 47 ============
+============ Train epoch 48 ============
+============ Train epoch 49 ============
+ Site-Amazon    | Train Loss: 1.3877 | Train Acc: 0.6774
+ Site-Caltech   | Train Loss: 1.7302 | Train Acc: 0.5000
+ Site-Webcam    | Train Loss: 1.6007 | Train Acc: 0.4839
+ Site-Amazon    | Val  Loss: 1.9558 | Val  Acc: 0.4000
+ Site-Caltech   | Val  Loss: 1.9208 | Val  Acc: 0.4600
+ Site-Webcam    | Val  Loss: 1.3868 | Val  Acc: 0.5800
+============ Train epoch 50 ============
+============ Train epoch 51 ============
+============ Train epoch 52 ============
+============ Train epoch 53 ============
+============ Train epoch 54 ============
+ Site-Amazon    | Train Loss: 1.6552 | Train Acc: 0.4677
+ Site-Caltech   | Train Loss: 1.6572 | Train Acc: 0.4194
+ Site-Webcam    | Train Loss: 1.5300 | Train Acc: 0.5806
+ Site-Amazon    | Val  Loss: 1.8034 | Val  Acc: 0.4200
+ Site-Caltech   | Val  Loss: 2.0256 | Val  Acc: 0.4000
+ Site-Webcam    | Val  Loss: 1.6164 | Val  Acc: 0.4400
+============ Train epoch 55 ============
+============ Train epoch 56 ============
+============ Train epoch 57 ============
+============ Train epoch 58 ============
+============ Train epoch 59 ============
+ Site-Amazon    | Train Loss: 1.4866 | Train Acc: 0.4677
+ Site-Caltech   | Train Loss: 1.6078 | Train Acc: 0.5000
+ Site-Webcam    | Train Loss: 1.4412 | Train Acc: 0.5806
+ Site-Amazon    | Val  Loss: 1.6615 | Val  Acc: 0.5200
+ Site-Caltech   | Val  Loss: 2.0528 | Val  Acc: 0.3800
+ Site-Webcam    | Val  Loss: 1.4094 | Val  Acc: 0.6000
+============ Train epoch 60 ============
+============ Train epoch 61 ============
+============ Train epoch 62 ============
+============ Train epoch 63 ============
+============ Train epoch 64 ============
+ Site-Amazon    | Train Loss: 1.2956 | Train Acc: 0.6290
+ Site-Caltech   | Train Loss: 1.4848 | Train Acc: 0.5806
+ Site-Webcam    | Train Loss: 1.6941 | Train Acc: 0.5323
+ Site-Amazon    | Val  Loss: 1.7624 | Val  Acc: 0.4600
+ Site-Caltech   | Val  Loss: 1.7726 | Val  Acc: 0.4800
+ Site-Webcam    | Val  Loss: 1.6839 | Val  Acc: 0.4400
+============ Train epoch 65 ============
+============ Train epoch 66 ============
+============ Train epoch 67 ============
+============ Train epoch 68 ============
+============ Train epoch 69 ============
+ Site-Amazon    | Train Loss: 1.3594 | Train Acc: 0.5645
+ Site-Caltech   | Train Loss: 1.4038 | Train Acc: 0.6129
+ Site-Webcam    | Train Loss: 1.2673 | Train Acc: 0.6613
+ Site-Amazon    | Val  Loss: 1.6711 | Val  Acc: 0.5000
+ Site-Caltech   | Val  Loss: 1.8908 | Val  Acc: 0.4200
+ Site-Webcam    | Val  Loss: 1.2757 | Val  Acc: 0.5400
+============ Train epoch 70 ============
+============ Train epoch 71 ============
+============ Train epoch 72 ============
+============ Train epoch 73 ============
+============ Train epoch 74 ============
+ Site-Amazon    | Train Loss: 1.2823 | Train Acc: 0.5968
+ Site-Caltech   | Train Loss: 1.1483 | Train Acc: 0.7258
+ Site-Webcam    | Train Loss: 1.2545 | Train Acc: 0.6452
+ Site-Amazon    | Val  Loss: 1.7007 | Val  Acc: 0.5000
+ Site-Caltech   | Val  Loss: 2.0177 | Val  Acc: 0.3200
+ Site-Webcam    | Val  Loss: 1.1688 | Val  Acc: 0.7000
+ Best site-Amazon     | Epoch:14 | Val Acc: 0.5000
+ Best site-Caltech    | Epoch:14 | Val Acc: 0.3200
+ Best site-Webcam     | Epoch:14 | Val Acc: 0.7000
+ Saving the local and server checkpoint to ../checkpoint/office_pfeddr/pfeddr_beta0/pfeddr_seed4_unseen2...
+ Test site-Amazon    | Epoch:14 | Test Acc: 0.5260
+ Test site-Caltech   | Epoch:14 | Test Acc: 0.3378
+ Test site-Webcam    | Epoch:14 | Test Acc: 0.6949
+Unseen site-DSLR       |Test site-Amazon    | Epoch:14 | Test Acc: 0.6250
+Unseen site-DSLR       |Test site-Caltech   | Epoch:14 | Test Acc: 0.6250
+Unseen site-DSLR       |Test site-Webcam    | Epoch:14 | Test Acc: 0.5312
+============ Train epoch 75 ============
+============ Train epoch 76 ============
+============ Train epoch 77 ============
+============ Train epoch 78 ============
+============ Train epoch 79 ============
+ Site-Amazon    | Train Loss: 1.2744 | Train Acc: 0.6613
+ Site-Caltech   | Train Loss: 1.1901 | Train Acc: 0.6774
+ Site-Webcam    | Train Loss: 1.3214 | Train Acc: 0.6290
+ Site-Amazon    | Val  Loss: 1.9634 | Val  Acc: 0.3800
+ Site-Caltech   | Val  Loss: 1.9493 | Val  Acc: 0.3800
+ Site-Webcam    | Val  Loss: 1.4022 | Val  Acc: 0.6600
+============ Train epoch 80 ============
+============ Train epoch 81 ============
+============ Train epoch 82 ============
+============ Train epoch 83 ============
+============ Train epoch 84 ============
+ Site-Amazon    | Train Loss: 1.2233 | Train Acc: 0.6774
+ Site-Caltech   | Train Loss: 1.2843 | Train Acc: 0.6452
+ Site-Webcam    | Train Loss: 1.3161 | Train Acc: 0.6290
+ Site-Amazon    | Val  Loss: 1.4921 | Val  Acc: 0.5400
+ Site-Caltech   | Val  Loss: 2.1411 | Val  Acc: 0.3600
+ Site-Webcam    | Val  Loss: 1.4315 | Val  Acc: 0.7000
+ Best site-Amazon     | Epoch:16 | Val Acc: 0.5400
+ Best site-Caltech    | Epoch:16 | Val Acc: 0.3600
+ Best site-Webcam     | Epoch:16 | Val Acc: 0.7000
+ Saving the local and server checkpoint to ../checkpoint/office_pfeddr/pfeddr_beta0/pfeddr_seed4_unseen2...
+ Test site-Amazon    | Epoch:16 | Test Acc: 0.5312
+ Test site-Caltech   | Epoch:16 | Test Acc: 0.3244
+ Test site-Webcam    | Epoch:16 | Test Acc: 0.5932
+Unseen site-DSLR       |Test site-Amazon    | Epoch:16 | Test Acc: 0.5000
+Unseen site-DSLR       |Test site-Caltech   | Epoch:16 | Test Acc: 0.5312
+Unseen site-DSLR       |Test site-Webcam    | Epoch:16 | Test Acc: 0.4375
+============ Train epoch 85 ============
+============ Train epoch 86 ============
+============ Train epoch 87 ============
+============ Train epoch 88 ============
+============ Train epoch 89 ============
+ Site-Amazon    | Train Loss: 1.1457 | Train Acc: 0.7258
+ Site-Caltech   | Train Loss: 1.0852 | Train Acc: 0.7742
+ Site-Webcam    | Train Loss: 1.1772 | Train Acc: 0.7419
+ Site-Amazon    | Val  Loss: 1.5067 | Val  Acc: 0.6600
+ Site-Caltech   | Val  Loss: 1.9850 | Val  Acc: 0.3000
+ Site-Webcam    | Val  Loss: 1.1755 | Val  Acc: 0.6800
+ Best site-Amazon     | Epoch:17 | Val Acc: 0.6600
+ Best site-Caltech    | Epoch:17 | Val Acc: 0.3000
+ Best site-Webcam     | Epoch:17 | Val Acc: 0.6800
+ Saving the local and server checkpoint to ../checkpoint/office_pfeddr/pfeddr_beta0/pfeddr_seed4_unseen2...
+ Test site-Amazon    | Epoch:17 | Test Acc: 0.5573
+ Test site-Caltech   | Epoch:17 | Test Acc: 0.3378
+ Test site-Webcam    | Epoch:17 | Test Acc: 0.6610
+Unseen site-DSLR       |Test site-Amazon    | Epoch:17 | Test Acc: 0.5625
+Unseen site-DSLR       |Test site-Caltech   | Epoch:17 | Test Acc: 0.7188
+Unseen site-DSLR       |Test site-Webcam    | Epoch:17 | Test Acc: 0.5625
+============ Train epoch 90 ============
+============ Train epoch 91 ============
+============ Train epoch 92 ============
+============ Train epoch 93 ============
+============ Train epoch 94 ============
+ Site-Amazon    | Train Loss: 0.9034 | Train Acc: 0.8548
+ Site-Caltech   | Train Loss: 1.0065 | Train Acc: 0.7903
+ Site-Webcam    | Train Loss: 1.1163 | Train Acc: 0.7258
+ Site-Amazon    | Val  Loss: 1.5744 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.7820 | Val  Acc: 0.4200
+ Site-Webcam    | Val  Loss: 1.1357 | Val  Acc: 0.8200
+ Best site-Amazon     | Epoch:18 | Val Acc: 0.6000
+ Best site-Caltech    | Epoch:18 | Val Acc: 0.4200
+ Best site-Webcam     | Epoch:18 | Val Acc: 0.8200
+ Saving the local and server checkpoint to ../checkpoint/office_pfeddr/pfeddr_beta0/pfeddr_seed4_unseen2...
+ Test site-Amazon    | Epoch:18 | Test Acc: 0.5312
+ Test site-Caltech   | Epoch:18 | Test Acc: 0.3733
+ Test site-Webcam    | Epoch:18 | Test Acc: 0.7797
+Unseen site-DSLR       |Test site-Amazon    | Epoch:18 | Test Acc: 0.5312
+Unseen site-DSLR       |Test site-Caltech   | Epoch:18 | Test Acc: 0.6875
+Unseen site-DSLR       |Test site-Webcam    | Epoch:18 | Test Acc: 0.5000
+============ Train epoch 95 ============
+============ Train epoch 96 ============
+============ Train epoch 97 ============
+============ Train epoch 98 ============
+============ Train epoch 99 ============
+ Site-Amazon    | Train Loss: 0.9043 | Train Acc: 0.8710
+ Site-Caltech   | Train Loss: 0.9984 | Train Acc: 0.7581
+ Site-Webcam    | Train Loss: 1.0060 | Train Acc: 0.7581
+ Site-Amazon    | Val  Loss: 1.6015 | Val  Acc: 0.5400
+ Site-Caltech   | Val  Loss: 2.0377 | Val  Acc: 0.3400
+ Site-Webcam    | Val  Loss: 1.2476 | Val  Acc: 0.6800
+============ Train epoch 100 ============
+============ Train epoch 101 ============
+============ Train epoch 102 ============
+============ Train epoch 103 ============
+============ Train epoch 104 ============
+ Site-Amazon    | Train Loss: 0.7579 | Train Acc: 0.9194
+ Site-Caltech   | Train Loss: 1.0523 | Train Acc: 0.7581
+ Site-Webcam    | Train Loss: 1.0205 | Train Acc: 0.7742
+ Site-Amazon    | Val  Loss: 1.5425 | Val  Acc: 0.4800
+ Site-Caltech   | Val  Loss: 2.1248 | Val  Acc: 0.3600
+ Site-Webcam    | Val  Loss: 1.0397 | Val  Acc: 0.8000
+============ Train epoch 105 ============
+============ Train epoch 106 ============
+============ Train epoch 107 ============
+============ Train epoch 108 ============
+============ Train epoch 109 ============
+ Site-Amazon    | Train Loss: 0.8358 | Train Acc: 0.9032
+ Site-Caltech   | Train Loss: 0.8676 | Train Acc: 0.8871
+ Site-Webcam    | Train Loss: 0.9496 | Train Acc: 0.7903
+ Site-Amazon    | Val  Loss: 1.9827 | Val  Acc: 0.5000
+ Site-Caltech   | Val  Loss: 1.8346 | Val  Acc: 0.4600
+ Site-Webcam    | Val  Loss: 1.0013 | Val  Acc: 0.8600
+============ Train epoch 110 ============
+============ Train epoch 111 ============
+============ Train epoch 112 ============
+============ Train epoch 113 ============
+============ Train epoch 114 ============
+ Site-Amazon    | Train Loss: 0.8361 | Train Acc: 0.8387
+ Site-Caltech   | Train Loss: 0.9957 | Train Acc: 0.8387
+ Site-Webcam    | Train Loss: 0.8197 | Train Acc: 0.9032
+ Site-Amazon    | Val  Loss: 1.6240 | Val  Acc: 0.5800
+ Site-Caltech   | Val  Loss: 1.9294 | Val  Acc: 0.4200
+ Site-Webcam    | Val  Loss: 1.2023 | Val  Acc: 0.7400
+============ Train epoch 115 ============
+============ Train epoch 116 ============
+============ Train epoch 117 ============
+============ Train epoch 118 ============
+============ Train epoch 119 ============
+ Site-Amazon    | Train Loss: 0.7659 | Train Acc: 0.9194
+ Site-Caltech   | Train Loss: 0.7541 | Train Acc: 0.8871
+ Site-Webcam    | Train Loss: 0.9254 | Train Acc: 0.8226
+ Site-Amazon    | Val  Loss: 1.6162 | Val  Acc: 0.5800
+ Site-Caltech   | Val  Loss: 1.8817 | Val  Acc: 0.4400
+ Site-Webcam    | Val  Loss: 1.1703 | Val  Acc: 0.7200
+============ Train epoch 120 ============
+============ Train epoch 121 ============
+============ Train epoch 122 ============
+============ Train epoch 123 ============
+============ Train epoch 124 ============
+ Site-Amazon    | Train Loss: 0.7581 | Train Acc: 0.9355
+ Site-Caltech   | Train Loss: 0.7348 | Train Acc: 0.9355
+ Site-Webcam    | Train Loss: 0.7749 | Train Acc: 0.9355
+ Site-Amazon    | Val  Loss: 1.5416 | Val  Acc: 0.5800
+ Site-Caltech   | Val  Loss: 2.0572 | Val  Acc: 0.3800
+ Site-Webcam    | Val  Loss: 0.9952 | Val  Acc: 0.7800
+============ Train epoch 125 ============
+============ Train epoch 126 ============
+============ Train epoch 127 ============
+============ Train epoch 128 ============
+============ Train epoch 129 ============
+ Site-Amazon    | Train Loss: 0.7035 | Train Acc: 0.9839
+ Site-Caltech   | Train Loss: 0.8534 | Train Acc: 0.8871
+ Site-Webcam    | Train Loss: 0.9300 | Train Acc: 0.8548
+ Site-Amazon    | Val  Loss: 1.6051 | Val  Acc: 0.6400
+ Site-Caltech   | Val  Loss: 1.8367 | Val  Acc: 0.4200
+ Site-Webcam    | Val  Loss: 1.1184 | Val  Acc: 0.7400
+============ Train epoch 130 ============
+============ Train epoch 131 ============
+============ Train epoch 132 ============
+============ Train epoch 133 ============
+============ Train epoch 134 ============
+ Site-Amazon    | Train Loss: 0.6825 | Train Acc: 0.9677
+ Site-Caltech   | Train Loss: 0.8066 | Train Acc: 0.9194
+ Site-Webcam    | Train Loss: 0.7913 | Train Acc: 0.8871
+ Site-Amazon    | Val  Loss: 1.5103 | Val  Acc: 0.5600
+ Site-Caltech   | Val  Loss: 2.0534 | Val  Acc: 0.3800
+ Site-Webcam    | Val  Loss: 1.1603 | Val  Acc: 0.7000
+============ Train epoch 135 ============
+============ Train epoch 136 ============
+============ Train epoch 137 ============
+============ Train epoch 138 ============
+============ Train epoch 139 ============
+ Site-Amazon    | Train Loss: 0.7913 | Train Acc: 0.9032
+ Site-Caltech   | Train Loss: 0.7722 | Train Acc: 0.9194
+ Site-Webcam    | Train Loss: 0.7840 | Train Acc: 0.9032
+ Site-Amazon    | Val  Loss: 1.5386 | Val  Acc: 0.5800
+ Site-Caltech   | Val  Loss: 2.0341 | Val  Acc: 0.4200
+ Site-Webcam    | Val  Loss: 1.0507 | Val  Acc: 0.7800
+============ Train epoch 140 ============
+============ Train epoch 141 ============
+============ Train epoch 142 ============
+============ Train epoch 143 ============
+============ Train epoch 144 ============
+ Site-Amazon    | Train Loss: 0.6427 | Train Acc: 0.9839
+ Site-Caltech   | Train Loss: 0.7331 | Train Acc: 0.8710
+ Site-Webcam    | Train Loss: 0.7303 | Train Acc: 0.9194
+ Site-Amazon    | Val  Loss: 1.6391 | Val  Acc: 0.5400
+ Site-Caltech   | Val  Loss: 1.8295 | Val  Acc: 0.4000
+ Site-Webcam    | Val  Loss: 1.0246 | Val  Acc: 0.8000
+============ Train epoch 145 ============
+============ Train epoch 146 ============
+============ Train epoch 147 ============
+============ Train epoch 148 ============
+============ Train epoch 149 ============
+ Site-Amazon    | Train Loss: 0.6168 | Train Acc: 0.9677
+ Site-Caltech   | Train Loss: 0.6991 | Train Acc: 0.9516
+ Site-Webcam    | Train Loss: 0.7376 | Train Acc: 0.9032
+ Site-Amazon    | Val  Loss: 1.5568 | Val  Acc: 0.5600
+ Site-Caltech   | Val  Loss: 1.9507 | Val  Acc: 0.4200
+ Site-Webcam    | Val  Loss: 1.0362 | Val  Acc: 0.8000
+============ Train epoch 150 ============
+============ Train epoch 151 ============
+============ Train epoch 152 ============
+============ Train epoch 153 ============
+============ Train epoch 154 ============
+ Site-Amazon    | Train Loss: 0.7563 | Train Acc: 0.9194
+ Site-Caltech   | Train Loss: 0.7117 | Train Acc: 0.9194
+ Site-Webcam    | Train Loss: 0.7470 | Train Acc: 0.9032
+ Site-Amazon    | Val  Loss: 1.5168 | Val  Acc: 0.5400
+ Site-Caltech   | Val  Loss: 1.8825 | Val  Acc: 0.4200
+ Site-Webcam    | Val  Loss: 1.1702 | Val  Acc: 0.7600
+============ Train epoch 155 ============
+============ Train epoch 156 ============
+============ Train epoch 157 ============
+============ Train epoch 158 ============
+============ Train epoch 159 ============
+ Site-Amazon    | Train Loss: 0.7105 | Train Acc: 0.9355
+ Site-Caltech   | Train Loss: 0.7068 | Train Acc: 0.9194
+ Site-Webcam    | Train Loss: 0.7232 | Train Acc: 0.9032
+ Site-Amazon    | Val  Loss: 1.4592 | Val  Acc: 0.5800
+ Site-Caltech   | Val  Loss: 1.8320 | Val  Acc: 0.4600
+ Site-Webcam    | Val  Loss: 1.0640 | Val  Acc: 0.8200
+ Best site-Amazon     | Epoch:31 | Val Acc: 0.5800
+ Best site-Caltech    | Epoch:31 | Val Acc: 0.4600
+ Best site-Webcam     | Epoch:31 | Val Acc: 0.8200
+ Saving the local and server checkpoint to ../checkpoint/office_pfeddr/pfeddr_beta0/pfeddr_seed4_unseen2...
+ Test site-Amazon    | Epoch:31 | Test Acc: 0.5833
+ Test site-Caltech   | Epoch:31 | Test Acc: 0.4489
+ Test site-Webcam    | Epoch:31 | Test Acc: 0.7458
+Unseen site-DSLR       |Test site-Amazon    | Epoch:31 | Test Acc: 0.6250
+Unseen site-DSLR       |Test site-Caltech   | Epoch:31 | Test Acc: 0.7188
+Unseen site-DSLR       |Test site-Webcam    | Epoch:31 | Test Acc: 0.6250
+============ Train epoch 160 ============
+============ Train epoch 161 ============
+============ Train epoch 162 ============
+============ Train epoch 163 ============
+============ Train epoch 164 ============
+ Site-Amazon    | Train Loss: 0.5915 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.6856 | Train Acc: 0.9677
+ Site-Webcam    | Train Loss: 0.6485 | Train Acc: 0.9839
+ Site-Amazon    | Val  Loss: 1.4925 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.8336 | Val  Acc: 0.4600
+ Site-Webcam    | Val  Loss: 0.9631 | Val  Acc: 0.8200
+ Best site-Amazon     | Epoch:32 | Val Acc: 0.6000
+ Best site-Caltech    | Epoch:32 | Val Acc: 0.4600
+ Best site-Webcam     | Epoch:32 | Val Acc: 0.8200
+ Saving the local and server checkpoint to ../checkpoint/office_pfeddr/pfeddr_beta0/pfeddr_seed4_unseen2...
+ Test site-Amazon    | Epoch:32 | Test Acc: 0.6146
+ Test site-Caltech   | Epoch:32 | Test Acc: 0.4444
+ Test site-Webcam    | Epoch:32 | Test Acc: 0.8136
+Unseen site-DSLR       |Test site-Amazon    | Epoch:32 | Test Acc: 0.5938
+Unseen site-DSLR       |Test site-Caltech   | Epoch:32 | Test Acc: 0.7500
+Unseen site-DSLR       |Test site-Webcam    | Epoch:32 | Test Acc: 0.7188
+============ Train epoch 165 ============
+============ Train epoch 166 ============
+============ Train epoch 167 ============
+============ Train epoch 168 ============
+============ Train epoch 169 ============
+ Site-Amazon    | Train Loss: 0.6613 | Train Acc: 0.9516
+ Site-Caltech   | Train Loss: 0.6609 | Train Acc: 0.9839
+ Site-Webcam    | Train Loss: 0.6750 | Train Acc: 0.9516
+ Site-Amazon    | Val  Loss: 1.5915 | Val  Acc: 0.4800
+ Site-Caltech   | Val  Loss: 1.6781 | Val  Acc: 0.5200
+ Site-Webcam    | Val  Loss: 0.9790 | Val  Acc: 0.7600
+============ Train epoch 170 ============
+============ Train epoch 171 ============
+============ Train epoch 172 ============
+============ Train epoch 173 ============
+============ Train epoch 174 ============
+ Site-Amazon    | Train Loss: 0.6481 | Train Acc: 0.9839
+ Site-Caltech   | Train Loss: 0.7310 | Train Acc: 0.9194
+ Site-Webcam    | Train Loss: 0.7411 | Train Acc: 0.9194
+ Site-Amazon    | Val  Loss: 1.5200 | Val  Acc: 0.5200
+ Site-Caltech   | Val  Loss: 1.8520 | Val  Acc: 0.4600
+ Site-Webcam    | Val  Loss: 1.0845 | Val  Acc: 0.7800
+============ Train epoch 175 ============
+============ Train epoch 176 ============
+============ Train epoch 177 ============
+============ Train epoch 178 ============
+============ Train epoch 179 ============
+ Site-Amazon    | Train Loss: 0.5823 | Train Acc: 0.9839
+ Site-Caltech   | Train Loss: 0.6033 | Train Acc: 0.9839
+ Site-Webcam    | Train Loss: 0.6221 | Train Acc: 0.9839
+ Site-Amazon    | Val  Loss: 1.5870 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.6803 | Val  Acc: 0.5000
+ Site-Webcam    | Val  Loss: 0.9156 | Val  Acc: 0.8200
+ Best site-Amazon     | Epoch:35 | Val Acc: 0.6000
+ Best site-Caltech    | Epoch:35 | Val Acc: 0.5000
+ Best site-Webcam     | Epoch:35 | Val Acc: 0.8200
+ Saving the local and server checkpoint to ../checkpoint/office_pfeddr/pfeddr_beta0/pfeddr_seed4_unseen2...
+ Test site-Amazon    | Epoch:35 | Test Acc: 0.6615
+ Test site-Caltech   | Epoch:35 | Test Acc: 0.4800
+ Test site-Webcam    | Epoch:35 | Test Acc: 0.8136
+Unseen site-DSLR       |Test site-Amazon    | Epoch:35 | Test Acc: 0.7500
+Unseen site-DSLR       |Test site-Caltech   | Epoch:35 | Test Acc: 0.7812
+Unseen site-DSLR       |Test site-Webcam    | Epoch:35 | Test Acc: 0.6250
+============ Train epoch 180 ============
+============ Train epoch 181 ============
+============ Train epoch 182 ============
+============ Train epoch 183 ============
+============ Train epoch 184 ============
+ Site-Amazon    | Train Loss: 0.5644 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.6347 | Train Acc: 0.9355
+ Site-Webcam    | Train Loss: 0.6226 | Train Acc: 0.9839
+ Site-Amazon    | Val  Loss: 1.5437 | Val  Acc: 0.6400
+ Site-Caltech   | Val  Loss: 1.6952 | Val  Acc: 0.5400
+ Site-Webcam    | Val  Loss: 1.0020 | Val  Acc: 0.7600
+ Best site-Amazon     | Epoch:36 | Val Acc: 0.6400
+ Best site-Caltech    | Epoch:36 | Val Acc: 0.5400
+ Best site-Webcam     | Epoch:36 | Val Acc: 0.7600
+ Saving the local and server checkpoint to ../checkpoint/office_pfeddr/pfeddr_beta0/pfeddr_seed4_unseen2...
+ Test site-Amazon    | Epoch:36 | Test Acc: 0.6562
+ Test site-Caltech   | Epoch:36 | Test Acc: 0.4844
+ Test site-Webcam    | Epoch:36 | Test Acc: 0.8136
+Unseen site-DSLR       |Test site-Amazon    | Epoch:36 | Test Acc: 0.6875
+Unseen site-DSLR       |Test site-Caltech   | Epoch:36 | Test Acc: 0.7500
+Unseen site-DSLR       |Test site-Webcam    | Epoch:36 | Test Acc: 0.6562
+============ Train epoch 185 ============
+============ Train epoch 186 ============
+============ Train epoch 187 ============
+============ Train epoch 188 ============
+============ Train epoch 189 ============
+ Site-Amazon    | Train Loss: 0.5834 | Train Acc: 0.9839
+ Site-Caltech   | Train Loss: 0.6782 | Train Acc: 0.9194
+ Site-Webcam    | Train Loss: 0.6436 | Train Acc: 0.9516
+ Site-Amazon    | Val  Loss: 1.6090 | Val  Acc: 0.5400
+ Site-Caltech   | Val  Loss: 1.6036 | Val  Acc: 0.5400
+ Site-Webcam    | Val  Loss: 0.8697 | Val  Acc: 0.8400
+============ Train epoch 190 ============
+============ Train epoch 191 ============
+============ Train epoch 192 ============
+============ Train epoch 193 ============
+============ Train epoch 194 ============
+ Site-Amazon    | Train Loss: 0.5986 | Train Acc: 0.9839
+ Site-Caltech   | Train Loss: 0.6272 | Train Acc: 0.9839
+ Site-Webcam    | Train Loss: 0.6547 | Train Acc: 0.9516
+ Site-Amazon    | Val  Loss: 1.4696 | Val  Acc: 0.5600
+ Site-Caltech   | Val  Loss: 1.6873 | Val  Acc: 0.5000
+ Site-Webcam    | Val  Loss: 0.8962 | Val  Acc: 0.8400
+============ Train epoch 195 ============
+============ Train epoch 196 ============
+============ Train epoch 197 ============
+============ Train epoch 198 ============
+============ Train epoch 199 ============
+ Site-Amazon    | Train Loss: 0.6713 | Train Acc: 0.9355
+ Site-Caltech   | Train Loss: 0.5734 | Train Acc: 0.9839
+ Site-Webcam    | Train Loss: 0.5931 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.5979 | Val  Acc: 0.5400
+ Site-Caltech   | Val  Loss: 1.6335 | Val  Acc: 0.5000
+ Site-Webcam    | Val  Loss: 0.9760 | Val  Acc: 0.8000
+============ Train epoch 200 ============
+============ Train epoch 201 ============
+============ Train epoch 202 ============
+============ Train epoch 203 ============
+============ Train epoch 204 ============
+ Site-Amazon    | Train Loss: 0.6141 | Train Acc: 0.9677
+ Site-Caltech   | Train Loss: 0.5853 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5576 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.4829 | Val  Acc: 0.6200
+ Site-Caltech   | Val  Loss: 1.6691 | Val  Acc: 0.4800
+ Site-Webcam    | Val  Loss: 0.8821 | Val  Acc: 0.8400
+============ Train epoch 205 ============
+============ Train epoch 206 ============
+============ Train epoch 207 ============
+============ Train epoch 208 ============
+============ Train epoch 209 ============
+ Site-Amazon    | Train Loss: 0.5845 | Train Acc: 0.9839
+ Site-Caltech   | Train Loss: 0.6037 | Train Acc: 0.9839
+ Site-Webcam    | Train Loss: 0.5962 | Train Acc: 0.9839
+ Site-Amazon    | Val  Loss: 1.5304 | Val  Acc: 0.5800
+ Site-Caltech   | Val  Loss: 1.8328 | Val  Acc: 0.4400
+ Site-Webcam    | Val  Loss: 0.9658 | Val  Acc: 0.7800
+============ Train epoch 210 ============
+============ Train epoch 211 ============
+============ Train epoch 212 ============
+============ Train epoch 213 ============
+============ Train epoch 214 ============
+ Site-Amazon    | Train Loss: 0.5543 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.6358 | Train Acc: 0.9677
+ Site-Webcam    | Train Loss: 0.5445 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.5754 | Val  Acc: 0.4600
+ Site-Caltech   | Val  Loss: 1.7246 | Val  Acc: 0.4800
+ Site-Webcam    | Val  Loss: 0.9550 | Val  Acc: 0.8000
+============ Train epoch 215 ============
+============ Train epoch 216 ============
+============ Train epoch 217 ============
+============ Train epoch 218 ============
+============ Train epoch 219 ============
+ Site-Amazon    | Train Loss: 0.5936 | Train Acc: 0.9677
+ Site-Caltech   | Train Loss: 0.5729 | Train Acc: 0.9839
+ Site-Webcam    | Train Loss: 0.6231 | Train Acc: 0.9677
+ Site-Amazon    | Val  Loss: 1.7961 | Val  Acc: 0.4800
+ Site-Caltech   | Val  Loss: 1.6098 | Val  Acc: 0.5200
+ Site-Webcam    | Val  Loss: 0.9690 | Val  Acc: 0.8000
+============ Train epoch 220 ============
+============ Train epoch 221 ============
+============ Train epoch 222 ============
+============ Train epoch 223 ============
+============ Train epoch 224 ============
+ Site-Amazon    | Train Loss: 0.5982 | Train Acc: 0.9839
+ Site-Caltech   | Train Loss: 0.6273 | Train Acc: 0.9516
+ Site-Webcam    | Train Loss: 0.5880 | Train Acc: 0.9839
+ Site-Amazon    | Val  Loss: 1.4621 | Val  Acc: 0.6200
+ Site-Caltech   | Val  Loss: 1.7255 | Val  Acc: 0.5200
+ Site-Webcam    | Val  Loss: 0.8813 | Val  Acc: 0.8400
+ Best site-Amazon     | Epoch:44 | Val Acc: 0.6200
+ Best site-Caltech    | Epoch:44 | Val Acc: 0.5200
+ Best site-Webcam     | Epoch:44 | Val Acc: 0.8400
+ Saving the local and server checkpoint to ../checkpoint/office_pfeddr/pfeddr_beta0/pfeddr_seed4_unseen2...
+ Test site-Amazon    | Epoch:44 | Test Acc: 0.6354
+ Test site-Caltech   | Epoch:44 | Test Acc: 0.4622
+ Test site-Webcam    | Epoch:44 | Test Acc: 0.8305
+Unseen site-DSLR       |Test site-Amazon    | Epoch:44 | Test Acc: 0.7812
+Unseen site-DSLR       |Test site-Caltech   | Epoch:44 | Test Acc: 0.7812
+Unseen site-DSLR       |Test site-Webcam    | Epoch:44 | Test Acc: 0.7188
+============ Train epoch 225 ============
+============ Train epoch 226 ============
+============ Train epoch 227 ============
+============ Train epoch 228 ============
+============ Train epoch 229 ============
+ Site-Amazon    | Train Loss: 0.5560 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5554 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5954 | Train Acc: 0.9839
+ Site-Amazon    | Val  Loss: 1.5192 | Val  Acc: 0.5400
+ Site-Caltech   | Val  Loss: 1.7386 | Val  Acc: 0.4400
+ Site-Webcam    | Val  Loss: 0.9390 | Val  Acc: 0.8200
+============ Train epoch 230 ============
+============ Train epoch 231 ============
+============ Train epoch 232 ============
+============ Train epoch 233 ============
+============ Train epoch 234 ============
+ Site-Amazon    | Train Loss: 0.5699 | Train Acc: 0.9839
+ Site-Caltech   | Train Loss: 0.6132 | Train Acc: 0.9839
+ Site-Webcam    | Train Loss: 0.5486 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.6550 | Val  Acc: 0.5600
+ Site-Caltech   | Val  Loss: 1.7080 | Val  Acc: 0.5000
+ Site-Webcam    | Val  Loss: 0.8773 | Val  Acc: 0.8400
+============ Train epoch 235 ============
+============ Train epoch 236 ============
+============ Train epoch 237 ============
+============ Train epoch 238 ============
+============ Train epoch 239 ============
+ Site-Amazon    | Train Loss: 0.5428 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5745 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.6100 | Train Acc: 0.9839
+ Site-Amazon    | Val  Loss: 1.7719 | Val  Acc: 0.4800
+ Site-Caltech   | Val  Loss: 1.7831 | Val  Acc: 0.4800
+ Site-Webcam    | Val  Loss: 1.0015 | Val  Acc: 0.8200
+============ Train epoch 240 ============
+============ Train epoch 241 ============
+============ Train epoch 242 ============
+============ Train epoch 243 ============
+============ Train epoch 244 ============
+ Site-Amazon    | Train Loss: 0.5445 | Train Acc: 0.9839
+ Site-Caltech   | Train Loss: 0.5939 | Train Acc: 0.9839
+ Site-Webcam    | Train Loss: 0.5847 | Train Acc: 0.9839
+ Site-Amazon    | Val  Loss: 1.6400 | Val  Acc: 0.5400
+ Site-Caltech   | Val  Loss: 1.6494 | Val  Acc: 0.5200
+ Site-Webcam    | Val  Loss: 1.0464 | Val  Acc: 0.8000
+============ Train epoch 245 ============
+============ Train epoch 246 ============
+============ Train epoch 247 ============
+============ Train epoch 248 ============
+============ Train epoch 249 ============
+ Site-Amazon    | Train Loss: 0.5569 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5653 | Train Acc: 0.9839
+ Site-Webcam    | Train Loss: 0.5554 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.5807 | Val  Acc: 0.5600
+ Site-Caltech   | Val  Loss: 1.5804 | Val  Acc: 0.5600
+ Site-Webcam    | Val  Loss: 0.9955 | Val  Acc: 0.8400
+============ Train epoch 250 ============
+============ Train epoch 251 ============
+============ Train epoch 252 ============
+============ Train epoch 253 ============
+============ Train epoch 254 ============
+ Site-Amazon    | Train Loss: 0.5551 | Train Acc: 0.9839
+ Site-Caltech   | Train Loss: 0.5607 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5737 | Train Acc: 0.9839
+ Site-Amazon    | Val  Loss: 1.5540 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.6134 | Val  Acc: 0.5000
+ Site-Webcam    | Val  Loss: 1.0237 | Val  Acc: 0.7800
+============ Train epoch 255 ============
+============ Train epoch 256 ============
+============ Train epoch 257 ============
+============ Train epoch 258 ============
+============ Train epoch 259 ============
+ Site-Amazon    | Train Loss: 0.5396 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5405 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5493 | Train Acc: 0.9839
+ Site-Amazon    | Val  Loss: 1.6218 | Val  Acc: 0.5400
+ Site-Caltech   | Val  Loss: 1.5657 | Val  Acc: 0.4600
+ Site-Webcam    | Val  Loss: 1.0218 | Val  Acc: 0.8400
+============ Train epoch 260 ============
+============ Train epoch 261 ============
+============ Train epoch 262 ============
+============ Train epoch 263 ============
+============ Train epoch 264 ============
+ Site-Amazon    | Train Loss: 0.5563 | Train Acc: 0.9839
+ Site-Caltech   | Train Loss: 0.5381 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5412 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.5551 | Val  Acc: 0.5600
+ Site-Caltech   | Val  Loss: 1.5139 | Val  Acc: 0.5000
+ Site-Webcam    | Val  Loss: 1.0274 | Val  Acc: 0.8200
+============ Train epoch 265 ============
+============ Train epoch 266 ============
+============ Train epoch 267 ============
+============ Train epoch 268 ============
+============ Train epoch 269 ============
+ Site-Amazon    | Train Loss: 0.5313 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5709 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5717 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.5186 | Val  Acc: 0.5400
+ Site-Caltech   | Val  Loss: 1.4575 | Val  Acc: 0.5400
+ Site-Webcam    | Val  Loss: 0.9693 | Val  Acc: 0.8400
+============ Train epoch 270 ============
+============ Train epoch 271 ============
+============ Train epoch 272 ============
+============ Train epoch 273 ============
+============ Train epoch 274 ============
+ Site-Amazon    | Train Loss: 0.5190 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5678 | Train Acc: 0.9677
+ Site-Webcam    | Train Loss: 0.6013 | Train Acc: 0.9677
+ Site-Amazon    | Val  Loss: 1.5547 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.4987 | Val  Acc: 0.5000
+ Site-Webcam    | Val  Loss: 0.9286 | Val  Acc: 0.8200
+============ Train epoch 275 ============
+============ Train epoch 276 ============
+============ Train epoch 277 ============
+============ Train epoch 278 ============
+============ Train epoch 279 ============
+ Site-Amazon    | Train Loss: 0.5336 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5556 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5232 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.5492 | Val  Acc: 0.5600
+ Site-Caltech   | Val  Loss: 1.5335 | Val  Acc: 0.5400
+ Site-Webcam    | Val  Loss: 0.9524 | Val  Acc: 0.8000
+============ Train epoch 280 ============
+============ Train epoch 281 ============
+============ Train epoch 282 ============
+============ Train epoch 283 ============
+============ Train epoch 284 ============
+ Site-Amazon    | Train Loss: 0.5246 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5358 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5362 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.4825 | Val  Acc: 0.5800
+ Site-Caltech   | Val  Loss: 1.5401 | Val  Acc: 0.5600
+ Site-Webcam    | Val  Loss: 0.9159 | Val  Acc: 0.8600
+ Best site-Amazon     | Epoch:56 | Val Acc: 0.5800
+ Best site-Caltech    | Epoch:56 | Val Acc: 0.5600
+ Best site-Webcam     | Epoch:56 | Val Acc: 0.8600
+ Saving the local and server checkpoint to ../checkpoint/office_pfeddr/pfeddr_beta0/pfeddr_seed4_unseen2...
+ Test site-Amazon    | Epoch:56 | Test Acc: 0.6458
+ Test site-Caltech   | Epoch:56 | Test Acc: 0.4578
+ Test site-Webcam    | Epoch:56 | Test Acc: 0.8644
+Unseen site-DSLR       |Test site-Amazon    | Epoch:56 | Test Acc: 0.6875
+Unseen site-DSLR       |Test site-Caltech   | Epoch:56 | Test Acc: 0.9062
+Unseen site-DSLR       |Test site-Webcam    | Epoch:56 | Test Acc: 0.7812
+============ Train epoch 285 ============
+============ Train epoch 286 ============
+============ Train epoch 287 ============
+============ Train epoch 288 ============
+============ Train epoch 289 ============
+ Site-Amazon    | Train Loss: 0.5250 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5308 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5713 | Train Acc: 0.9677
+ Site-Amazon    | Val  Loss: 1.4805 | Val  Acc: 0.6400
+ Site-Caltech   | Val  Loss: 1.5922 | Val  Acc: 0.5600
+ Site-Webcam    | Val  Loss: 0.9401 | Val  Acc: 0.8400
+ Best site-Amazon     | Epoch:57 | Val Acc: 0.6400
+ Best site-Caltech    | Epoch:57 | Val Acc: 0.5600
+ Best site-Webcam     | Epoch:57 | Val Acc: 0.8400
+ Saving the local and server checkpoint to ../checkpoint/office_pfeddr/pfeddr_beta0/pfeddr_seed4_unseen2...
+ Test site-Amazon    | Epoch:57 | Test Acc: 0.6250
+ Test site-Caltech   | Epoch:57 | Test Acc: 0.4889
+ Test site-Webcam    | Epoch:57 | Test Acc: 0.8305
+Unseen site-DSLR       |Test site-Amazon    | Epoch:57 | Test Acc: 0.7812
+Unseen site-DSLR       |Test site-Caltech   | Epoch:57 | Test Acc: 0.7812
+Unseen site-DSLR       |Test site-Webcam    | Epoch:57 | Test Acc: 0.8125
+============ Train epoch 290 ============
+============ Train epoch 291 ============
+============ Train epoch 292 ============
+============ Train epoch 293 ============
+============ Train epoch 294 ============
+ Site-Amazon    | Train Loss: 0.5370 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5440 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5373 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.4345 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.6499 | Val  Acc: 0.5400
+ Site-Webcam    | Val  Loss: 0.9887 | Val  Acc: 0.8600
+============ Train epoch 295 ============
+============ Train epoch 296 ============
+============ Train epoch 297 ============
+============ Train epoch 298 ============
+============ Train epoch 299 ============
+ Site-Amazon    | Train Loss: 0.5188 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5291 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5214 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.4370 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.5616 | Val  Acc: 0.5200
+ Site-Webcam    | Val  Loss: 0.9763 | Val  Acc: 0.8400
+============ Train epoch 300 ============
+============ Train epoch 301 ============
+============ Train epoch 302 ============
+============ Train epoch 303 ============
+============ Train epoch 304 ============
+ Site-Amazon    | Train Loss: 0.5238 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5513 | Train Acc: 0.9839
+ Site-Webcam    | Train Loss: 0.5313 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.4906 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.4965 | Val  Acc: 0.5200
+ Site-Webcam    | Val  Loss: 0.9593 | Val  Acc: 0.8400
+============ Train epoch 305 ============
+============ Train epoch 306 ============
+============ Train epoch 307 ============
+============ Train epoch 308 ============
+============ Train epoch 309 ============
+ Site-Amazon    | Train Loss: 0.5364 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5384 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5280 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.5000 | Val  Acc: 0.5800
+ Site-Caltech   | Val  Loss: 1.4793 | Val  Acc: 0.6000
+ Site-Webcam    | Val  Loss: 0.9193 | Val  Acc: 0.8200
+============ Train epoch 310 ============
+============ Train epoch 311 ============
+============ Train epoch 312 ============
+============ Train epoch 313 ============
+============ Train epoch 314 ============
+ Site-Amazon    | Train Loss: 0.5242 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5459 | Train Acc: 0.9839
+ Site-Webcam    | Train Loss: 0.5331 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.4615 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.4978 | Val  Acc: 0.5600
+ Site-Webcam    | Val  Loss: 0.9267 | Val  Acc: 0.8400
+============ Train epoch 315 ============
+============ Train epoch 316 ============
+============ Train epoch 317 ============
+============ Train epoch 318 ============
+============ Train epoch 319 ============
+ Site-Amazon    | Train Loss: 0.5574 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5383 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5501 | Train Acc: 0.9839
+ Site-Amazon    | Val  Loss: 1.5368 | Val  Acc: 0.5200
+ Site-Caltech   | Val  Loss: 1.6218 | Val  Acc: 0.5200
+ Site-Webcam    | Val  Loss: 0.9705 | Val  Acc: 0.8600
+============ Train epoch 320 ============
+============ Train epoch 321 ============
+============ Train epoch 322 ============
+============ Train epoch 323 ============
+============ Train epoch 324 ============
+ Site-Amazon    | Train Loss: 0.5252 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5340 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5559 | Train Acc: 0.9839
+ Site-Amazon    | Val  Loss: 1.6690 | Val  Acc: 0.5600
+ Site-Caltech   | Val  Loss: 1.5151 | Val  Acc: 0.6000
+ Site-Webcam    | Val  Loss: 0.9224 | Val  Acc: 0.8200
+============ Train epoch 325 ============
+============ Train epoch 326 ============
+============ Train epoch 327 ============
+============ Train epoch 328 ============
+============ Train epoch 329 ============
+ Site-Amazon    | Train Loss: 0.5334 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5281 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5470 | Train Acc: 0.9839
+ Site-Amazon    | Val  Loss: 1.4884 | Val  Acc: 0.5600
+ Site-Caltech   | Val  Loss: 1.6650 | Val  Acc: 0.5200
+ Site-Webcam    | Val  Loss: 0.9257 | Val  Acc: 0.8600
+============ Train epoch 330 ============
+============ Train epoch 331 ============
+============ Train epoch 332 ============
+============ Train epoch 333 ============
+============ Train epoch 334 ============
+ Site-Amazon    | Train Loss: 0.5273 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5485 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5243 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.4620 | Val  Acc: 0.5800
+ Site-Caltech   | Val  Loss: 1.6796 | Val  Acc: 0.4800
+ Site-Webcam    | Val  Loss: 0.8924 | Val  Acc: 0.8600
+============ Train epoch 335 ============
+============ Train epoch 336 ============
+============ Train epoch 337 ============
+============ Train epoch 338 ============
+============ Train epoch 339 ============
+ Site-Amazon    | Train Loss: 0.5191 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5451 | Train Acc: 0.9839
+ Site-Webcam    | Train Loss: 0.5226 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.4960 | Val  Acc: 0.5600
+ Site-Caltech   | Val  Loss: 1.6414 | Val  Acc: 0.5000
+ Site-Webcam    | Val  Loss: 0.9261 | Val  Acc: 0.8400
+============ Train epoch 340 ============
+============ Train epoch 341 ============
+============ Train epoch 342 ============
+============ Train epoch 343 ============
+============ Train epoch 344 ============
+ Site-Amazon    | Train Loss: 0.5169 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5213 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5366 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.4880 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.6108 | Val  Acc: 0.5600
+ Site-Webcam    | Val  Loss: 0.9517 | Val  Acc: 0.8400
+============ Train epoch 345 ============
+============ Train epoch 346 ============
+============ Train epoch 347 ============
+============ Train epoch 348 ============
+============ Train epoch 349 ============
+ Site-Amazon    | Train Loss: 0.5221 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5150 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5300 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.4885 | Val  Acc: 0.5800
+ Site-Caltech   | Val  Loss: 1.5846 | Val  Acc: 0.5000
+ Site-Webcam    | Val  Loss: 0.9093 | Val  Acc: 0.8400
+============ Train epoch 350 ============
+============ Train epoch 351 ============
+============ Train epoch 352 ============
+============ Train epoch 353 ============
+============ Train epoch 354 ============
+ Site-Amazon    | Train Loss: 0.5166 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5205 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5180 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.4988 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.5328 | Val  Acc: 0.5600
+ Site-Webcam    | Val  Loss: 0.9359 | Val  Acc: 0.8400
+============ Train epoch 355 ============
+============ Train epoch 356 ============
+============ Train epoch 357 ============
+============ Train epoch 358 ============
+============ Train epoch 359 ============
+ Site-Amazon    | Train Loss: 0.5138 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5273 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5191 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.4408 | Val  Acc: 0.5800
+ Site-Caltech   | Val  Loss: 1.6033 | Val  Acc: 0.5400
+ Site-Webcam    | Val  Loss: 0.9544 | Val  Acc: 0.8200
+============ Train epoch 360 ============
+============ Train epoch 361 ============
+============ Train epoch 362 ============
+============ Train epoch 363 ============
+============ Train epoch 364 ============
+ Site-Amazon    | Train Loss: 0.5130 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5170 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5179 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.4724 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.5548 | Val  Acc: 0.5600
+ Site-Webcam    | Val  Loss: 0.9656 | Val  Acc: 0.8400
+============ Train epoch 365 ============
+============ Train epoch 366 ============
+============ Train epoch 367 ============
+============ Train epoch 368 ============
+============ Train epoch 369 ============
+ Site-Amazon    | Train Loss: 0.5262 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5248 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5314 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.4832 | Val  Acc: 0.5800
+ Site-Caltech   | Val  Loss: 1.5661 | Val  Acc: 0.5200
+ Site-Webcam    | Val  Loss: 0.9880 | Val  Acc: 0.8200
+============ Train epoch 370 ============
+============ Train epoch 371 ============
+============ Train epoch 372 ============
+============ Train epoch 373 ============
+============ Train epoch 374 ============
+ Site-Amazon    | Train Loss: 0.5187 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5151 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5292 | Train Acc: 0.9839
+ Site-Amazon    | Val  Loss: 1.5141 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.5425 | Val  Acc: 0.6000
+ Site-Webcam    | Val  Loss: 0.9408 | Val  Acc: 0.8200
+============ Train epoch 375 ============
+============ Train epoch 376 ============
+============ Train epoch 377 ============
+============ Train epoch 378 ============
+============ Train epoch 379 ============
+ Site-Amazon    | Train Loss: 0.5122 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5279 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5106 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.5051 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.5061 | Val  Acc: 0.5600
+ Site-Webcam    | Val  Loss: 0.9140 | Val  Acc: 0.8200
+============ Train epoch 380 ============
+============ Train epoch 381 ============
+============ Train epoch 382 ============
+============ Train epoch 383 ============
+============ Train epoch 384 ============
+ Site-Amazon    | Train Loss: 0.5144 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5239 | Train Acc: 0.9839
+ Site-Webcam    | Train Loss: 0.5115 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.5090 | Val  Acc: 0.5800
+ Site-Caltech   | Val  Loss: 1.5047 | Val  Acc: 0.6200
+ Site-Webcam    | Val  Loss: 0.8787 | Val  Acc: 0.8400
+============ Train epoch 385 ============
+============ Train epoch 386 ============
+============ Train epoch 387 ============
+============ Train epoch 388 ============
+============ Train epoch 389 ============
+ Site-Amazon    | Train Loss: 0.5145 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5305 | Train Acc: 0.9839
+ Site-Webcam    | Train Loss: 0.5211 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.4284 | Val  Acc: 0.6200
+ Site-Caltech   | Val  Loss: 1.4865 | Val  Acc: 0.6000
+ Site-Webcam    | Val  Loss: 0.9158 | Val  Acc: 0.8400
+ Best site-Amazon     | Epoch:77 | Val Acc: 0.6200
+ Best site-Caltech    | Epoch:77 | Val Acc: 0.6000
+ Best site-Webcam     | Epoch:77 | Val Acc: 0.8400
+ Saving the local and server checkpoint to ../checkpoint/office_pfeddr/pfeddr_beta0/pfeddr_seed4_unseen2...
+ Test site-Amazon    | Epoch:77 | Test Acc: 0.6406
+ Test site-Caltech   | Epoch:77 | Test Acc: 0.5067
+ Test site-Webcam    | Epoch:77 | Test Acc: 0.9153
+Unseen site-DSLR       |Test site-Amazon    | Epoch:77 | Test Acc: 0.7812
+Unseen site-DSLR       |Test site-Caltech   | Epoch:77 | Test Acc: 0.8438
+Unseen site-DSLR       |Test site-Webcam    | Epoch:77 | Test Acc: 0.7812
+============ Train epoch 390 ============
+============ Train epoch 391 ============
+============ Train epoch 392 ============
+============ Train epoch 393 ============
+============ Train epoch 394 ============
+ Site-Amazon    | Train Loss: 0.5131 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5147 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5155 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.4504 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.4362 | Val  Acc: 0.6000
+ Site-Webcam    | Val  Loss: 0.9246 | Val  Acc: 0.8400
+============ Train epoch 395 ============
+============ Train epoch 396 ============
+============ Train epoch 397 ============
+============ Train epoch 398 ============
+============ Train epoch 399 ============
+ Site-Amazon    | Train Loss: 0.5138 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5180 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5127 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.5036 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.4663 | Val  Acc: 0.6000
+ Site-Webcam    | Val  Loss: 0.9426 | Val  Acc: 0.8400
+============ Train epoch 400 ============
+============ Train epoch 401 ============
+============ Train epoch 402 ============
+============ Train epoch 403 ============
+============ Train epoch 404 ============
+ Site-Amazon    | Train Loss: 0.5112 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5103 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5161 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.4987 | Val  Acc: 0.5800
+ Site-Caltech   | Val  Loss: 1.4887 | Val  Acc: 0.6200
+ Site-Webcam    | Val  Loss: 0.9165 | Val  Acc: 0.8600
+============ Train epoch 405 ============
+============ Train epoch 406 ============
+============ Train epoch 407 ============
+============ Train epoch 408 ============
+============ Train epoch 409 ============
+ Site-Amazon    | Train Loss: 0.5092 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5205 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5139 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.4751 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.4775 | Val  Acc: 0.6200
+ Site-Webcam    | Val  Loss: 0.9344 | Val  Acc: 0.8400
+============ Train epoch 410 ============
+============ Train epoch 411 ============
+============ Train epoch 412 ============
+============ Train epoch 413 ============
+============ Train epoch 414 ============
+ Site-Amazon    | Train Loss: 0.5105 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5142 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5126 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.4716 | Val  Acc: 0.6200
+ Site-Caltech   | Val  Loss: 1.4656 | Val  Acc: 0.6000
+ Site-Webcam    | Val  Loss: 0.9193 | Val  Acc: 0.8400
+============ Train epoch 415 ============
+============ Train epoch 416 ============
+============ Train epoch 417 ============
+============ Train epoch 418 ============
+============ Train epoch 419 ============
+ Site-Amazon    | Train Loss: 0.5210 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5279 | Train Acc: 0.9839
+ Site-Webcam    | Train Loss: 0.5104 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.5037 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.4819 | Val  Acc: 0.6000
+ Site-Webcam    | Val  Loss: 0.8898 | Val  Acc: 0.8600
+============ Train epoch 420 ============
+============ Train epoch 421 ============
+============ Train epoch 422 ============
+============ Train epoch 423 ============
+============ Train epoch 424 ============
+ Site-Amazon    | Train Loss: 0.5126 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5180 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5246 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.5096 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.4862 | Val  Acc: 0.6000
+ Site-Webcam    | Val  Loss: 0.8902 | Val  Acc: 0.8400
+============ Train epoch 425 ============
+============ Train epoch 426 ============
+============ Train epoch 427 ============
+============ Train epoch 428 ============
+============ Train epoch 429 ============
+ Site-Amazon    | Train Loss: 0.5099 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5125 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5115 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.5252 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.4803 | Val  Acc: 0.5600
+ Site-Webcam    | Val  Loss: 0.8741 | Val  Acc: 0.8600
+============ Train epoch 430 ============
+============ Train epoch 431 ============
+============ Train epoch 432 ============
+============ Train epoch 433 ============
+============ Train epoch 434 ============
+ Site-Amazon    | Train Loss: 0.5099 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5164 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5200 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.5082 | Val  Acc: 0.6200
+ Site-Caltech   | Val  Loss: 1.4750 | Val  Acc: 0.5600
+ Site-Webcam    | Val  Loss: 0.8590 | Val  Acc: 0.8800
+============ Train epoch 435 ============
+============ Train epoch 436 ============
+============ Train epoch 437 ============
+============ Train epoch 438 ============
+============ Train epoch 439 ============
+ Site-Amazon    | Train Loss: 0.5128 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5101 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5135 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.5163 | Val  Acc: 0.6200
+ Site-Caltech   | Val  Loss: 1.4567 | Val  Acc: 0.5800
+ Site-Webcam    | Val  Loss: 0.8836 | Val  Acc: 0.8800
+ Best site-Amazon     | Epoch:87 | Val Acc: 0.6200
+ Best site-Caltech    | Epoch:87 | Val Acc: 0.5800
+ Best site-Webcam     | Epoch:87 | Val Acc: 0.8800
+ Saving the local and server checkpoint to ../checkpoint/office_pfeddr/pfeddr_beta0/pfeddr_seed4_unseen2...
+ Test site-Amazon    | Epoch:87 | Test Acc: 0.6615
+ Test site-Caltech   | Epoch:87 | Test Acc: 0.4889
+ Test site-Webcam    | Epoch:87 | Test Acc: 0.9322
+Unseen site-DSLR       |Test site-Amazon    | Epoch:87 | Test Acc: 0.8125
+Unseen site-DSLR       |Test site-Caltech   | Epoch:87 | Test Acc: 0.8438
+Unseen site-DSLR       |Test site-Webcam    | Epoch:87 | Test Acc: 0.8125
+============ Train epoch 440 ============
+============ Train epoch 441 ============
+============ Train epoch 442 ============
+============ Train epoch 443 ============
+============ Train epoch 444 ============
+ Site-Amazon    | Train Loss: 0.5099 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5098 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5133 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.5451 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.4603 | Val  Acc: 0.5800
+ Site-Webcam    | Val  Loss: 0.9054 | Val  Acc: 0.8600
+============ Train epoch 445 ============
+============ Train epoch 446 ============
+============ Train epoch 447 ============
+============ Train epoch 448 ============
+============ Train epoch 449 ============
+ Site-Amazon    | Train Loss: 0.5122 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5156 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5087 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.5599 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.5144 | Val  Acc: 0.5600
+ Site-Webcam    | Val  Loss: 0.9094 | Val  Acc: 0.8600
+============ Train epoch 450 ============
+============ Train epoch 451 ============
+============ Train epoch 452 ============
+============ Train epoch 453 ============
+============ Train epoch 454 ============
+ Site-Amazon    | Train Loss: 0.5086 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5112 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5123 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.5421 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.5199 | Val  Acc: 0.6000
+ Site-Webcam    | Val  Loss: 0.9142 | Val  Acc: 0.8800
+============ Train epoch 455 ============
+============ Train epoch 456 ============
+============ Train epoch 457 ============
+============ Train epoch 458 ============
+============ Train epoch 459 ============
+ Site-Amazon    | Train Loss: 0.5091 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5367 | Train Acc: 0.9839
+ Site-Webcam    | Train Loss: 0.5099 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.5214 | Val  Acc: 0.5800
+ Site-Caltech   | Val  Loss: 1.5145 | Val  Acc: 0.5800
+ Site-Webcam    | Val  Loss: 0.9002 | Val  Acc: 0.8800
+============ Train epoch 460 ============
+============ Train epoch 461 ============
+============ Train epoch 462 ============
+============ Train epoch 463 ============
+============ Train epoch 464 ============
+ Site-Amazon    | Train Loss: 0.5169 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5109 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5378 | Train Acc: 0.9839
+ Site-Amazon    | Val  Loss: 1.5230 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.5265 | Val  Acc: 0.5600
+ Site-Webcam    | Val  Loss: 0.9030 | Val  Acc: 0.8600
+============ Train epoch 465 ============
+============ Train epoch 466 ============
+============ Train epoch 467 ============
+============ Train epoch 468 ============
+============ Train epoch 469 ============
+ Site-Amazon    | Train Loss: 0.5119 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5206 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5106 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.5125 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.5264 | Val  Acc: 0.5400
+ Site-Webcam    | Val  Loss: 0.9089 | Val  Acc: 0.8600
+============ Train epoch 470 ============
+============ Train epoch 471 ============
+============ Train epoch 472 ============
+============ Train epoch 473 ============
+============ Train epoch 474 ============
+ Site-Amazon    | Train Loss: 0.5114 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5158 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5113 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.5311 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.5282 | Val  Acc: 0.5400
+ Site-Webcam    | Val  Loss: 0.9318 | Val  Acc: 0.8600
+============ Train epoch 475 ============
+============ Train epoch 476 ============
+============ Train epoch 477 ============
+============ Train epoch 478 ============
+============ Train epoch 479 ============
+ Site-Amazon    | Train Loss: 0.5097 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5143 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5098 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.5246 | Val  Acc: 0.6200
+ Site-Caltech   | Val  Loss: 1.5375 | Val  Acc: 0.5200
+ Site-Webcam    | Val  Loss: 0.9253 | Val  Acc: 0.8600
+============ Train epoch 480 ============
+============ Train epoch 481 ============
+============ Train epoch 482 ============
+============ Train epoch 483 ============
+============ Train epoch 484 ============
+ Site-Amazon    | Train Loss: 0.5091 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5131 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5086 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.5513 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.5079 | Val  Acc: 0.5600
+ Site-Webcam    | Val  Loss: 0.9045 | Val  Acc: 0.8600
+============ Train epoch 485 ============
+============ Train epoch 486 ============
+============ Train epoch 487 ============
+============ Train epoch 488 ============
+============ Train epoch 489 ============
+ Site-Amazon    | Train Loss: 0.5074 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5101 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5205 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.5481 | Val  Acc: 0.5800
+ Site-Caltech   | Val  Loss: 1.4919 | Val  Acc: 0.5600
+ Site-Webcam    | Val  Loss: 0.8949 | Val  Acc: 0.8600
+============ Train epoch 490 ============
+============ Train epoch 491 ============
+============ Train epoch 492 ============
+============ Train epoch 493 ============
+============ Train epoch 494 ============
+ Site-Amazon    | Train Loss: 0.5280 | Train Acc: 0.9839
+ Site-Caltech   | Train Loss: 0.5090 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5094 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.5222 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.4832 | Val  Acc: 0.5800
+ Site-Webcam    | Val  Loss: 0.9063 | Val  Acc: 0.8800
+============ Train epoch 495 ============
+============ Train epoch 496 ============
+============ Train epoch 497 ============
+============ Train epoch 498 ============
+============ Train epoch 499 ============
+ Site-Amazon    | Train Loss: 0.5098 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5149 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5206 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.5353 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.4792 | Val  Acc: 0.5400
+ Site-Webcam    | Val  Loss: 0.9310 | Val  Acc: 0.8400
+============ Train epoch 500 ============
+============ Train epoch 501 ============
+============ Train epoch 502 ============
+============ Train epoch 503 ============
+============ Train epoch 504 ============
+ Site-Amazon    | Train Loss: 0.5098 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5233 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5133 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.5274 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.4868 | Val  Acc: 0.6000
+ Site-Webcam    | Val  Loss: 0.9285 | Val  Acc: 0.8400
+============ Train epoch 505 ============
+============ Train epoch 506 ============
+============ Train epoch 507 ============
+============ Train epoch 508 ============
+============ Train epoch 509 ============
+ Site-Amazon    | Train Loss: 0.5103 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5136 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5215 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.5183 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.4941 | Val  Acc: 0.6000
+ Site-Webcam    | Val  Loss: 0.9068 | Val  Acc: 0.8600
+============ Train epoch 510 ============
+============ Train epoch 511 ============
+============ Train epoch 512 ============
+============ Train epoch 513 ============
+============ Train epoch 514 ============
+ Site-Amazon    | Train Loss: 0.5086 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5128 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5111 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.5311 | Val  Acc: 0.5800
+ Site-Caltech   | Val  Loss: 1.5116 | Val  Acc: 0.5400
+ Site-Webcam    | Val  Loss: 0.9040 | Val  Acc: 0.8600
+============ Train epoch 515 ============
+============ Train epoch 516 ============
+============ Train epoch 517 ============
+============ Train epoch 518 ============
+============ Train epoch 519 ============
+ Site-Amazon    | Train Loss: 0.5081 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5135 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5079 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.5443 | Val  Acc: 0.5800
+ Site-Caltech   | Val  Loss: 1.5059 | Val  Acc: 0.5400
+ Site-Webcam    | Val  Loss: 0.8876 | Val  Acc: 0.8800
+============ Train epoch 520 ============
+============ Train epoch 521 ============
+============ Train epoch 522 ============
+============ Train epoch 523 ============
+============ Train epoch 524 ============
+ Site-Amazon    | Train Loss: 0.5070 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5092 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5107 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.5390 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.5042 | Val  Acc: 0.5400
+ Site-Webcam    | Val  Loss: 0.8939 | Val  Acc: 0.8800
+============ Train epoch 525 ============
+============ Train epoch 526 ============
+============ Train epoch 527 ============
+============ Train epoch 528 ============
+============ Train epoch 529 ============
+ Site-Amazon    | Train Loss: 0.5117 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5120 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5122 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.5266 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.4983 | Val  Acc: 0.5800
+ Site-Webcam    | Val  Loss: 0.8987 | Val  Acc: 0.8400
+============ Train epoch 530 ============
+============ Train epoch 531 ============
+============ Train epoch 532 ============
+============ Train epoch 533 ============
+============ Train epoch 534 ============
+ Site-Amazon    | Train Loss: 0.5100 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5111 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5139 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.5310 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.5127 | Val  Acc: 0.5800
+ Site-Webcam    | Val  Loss: 0.9057 | Val  Acc: 0.8400
+============ Train epoch 535 ============
+============ Train epoch 536 ============
+============ Train epoch 537 ============
+============ Train epoch 538 ============
+============ Train epoch 539 ============
+ Site-Amazon    | Train Loss: 0.5072 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5166 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5104 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.5399 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.5040 | Val  Acc: 0.6000
+ Site-Webcam    | Val  Loss: 0.9122 | Val  Acc: 0.8400
+============ Train epoch 540 ============
+============ Train epoch 541 ============
+============ Train epoch 542 ============
+============ Train epoch 543 ============
+============ Train epoch 544 ============
+ Site-Amazon    | Train Loss: 0.5099 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5093 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5099 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.5406 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.4938 | Val  Acc: 0.6000
+ Site-Webcam    | Val  Loss: 0.9084 | Val  Acc: 0.8400
+============ Train epoch 545 ============
+============ Train epoch 546 ============
+============ Train epoch 547 ============
+============ Train epoch 548 ============
+============ Train epoch 549 ============
+ Site-Amazon    | Train Loss: 0.5080 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5102 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5077 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.5400 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.4951 | Val  Acc: 0.6000
+ Site-Webcam    | Val  Loss: 0.9057 | Val  Acc: 0.8600
+============ Train epoch 550 ============
+============ Train epoch 551 ============
+============ Train epoch 552 ============
+============ Train epoch 553 ============
+============ Train epoch 554 ============
+ Site-Amazon    | Train Loss: 0.5092 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5149 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5091 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.5399 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.4911 | Val  Acc: 0.6000
+ Site-Webcam    | Val  Loss: 0.9048 | Val  Acc: 0.8600
+============ Train epoch 555 ============
+============ Train epoch 556 ============
+============ Train epoch 557 ============
+============ Train epoch 558 ============
+============ Train epoch 559 ============
+ Site-Amazon    | Train Loss: 0.5163 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5132 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5122 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.5387 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.4904 | Val  Acc: 0.6000
+ Site-Webcam    | Val  Loss: 0.9040 | Val  Acc: 0.8600
+============ Train epoch 560 ============
+============ Train epoch 561 ============
+============ Train epoch 562 ============
+============ Train epoch 563 ============
+============ Train epoch 564 ============
+ Site-Amazon    | Train Loss: 0.5064 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5114 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5267 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.5466 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.4908 | Val  Acc: 0.5800
+ Site-Webcam    | Val  Loss: 0.9047 | Val  Acc: 0.8600
+============ Train epoch 565 ============
+============ Train epoch 566 ============
+============ Train epoch 567 ============
+============ Train epoch 568 ============
+============ Train epoch 569 ============
+ Site-Amazon    | Train Loss: 0.5101 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5100 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5088 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.5404 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.4976 | Val  Acc: 0.6000
+ Site-Webcam    | Val  Loss: 0.9036 | Val  Acc: 0.8600
+============ Train epoch 570 ============
+============ Train epoch 571 ============
+============ Train epoch 572 ============
+============ Train epoch 573 ============
+============ Train epoch 574 ============
+ Site-Amazon    | Train Loss: 0.5068 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5268 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5148 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.5407 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.4975 | Val  Acc: 0.5800
+ Site-Webcam    | Val  Loss: 0.9015 | Val  Acc: 0.8600
+============ Train epoch 575 ============
+============ Train epoch 576 ============
+============ Train epoch 577 ============
+============ Train epoch 578 ============
+============ Train epoch 579 ============
+ Site-Amazon    | Train Loss: 0.5080 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5123 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5125 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.5436 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.4922 | Val  Acc: 0.5800
+ Site-Webcam    | Val  Loss: 0.9064 | Val  Acc: 0.8600
+============ Train epoch 580 ============
+============ Train epoch 581 ============
+============ Train epoch 582 ============
+============ Train epoch 583 ============
+============ Train epoch 584 ============
+ Site-Amazon    | Train Loss: 0.5059 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5114 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5134 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.5372 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.4971 | Val  Acc: 0.5800
+ Site-Webcam    | Val  Loss: 0.9061 | Val  Acc: 0.8600
+============ Train epoch 585 ============
+============ Train epoch 586 ============
+============ Train epoch 587 ============
+============ Train epoch 588 ============
+============ Train epoch 589 ============
+ Site-Amazon    | Train Loss: 0.5059 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5122 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5157 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.5433 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.4986 | Val  Acc: 0.6000
+ Site-Webcam    | Val  Loss: 0.9030 | Val  Acc: 0.8600
+============ Train epoch 590 ============
+============ Train epoch 591 ============
+============ Train epoch 592 ============
+============ Train epoch 593 ============
+============ Train epoch 594 ============
+ Site-Amazon    | Train Loss: 0.5146 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5118 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5127 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.5433 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.5142 | Val  Acc: 0.5800
+ Site-Webcam    | Val  Loss: 0.9067 | Val  Acc: 0.8600
+============ Train epoch 595 ============
+============ Train epoch 596 ============
+============ Train epoch 597 ============
+============ Train epoch 598 ============
+============ Train epoch 599 ============
+ Site-Amazon    | Train Loss: 0.5070 | Train Acc: 1.0000
+ Site-Caltech   | Train Loss: 0.5329 | Train Acc: 1.0000
+ Site-Webcam    | Train Loss: 0.5068 | Train Acc: 1.0000
+ Site-Amazon    | Val  Loss: 1.5423 | Val  Acc: 0.6000
+ Site-Caltech   | Val  Loss: 1.5033 | Val  Acc: 0.6000
+ Site-Webcam    | Val  Loss: 0.9031 | Val  Acc: 0.8600

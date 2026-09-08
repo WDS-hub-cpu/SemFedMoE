@@ -1,0 +1,704 @@
+===2026-08-26 07:39:25===
+===Setting===
+seed: 0
+args: Namespace(batch=32, beta=2, gpu='0', iters=120, log=True, lr=0.01, mode='pfeddr', mtl_alpha=0.5, mu=0.01, percent=0.1, resume=False, save_path='../checkpoint/digits_pfeddr/pfeddr_beta2', seed=0, test=False, unseen_client=0, wk_iters=1)
+============ Train epoch 0 ============
+ SVHN       | Pmodel | Train Loss: 2.2236 | Train Acc: 0.2463
+ USPS       | Pmodel | Train Loss: 2.1444 | Train Acc: 0.3701
+ SynthDigits| Pmodel | Train Loss: 2.2598 | Train Acc: 0.1279
+ MNIST-M    | Pmodel | Train Loss: 2.2293 | Train Acc: 0.1454
+============ Train epoch 1 ============
+ SVHN       | Pmodel | Train Loss: 1.9065 | Train Acc: 0.3742
+ USPS       | Pmodel | Train Loss: 0.8820 | Train Acc: 0.8775
+ SynthDigits| Pmodel | Train Loss: 1.4800 | Train Acc: 0.5357
+ MNIST-M    | Pmodel | Train Loss: 1.4945 | Train Acc: 0.6164
+============ Train epoch 2 ============
+ SVHN       | Pmodel | Train Loss: 1.5264 | Train Acc: 0.6151
+ USPS       | Pmodel | Train Loss: 0.5912 | Train Acc: 0.9071
+ SynthDigits| Pmodel | Train Loss: 1.0143 | Train Acc: 0.8143
+ MNIST-M    | Pmodel | Train Loss: 1.2619 | Train Acc: 0.6783
+============ Train epoch 3 ============
+ SVHN       | Pmodel | Train Loss: 1.3792 | Train Acc: 0.6555
+ USPS       | Pmodel | Train Loss: 0.4678 | Train Acc: 0.9341
+ SynthDigits| Pmodel | Train Loss: 0.8101 | Train Acc: 0.8708
+ MNIST-M    | Pmodel | Train Loss: 0.9645 | Train Acc: 0.8385
+============ Train epoch 4 ============
+ SVHN       | Pmodel | Train Loss: 1.1591 | Train Acc: 0.7900
+ USPS       | Pmodel | Train Loss: 0.3218 | Train Acc: 0.9367
+ SynthDigits| Pmodel | Train Loss: 0.6597 | Train Acc: 0.9031
+ MNIST-M    | Pmodel | Train Loss: 0.8281 | Train Acc: 0.8560
+============ Train epoch 5 ============
+ SVHN       | Pmodel | Train Loss: 1.0965 | Train Acc: 0.7631
+ USPS       | Pmodel | Train Loss: 0.3202 | Train Acc: 0.9462
+ SynthDigits| Pmodel | Train Loss: 0.6552 | Train Acc: 0.8600
+ MNIST-M    | Pmodel | Train Loss: 0.7276 | Train Acc: 0.9166
+============ Train epoch 6 ============
+ SVHN       | Pmodel | Train Loss: 0.9816 | Train Acc: 0.8210
+ USPS       | Pmodel | Train Loss: 0.2487 | Train Acc: 0.9717
+ SynthDigits| Pmodel | Train Loss: 0.4265 | Train Acc: 0.9583
+ MNIST-M    | Pmodel | Train Loss: 0.5620 | Train Acc: 0.9637
+============ Train epoch 7 ============
+ SVHN       | Pmodel | Train Loss: 0.8599 | Train Acc: 0.8991
+ USPS       | Pmodel | Train Loss: 0.2240 | Train Acc: 0.9690
+ SynthDigits| Pmodel | Train Loss: 0.3879 | Train Acc: 0.9704
+ MNIST-M    | Pmodel | Train Loss: 0.4995 | Train Acc: 0.9677
+============ Train epoch 8 ============
+ SVHN       | Pmodel | Train Loss: 0.8495 | Train Acc: 0.8546
+ USPS       | Pmodel | Train Loss: 0.2287 | Train Acc: 0.9623
+ SynthDigits| Pmodel | Train Loss: 0.3686 | Train Acc: 0.9704
+ MNIST-M    | Pmodel | Train Loss: 0.4637 | Train Acc: 0.9690
+============ Train epoch 9 ============
+ SVHN       | Pmodel | Train Loss: 0.7881 | Train Acc: 0.8385
+ USPS       | Pmodel | Train Loss: 0.1691 | Train Acc: 0.9744
+ SynthDigits| Pmodel | Train Loss: 0.2824 | Train Acc: 0.9798
+ MNIST-M    | Pmodel | Train Loss: 0.3729 | Train Acc: 0.9825
+ SVHN       | Pmodel |Test  Loss: 1.2069 | Test  Acc: 0.6346
+ USPS       | Pmodel |Test  Loss: 0.2534 | Test  Acc: 0.9435
+ SynthDigits| Pmodel |Test  Loss: 0.6467 | Test  Acc: 0.8174
+ MNIST-M    | Pmodel |Test  Loss: 0.8708 | Test  Acc: 0.7368
+ MNIST      | Pmodel: SVHN         |Test  Loss: 0.3445 | Test  Acc: 0.9042
+ MNIST      | Pmodel: USPS         |Test  Loss: 0.3436 | Test  Acc: 0.9107
+ MNIST      | Pmodel: SynthDigits  |Test  Loss: 0.3011 | Test  Acc: 0.9210
+ MNIST      | Pmodel: MNIST-M      |Test  Loss: 0.3410 | Test  Acc: 0.9068
+============ Train epoch 10 ============
+ SVHN       | Pmodel | Train Loss: 0.7093 | Train Acc: 0.9098
+ USPS       | Pmodel | Train Loss: 0.1277 | Train Acc: 0.9906
+ SynthDigits| Pmodel | Train Loss: 0.2280 | Train Acc: 0.9865
+ MNIST-M    | Pmodel | Train Loss: 0.3530 | Train Acc: 0.9973
+============ Train epoch 11 ============
+ SVHN       | Pmodel | Train Loss: 0.6597 | Train Acc: 0.9273
+ USPS       | Pmodel | Train Loss: 0.1408 | Train Acc: 0.9852
+ SynthDigits| Pmodel | Train Loss: 0.1939 | Train Acc: 0.9960
+ MNIST-M    | Pmodel | Train Loss: 0.2543 | Train Acc: 1.0000
+============ Train epoch 12 ============
+ SVHN       | Pmodel | Train Loss: 0.5958 | Train Acc: 0.9327
+ USPS       | Pmodel | Train Loss: 0.1113 | Train Acc: 0.9838
+ SynthDigits| Pmodel | Train Loss: 0.1714 | Train Acc: 0.9960
+ MNIST-M    | Pmodel | Train Loss: 0.2498 | Train Acc: 0.9892
+============ Train epoch 13 ============
+ SVHN       | Pmodel | Train Loss: 0.5738 | Train Acc: 0.9408
+ USPS       | Pmodel | Train Loss: 0.0888 | Train Acc: 0.9933
+ SynthDigits| Pmodel | Train Loss: 0.1576 | Train Acc: 0.9960
+ MNIST-M    | Pmodel | Train Loss: 0.2113 | Train Acc: 1.0000
+============ Train epoch 14 ============
+ SVHN       | Pmodel | Train Loss: 0.4826 | Train Acc: 0.9502
+ USPS       | Pmodel | Train Loss: 0.0709 | Train Acc: 0.9946
+ SynthDigits| Pmodel | Train Loss: 0.1239 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.1632 | Train Acc: 1.0000
+============ Train epoch 15 ============
+ SVHN       | Pmodel | Train Loss: 0.5036 | Train Acc: 0.9273
+ USPS       | Pmodel | Train Loss: 0.0741 | Train Acc: 0.9919
+ SynthDigits| Pmodel | Train Loss: 0.1065 | Train Acc: 0.9987
+ MNIST-M    | Pmodel | Train Loss: 0.1433 | Train Acc: 0.9987
+============ Train epoch 16 ============
+ SVHN       | Pmodel | Train Loss: 0.4975 | Train Acc: 0.9677
+ USPS       | Pmodel | Train Loss: 0.0472 | Train Acc: 1.0000
+ SynthDigits| Pmodel | Train Loss: 0.1097 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.1775 | Train Acc: 1.0000
+============ Train epoch 17 ============
+ SVHN       | Pmodel | Train Loss: 0.4449 | Train Acc: 0.9677
+ USPS       | Pmodel | Train Loss: 0.0508 | Train Acc: 0.9960
+ SynthDigits| Pmodel | Train Loss: 0.0955 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.1306 | Train Acc: 1.0000
+============ Train epoch 18 ============
+ SVHN       | Pmodel | Train Loss: 0.4280 | Train Acc: 0.9556
+ USPS       | Pmodel | Train Loss: 0.0458 | Train Acc: 0.9960
+ SynthDigits| Pmodel | Train Loss: 0.0789 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.1247 | Train Acc: 1.0000
+============ Train epoch 19 ============
+ SVHN       | Pmodel | Train Loss: 0.4453 | Train Acc: 0.9556
+ USPS       | Pmodel | Train Loss: 0.0490 | Train Acc: 0.9973
+ SynthDigits| Pmodel | Train Loss: 0.0708 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.1060 | Train Acc: 1.0000
+ SVHN       | Pmodel |Test  Loss: 1.0322 | Test  Acc: 0.6845
+ USPS       | Pmodel |Test  Loss: 0.1510 | Test  Acc: 0.9570
+ SynthDigits| Pmodel |Test  Loss: 0.4934 | Test  Acc: 0.8502
+ MNIST-M    | Pmodel |Test  Loss: 0.6607 | Test  Acc: 0.7986
+ MNIST      | Pmodel: SVHN         |Test  Loss: 0.1864 | Test  Acc: 0.9449
+ MNIST      | Pmodel: USPS         |Test  Loss: 0.1947 | Test  Acc: 0.9446
+ MNIST      | Pmodel: SynthDigits  |Test  Loss: 0.1932 | Test  Acc: 0.9429
+ MNIST      | Pmodel: MNIST-M      |Test  Loss: 0.1857 | Test  Acc: 0.9454
+============ Train epoch 20 ============
+ SVHN       | Pmodel | Train Loss: 0.4648 | Train Acc: 0.9273
+ USPS       | Pmodel | Train Loss: 0.0529 | Train Acc: 0.9946
+ SynthDigits| Pmodel | Train Loss: 0.0671 | Train Acc: 0.9987
+ MNIST-M    | Pmodel | Train Loss: 0.0909 | Train Acc: 1.0000
+============ Train epoch 21 ============
+ SVHN       | Pmodel | Train Loss: 0.4121 | Train Acc: 0.9623
+ USPS       | Pmodel | Train Loss: 0.0342 | Train Acc: 0.9973
+ SynthDigits| Pmodel | Train Loss: 0.0621 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0754 | Train Acc: 1.0000
+============ Train epoch 22 ============
+ SVHN       | Pmodel | Train Loss: 0.4450 | Train Acc: 0.9367
+ USPS       | Pmodel | Train Loss: 0.0537 | Train Acc: 0.9933
+ SynthDigits| Pmodel | Train Loss: 0.0602 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0930 | Train Acc: 1.0000
+============ Train epoch 23 ============
+ SVHN       | Pmodel | Train Loss: 0.4649 | Train Acc: 0.9192
+ USPS       | Pmodel | Train Loss: 0.0507 | Train Acc: 0.9906
+ SynthDigits| Pmodel | Train Loss: 0.0562 | Train Acc: 0.9987
+ MNIST-M    | Pmodel | Train Loss: 0.0751 | Train Acc: 1.0000
+============ Train epoch 24 ============
+ SVHN       | Pmodel | Train Loss: 0.4003 | Train Acc: 0.9542
+ USPS       | Pmodel | Train Loss: 0.0236 | Train Acc: 0.9973
+ SynthDigits| Pmodel | Train Loss: 0.0401 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0718 | Train Acc: 1.0000
+============ Train epoch 25 ============
+ SVHN       | Pmodel | Train Loss: 0.3541 | Train Acc: 0.9704
+ USPS       | Pmodel | Train Loss: 0.0353 | Train Acc: 0.9960
+ SynthDigits| Pmodel | Train Loss: 0.0428 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0613 | Train Acc: 1.0000
+============ Train epoch 26 ============
+ SVHN       | Pmodel | Train Loss: 0.4292 | Train Acc: 0.9260
+ USPS       | Pmodel | Train Loss: 0.0499 | Train Acc: 0.9919
+ SynthDigits| Pmodel | Train Loss: 0.0479 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0704 | Train Acc: 1.0000
+============ Train epoch 27 ============
+ SVHN       | Pmodel | Train Loss: 0.3850 | Train Acc: 0.9448
+ USPS       | Pmodel | Train Loss: 0.0337 | Train Acc: 0.9973
+ SynthDigits| Pmodel | Train Loss: 0.0376 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0618 | Train Acc: 1.0000
+============ Train epoch 28 ============
+ SVHN       | Pmodel | Train Loss: 0.4123 | Train Acc: 0.9300
+ USPS       | Pmodel | Train Loss: 0.0251 | Train Acc: 0.9973
+ SynthDigits| Pmodel | Train Loss: 0.0424 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0568 | Train Acc: 1.0000
+============ Train epoch 29 ============
+ SVHN       | Pmodel | Train Loss: 0.3399 | Train Acc: 0.9637
+ USPS       | Pmodel | Train Loss: 0.0299 | Train Acc: 0.9919
+ SynthDigits| Pmodel | Train Loss: 0.0254 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0435 | Train Acc: 1.0000
+ SVHN       | Pmodel |Test  Loss: 1.0032 | Test  Acc: 0.6869
+ USPS       | Pmodel |Test  Loss: 0.1457 | Test  Acc: 0.9565
+ SynthDigits| Pmodel |Test  Loss: 0.4482 | Test  Acc: 0.8584
+ MNIST-M    | Pmodel |Test  Loss: 0.6276 | Test  Acc: 0.7999
+ MNIST      | Pmodel: SVHN         |Test  Loss: 0.1943 | Test  Acc: 0.9389
+ MNIST      | Pmodel: USPS         |Test  Loss: 0.1883 | Test  Acc: 0.9431
+ MNIST      | Pmodel: SynthDigits  |Test  Loss: 0.1858 | Test  Acc: 0.9408
+ MNIST      | Pmodel: MNIST-M      |Test  Loss: 0.1784 | Test  Acc: 0.9447
+============ Train epoch 30 ============
+ SVHN       | Pmodel | Train Loss: 0.3512 | Train Acc: 0.9489
+ USPS       | Pmodel | Train Loss: 0.0211 | Train Acc: 0.9973
+ SynthDigits| Pmodel | Train Loss: 0.0446 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0668 | Train Acc: 1.0000
+============ Train epoch 31 ============
+ SVHN       | Pmodel | Train Loss: 0.3030 | Train Acc: 0.9664
+ USPS       | Pmodel | Train Loss: 0.0179 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0379 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0485 | Train Acc: 1.0000
+============ Train epoch 32 ============
+ SVHN       | Pmodel | Train Loss: 0.3622 | Train Acc: 0.9192
+ USPS       | Pmodel | Train Loss: 0.0181 | Train Acc: 0.9973
+ SynthDigits| Pmodel | Train Loss: 0.0290 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0433 | Train Acc: 1.0000
+============ Train epoch 33 ============
+ SVHN       | Pmodel | Train Loss: 0.3626 | Train Acc: 0.9246
+ USPS       | Pmodel | Train Loss: 0.0201 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0309 | Train Acc: 0.9973
+ MNIST-M    | Pmodel | Train Loss: 0.0416 | Train Acc: 1.0000
+============ Train epoch 34 ============
+ SVHN       | Pmodel | Train Loss: 0.3343 | Train Acc: 0.9569
+ USPS       | Pmodel | Train Loss: 0.0974 | Train Acc: 0.9758
+ SynthDigits| Pmodel | Train Loss: 0.1468 | Train Acc: 0.9502
+ MNIST-M    | Pmodel | Train Loss: 0.1903 | Train Acc: 0.9462
+============ Train epoch 35 ============
+ SVHN       | Pmodel | Train Loss: 0.3046 | Train Acc: 0.9583
+ USPS       | Pmodel | Train Loss: 0.0131 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0249 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0458 | Train Acc: 1.0000
+============ Train epoch 36 ============
+ SVHN       | Pmodel | Train Loss: 0.4351 | Train Acc: 0.9017
+ USPS       | Pmodel | Train Loss: 0.0111 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0203 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0560 | Train Acc: 1.0000
+============ Train epoch 37 ============
+ SVHN       | Pmodel | Train Loss: 0.3590 | Train Acc: 0.9300
+ USPS       | Pmodel | Train Loss: 0.0125 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0212 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0395 | Train Acc: 1.0000
+============ Train epoch 38 ============
+ SVHN       | Pmodel | Train Loss: 0.4547 | Train Acc: 0.8896
+ USPS       | Pmodel | Train Loss: 0.0235 | Train Acc: 0.9933
+ SynthDigits| Pmodel | Train Loss: 0.0254 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0344 | Train Acc: 1.0000
+============ Train epoch 39 ============
+ SVHN       | Pmodel | Train Loss: 0.5938 | Train Acc: 0.8439
+ USPS       | Pmodel | Train Loss: 0.0448 | Train Acc: 0.9906
+ SynthDigits| Pmodel | Train Loss: 0.0914 | Train Acc: 0.9892
+ MNIST-M    | Pmodel | Train Loss: 0.1239 | Train Acc: 0.9879
+ SVHN       | Pmodel |Test  Loss: 1.3115 | Test  Acc: 0.5806
+ USPS       | Pmodel |Test  Loss: 0.1557 | Test  Acc: 0.9516
+ SynthDigits| Pmodel |Test  Loss: 0.5974 | Test  Acc: 0.8094
+ MNIST-M    | Pmodel |Test  Loss: 0.7981 | Test  Acc: 0.7445
+ MNIST      | Pmodel: SVHN         |Test  Loss: 0.1926 | Test  Acc: 0.9415
+ MNIST      | Pmodel: USPS         |Test  Loss: 0.2115 | Test  Acc: 0.9364
+ MNIST      | Pmodel: SynthDigits  |Test  Loss: 0.1868 | Test  Acc: 0.9417
+ MNIST      | Pmodel: MNIST-M      |Test  Loss: 0.2003 | Test  Acc: 0.9382
+============ Train epoch 40 ============
+ SVHN       | Pmodel | Train Loss: 0.3541 | Train Acc: 0.9394
+ USPS       | Pmodel | Train Loss: 0.0149 | Train Acc: 0.9973
+ SynthDigits| Pmodel | Train Loss: 0.0240 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0305 | Train Acc: 1.0000
+============ Train epoch 41 ============
+ SVHN       | Pmodel | Train Loss: 0.4307 | Train Acc: 0.8843
+ USPS       | Pmodel | Train Loss: 0.0314 | Train Acc: 0.9919
+ SynthDigits| Pmodel | Train Loss: 0.0337 | Train Acc: 0.9987
+ MNIST-M    | Pmodel | Train Loss: 0.0382 | Train Acc: 1.0000
+============ Train epoch 42 ============
+ SVHN       | Pmodel | Train Loss: 0.8897 | Train Acc: 0.6837
+ USPS       | Pmodel | Train Loss: 0.0365 | Train Acc: 0.9919
+ SynthDigits| Pmodel | Train Loss: 0.0339 | Train Acc: 0.9987
+ MNIST-M    | Pmodel | Train Loss: 0.0753 | Train Acc: 0.9838
+============ Train epoch 43 ============
+ SVHN       | Pmodel | Train Loss: 0.2126 | Train Acc: 0.9879
+ USPS       | Pmodel | Train Loss: 0.0201 | Train Acc: 0.9973
+ SynthDigits| Pmodel | Train Loss: 0.0214 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0233 | Train Acc: 1.0000
+============ Train epoch 44 ============
+ SVHN       | Pmodel | Train Loss: 0.2762 | Train Acc: 0.9529
+ USPS       | Pmodel | Train Loss: 0.0199 | Train Acc: 0.9933
+ SynthDigits| Pmodel | Train Loss: 0.0184 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0406 | Train Acc: 0.9973
+============ Train epoch 45 ============
+ SVHN       | Pmodel | Train Loss: 0.2334 | Train Acc: 0.9798
+ USPS       | Pmodel | Train Loss: 0.0135 | Train Acc: 0.9973
+ SynthDigits| Pmodel | Train Loss: 0.0121 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0298 | Train Acc: 1.0000
+============ Train epoch 46 ============
+ SVHN       | Pmodel | Train Loss: 0.6628 | Train Acc: 0.7712
+ USPS       | Pmodel | Train Loss: 0.1932 | Train Acc: 0.9542
+ SynthDigits| Pmodel | Train Loss: 0.0653 | Train Acc: 0.9892
+ MNIST-M    | Pmodel | Train Loss: 0.0628 | Train Acc: 0.9946
+============ Train epoch 47 ============
+ SVHN       | Pmodel | Train Loss: 0.4524 | Train Acc: 0.8587
+ USPS       | Pmodel | Train Loss: 0.1238 | Train Acc: 0.9596
+ SynthDigits| Pmodel | Train Loss: 0.0914 | Train Acc: 0.9838
+ MNIST-M    | Pmodel | Train Loss: 0.1635 | Train Acc: 0.9515
+============ Train epoch 48 ============
+ SVHN       | Pmodel | Train Loss: 0.5775 | Train Acc: 0.8479
+ USPS       | Pmodel | Train Loss: 0.0739 | Train Acc: 0.9744
+ SynthDigits| Pmodel | Train Loss: 0.2349 | Train Acc: 0.9341
+ MNIST-M    | Pmodel | Train Loss: 0.2232 | Train Acc: 0.9542
+============ Train epoch 49 ============
+ SVHN       | Pmodel | Train Loss: 0.3527 | Train Acc: 0.9260
+ USPS       | Pmodel | Train Loss: 0.0698 | Train Acc: 0.9785
+ SynthDigits| Pmodel | Train Loss: 0.0826 | Train Acc: 0.9906
+ MNIST-M    | Pmodel | Train Loss: 0.1764 | Train Acc: 0.9623
+ SVHN       | Pmodel |Test  Loss: 1.0366 | Test  Acc: 0.6648
+ USPS       | Pmodel |Test  Loss: 0.2211 | Test  Acc: 0.9333
+ SynthDigits| Pmodel |Test  Loss: 0.6302 | Test  Acc: 0.8057
+ MNIST-M    | Pmodel |Test  Loss: 0.8843 | Test  Acc: 0.7197
+ MNIST      | Pmodel: SVHN         |Test  Loss: 0.2504 | Test  Acc: 0.9204
+ MNIST      | Pmodel: USPS         |Test  Loss: 0.2833 | Test  Acc: 0.9106
+ MNIST      | Pmodel: SynthDigits  |Test  Loss: 0.2606 | Test  Acc: 0.9208
+ MNIST      | Pmodel: MNIST-M      |Test  Loss: 0.2551 | Test  Acc: 0.9202
+============ Train epoch 50 ============
+ SVHN       | Pmodel | Train Loss: 0.3627 | Train Acc: 0.8977
+ USPS       | Pmodel | Train Loss: 0.0477 | Train Acc: 0.9892
+ SynthDigits| Pmodel | Train Loss: 0.1127 | Train Acc: 0.9771
+ MNIST-M    | Pmodel | Train Loss: 0.1749 | Train Acc: 0.9583
+============ Train epoch 51 ============
+ SVHN       | Pmodel | Train Loss: 0.3774 | Train Acc: 0.9085
+ USPS       | Pmodel | Train Loss: 0.0248 | Train Acc: 0.9946
+ SynthDigits| Pmodel | Train Loss: 0.0564 | Train Acc: 0.9960
+ MNIST-M    | Pmodel | Train Loss: 0.0656 | Train Acc: 0.9987
+============ Train epoch 52 ============
+ SVHN       | Pmodel | Train Loss: 0.2730 | Train Acc: 0.9435
+ USPS       | Pmodel | Train Loss: 0.0267 | Train Acc: 0.9919
+ SynthDigits| Pmodel | Train Loss: 0.0271 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0475 | Train Acc: 1.0000
+============ Train epoch 53 ============
+ SVHN       | Pmodel | Train Loss: 0.1794 | Train Acc: 0.9852
+ USPS       | Pmodel | Train Loss: 0.0071 | Train Acc: 1.0000
+ SynthDigits| Pmodel | Train Loss: 0.0163 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0393 | Train Acc: 1.0000
+============ Train epoch 54 ============
+ SVHN       | Pmodel | Train Loss: 0.2207 | Train Acc: 0.9744
+ USPS       | Pmodel | Train Loss: 0.0084 | Train Acc: 1.0000
+ SynthDigits| Pmodel | Train Loss: 0.0221 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0282 | Train Acc: 1.0000
+============ Train epoch 55 ============
+ SVHN       | Pmodel | Train Loss: 0.1805 | Train Acc: 0.9865
+ USPS       | Pmodel | Train Loss: 0.0098 | Train Acc: 1.0000
+ SynthDigits| Pmodel | Train Loss: 0.0173 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0331 | Train Acc: 0.9987
+============ Train epoch 56 ============
+ SVHN       | Pmodel | Train Loss: 0.2463 | Train Acc: 0.9515
+ USPS       | Pmodel | Train Loss: 0.0084 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0145 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0259 | Train Acc: 1.0000
+============ Train epoch 57 ============
+ SVHN       | Pmodel | Train Loss: 0.2115 | Train Acc: 0.9623
+ USPS       | Pmodel | Train Loss: 0.0074 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0145 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0257 | Train Acc: 1.0000
+============ Train epoch 58 ============
+ SVHN       | Pmodel | Train Loss: 0.2369 | Train Acc: 0.9542
+ USPS       | Pmodel | Train Loss: 0.0061 | Train Acc: 1.0000
+ SynthDigits| Pmodel | Train Loss: 0.0116 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0242 | Train Acc: 1.0000
+============ Train epoch 59 ============
+ SVHN       | Pmodel | Train Loss: 0.1504 | Train Acc: 0.9879
+ USPS       | Pmodel | Train Loss: 0.0095 | Train Acc: 1.0000
+ SynthDigits| Pmodel | Train Loss: 0.0108 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0207 | Train Acc: 1.0000
+ SVHN       | Pmodel |Test  Loss: 0.9319 | Test  Acc: 0.6993
+ USPS       | Pmodel |Test  Loss: 0.1278 | Test  Acc: 0.9581
+ SynthDigits| Pmodel |Test  Loss: 0.4576 | Test  Acc: 0.8582
+ MNIST-M    | Pmodel |Test  Loss: 0.6505 | Test  Acc: 0.7953
+ MNIST      | Pmodel: SVHN         |Test  Loss: 0.1805 | Test  Acc: 0.9416
+ MNIST      | Pmodel: USPS         |Test  Loss: 0.1675 | Test  Acc: 0.9476
+ MNIST      | Pmodel: SynthDigits  |Test  Loss: 0.1792 | Test  Acc: 0.9409
+ MNIST      | Pmodel: MNIST-M      |Test  Loss: 0.1736 | Test  Acc: 0.9449
+============ Train epoch 60 ============
+ SVHN       | Pmodel | Train Loss: 0.1615 | Train Acc: 0.9879
+ USPS       | Pmodel | Train Loss: 0.0069 | Train Acc: 1.0000
+ SynthDigits| Pmodel | Train Loss: 0.0103 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0193 | Train Acc: 1.0000
+============ Train epoch 61 ============
+ SVHN       | Pmodel | Train Loss: 0.1820 | Train Acc: 0.9731
+ USPS       | Pmodel | Train Loss: 0.0067 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0099 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0169 | Train Acc: 1.0000
+============ Train epoch 62 ============
+ SVHN       | Pmodel | Train Loss: 0.1827 | Train Acc: 0.9744
+ USPS       | Pmodel | Train Loss: 0.0072 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0093 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0196 | Train Acc: 1.0000
+============ Train epoch 63 ============
+ SVHN       | Pmodel | Train Loss: 0.1972 | Train Acc: 0.9664
+ USPS       | Pmodel | Train Loss: 0.0068 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0087 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0187 | Train Acc: 1.0000
+============ Train epoch 64 ============
+ SVHN       | Pmodel | Train Loss: 0.1430 | Train Acc: 0.9892
+ USPS       | Pmodel | Train Loss: 0.0072 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0080 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0138 | Train Acc: 1.0000
+============ Train epoch 65 ============
+ SVHN       | Pmodel | Train Loss: 0.1556 | Train Acc: 0.9771
+ USPS       | Pmodel | Train Loss: 0.0061 | Train Acc: 1.0000
+ SynthDigits| Pmodel | Train Loss: 0.0083 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0144 | Train Acc: 1.0000
+============ Train epoch 66 ============
+ SVHN       | Pmodel | Train Loss: 0.1632 | Train Acc: 0.9717
+ USPS       | Pmodel | Train Loss: 0.0056 | Train Acc: 1.0000
+ SynthDigits| Pmodel | Train Loss: 0.0096 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0153 | Train Acc: 1.0000
+============ Train epoch 67 ============
+ SVHN       | Pmodel | Train Loss: 0.1767 | Train Acc: 0.9798
+ USPS       | Pmodel | Train Loss: 0.0103 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0096 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0155 | Train Acc: 1.0000
+============ Train epoch 68 ============
+ SVHN       | Pmodel | Train Loss: 0.3900 | Train Acc: 0.8843
+ USPS       | Pmodel | Train Loss: 0.0128 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0170 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0281 | Train Acc: 0.9973
+============ Train epoch 69 ============
+ SVHN       | Pmodel | Train Loss: 0.2150 | Train Acc: 0.9637
+ USPS       | Pmodel | Train Loss: 0.0067 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0092 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0152 | Train Acc: 1.0000
+ SVHN       | Pmodel |Test  Loss: 1.0219 | Test  Acc: 0.6820
+ USPS       | Pmodel |Test  Loss: 0.1324 | Test  Acc: 0.9608
+ SynthDigits| Pmodel |Test  Loss: 0.4746 | Test  Acc: 0.8553
+ MNIST-M    | Pmodel |Test  Loss: 0.6734 | Test  Acc: 0.7902
+ MNIST      | Pmodel: SVHN         |Test  Loss: 0.1686 | Test  Acc: 0.9464
+ MNIST      | Pmodel: USPS         |Test  Loss: 0.1640 | Test  Acc: 0.9492
+ MNIST      | Pmodel: SynthDigits  |Test  Loss: 0.1818 | Test  Acc: 0.9422
+ MNIST      | Pmodel: MNIST-M      |Test  Loss: 0.1720 | Test  Acc: 0.9464
+============ Train epoch 70 ============
+ SVHN       | Pmodel | Train Loss: 0.1755 | Train Acc: 0.9812
+ USPS       | Pmodel | Train Loss: 0.0070 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0084 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0155 | Train Acc: 1.0000
+============ Train epoch 71 ============
+ SVHN       | Pmodel | Train Loss: 0.3653 | Train Acc: 0.8748
+ USPS       | Pmodel | Train Loss: 0.0084 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0198 | Train Acc: 0.9987
+ MNIST-M    | Pmodel | Train Loss: 0.0309 | Train Acc: 1.0000
+============ Train epoch 72 ============
+ SVHN       | Pmodel | Train Loss: 0.1730 | Train Acc: 0.9731
+ USPS       | Pmodel | Train Loss: 0.0066 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0089 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0149 | Train Acc: 1.0000
+============ Train epoch 73 ============
+ SVHN       | Pmodel | Train Loss: 0.1909 | Train Acc: 0.9664
+ USPS       | Pmodel | Train Loss: 0.0056 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0078 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0128 | Train Acc: 1.0000
+============ Train epoch 74 ============
+ SVHN       | Pmodel | Train Loss: 0.1525 | Train Acc: 0.9825
+ USPS       | Pmodel | Train Loss: 0.0051 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0076 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0130 | Train Acc: 1.0000
+============ Train epoch 75 ============
+ SVHN       | Pmodel | Train Loss: 0.2077 | Train Acc: 0.9610
+ USPS       | Pmodel | Train Loss: 0.0048 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0078 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0206 | Train Acc: 1.0000
+============ Train epoch 76 ============
+ SVHN       | Pmodel | Train Loss: 0.1644 | Train Acc: 0.9798
+ USPS       | Pmodel | Train Loss: 0.0046 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0075 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0122 | Train Acc: 1.0000
+============ Train epoch 77 ============
+ SVHN       | Pmodel | Train Loss: 0.1630 | Train Acc: 0.9771
+ USPS       | Pmodel | Train Loss: 0.0044 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0069 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0116 | Train Acc: 1.0000
+============ Train epoch 78 ============
+ SVHN       | Pmodel | Train Loss: 0.1556 | Train Acc: 0.9771
+ USPS       | Pmodel | Train Loss: 0.0068 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0078 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0132 | Train Acc: 1.0000
+============ Train epoch 79 ============
+ SVHN       | Pmodel | Train Loss: 0.1595 | Train Acc: 0.9744
+ USPS       | Pmodel | Train Loss: 0.0064 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0089 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0145 | Train Acc: 1.0000
+ SVHN       | Pmodel |Test  Loss: 0.9472 | Test  Acc: 0.7005
+ USPS       | Pmodel |Test  Loss: 0.1221 | Test  Acc: 0.9586
+ SynthDigits| Pmodel |Test  Loss: 0.4694 | Test  Acc: 0.8559
+ MNIST-M    | Pmodel |Test  Loss: 0.6640 | Test  Acc: 0.7894
+ MNIST      | Pmodel: SVHN         |Test  Loss: 0.1656 | Test  Acc: 0.9488
+ MNIST      | Pmodel: USPS         |Test  Loss: 0.1509 | Test  Acc: 0.9524
+ MNIST      | Pmodel: SynthDigits  |Test  Loss: 0.1732 | Test  Acc: 0.9464
+ MNIST      | Pmodel: MNIST-M      |Test  Loss: 0.1659 | Test  Acc: 0.9491
+============ Train epoch 80 ============
+ SVHN       | Pmodel | Train Loss: 1.9242 | Train Acc: 0.4388
+ USPS       | Pmodel | Train Loss: 0.0438 | Train Acc: 0.9879
+ SynthDigits| Pmodel | Train Loss: 0.2780 | Train Acc: 0.8869
+ MNIST-M    | Pmodel | Train Loss: 0.0473 | Train Acc: 0.9946
+============ Train epoch 81 ============
+ SVHN       | Pmodel | Train Loss: 0.3556 | Train Acc: 0.8964
+ USPS       | Pmodel | Train Loss: 0.0057 | Train Acc: 1.0000
+ SynthDigits| Pmodel | Train Loss: 0.0181 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0279 | Train Acc: 1.0000
+============ Train epoch 82 ============
+ SVHN       | Pmodel | Train Loss: 0.3662 | Train Acc: 0.8816
+ USPS       | Pmodel | Train Loss: 0.0088 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0175 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0326 | Train Acc: 0.9987
+============ Train epoch 83 ============
+ SVHN       | Pmodel | Train Loss: 0.3074 | Train Acc: 0.9125
+ USPS       | Pmodel | Train Loss: 0.0132 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0137 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0219 | Train Acc: 1.0000
+============ Train epoch 84 ============
+ SVHN       | Pmodel | Train Loss: 0.2248 | Train Acc: 0.9569
+ USPS       | Pmodel | Train Loss: 0.0074 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0096 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0194 | Train Acc: 1.0000
+============ Train epoch 85 ============
+ SVHN       | Pmodel | Train Loss: 0.2066 | Train Acc: 0.9650
+ USPS       | Pmodel | Train Loss: 0.0072 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0097 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0157 | Train Acc: 1.0000
+============ Train epoch 86 ============
+ SVHN       | Pmodel | Train Loss: 0.1982 | Train Acc: 0.9650
+ USPS       | Pmodel | Train Loss: 0.0106 | Train Acc: 0.9973
+ SynthDigits| Pmodel | Train Loss: 0.0079 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0139 | Train Acc: 1.0000
+============ Train epoch 87 ============
+ SVHN       | Pmodel | Train Loss: 0.1555 | Train Acc: 0.9798
+ USPS       | Pmodel | Train Loss: 0.0082 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0084 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0116 | Train Acc: 1.0000
+============ Train epoch 88 ============
+ SVHN       | Pmodel | Train Loss: 0.2239 | Train Acc: 0.9677
+ USPS       | Pmodel | Train Loss: 0.0069 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0069 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0110 | Train Acc: 1.0000
+============ Train epoch 89 ============
+ SVHN       | Pmodel | Train Loss: 0.2029 | Train Acc: 0.9596
+ USPS       | Pmodel | Train Loss: 0.0061 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0075 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0098 | Train Acc: 1.0000
+ SVHN       | Pmodel |Test  Loss: 1.0612 | Test  Acc: 0.6737
+ USPS       | Pmodel |Test  Loss: 0.1341 | Test  Acc: 0.9559
+ SynthDigits| Pmodel |Test  Loss: 0.4676 | Test  Acc: 0.8577
+ MNIST-M    | Pmodel |Test  Loss: 0.6371 | Test  Acc: 0.8034
+ MNIST      | Pmodel: SVHN         |Test  Loss: 0.1820 | Test  Acc: 0.9447
+ MNIST      | Pmodel: USPS         |Test  Loss: 0.1607 | Test  Acc: 0.9494
+ MNIST      | Pmodel: SynthDigits  |Test  Loss: 0.1771 | Test  Acc: 0.9460
+ MNIST      | Pmodel: MNIST-M      |Test  Loss: 0.1733 | Test  Acc: 0.9466
+============ Train epoch 90 ============
+ SVHN       | Pmodel | Train Loss: 0.1601 | Train Acc: 0.9825
+ USPS       | Pmodel | Train Loss: 0.0057 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0081 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0112 | Train Acc: 1.0000
+============ Train epoch 91 ============
+ SVHN       | Pmodel | Train Loss: 0.1927 | Train Acc: 0.9690
+ USPS       | Pmodel | Train Loss: 0.0063 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0071 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0120 | Train Acc: 1.0000
+============ Train epoch 92 ============
+ SVHN       | Pmodel | Train Loss: 0.2826 | Train Acc: 0.9179
+ USPS       | Pmodel | Train Loss: 0.0141 | Train Acc: 0.9946
+ SynthDigits| Pmodel | Train Loss: 0.0128 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0131 | Train Acc: 1.0000
+============ Train epoch 93 ============
+ SVHN       | Pmodel | Train Loss: 0.1900 | Train Acc: 0.9664
+ USPS       | Pmodel | Train Loss: 0.0074 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0084 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0122 | Train Acc: 1.0000
+============ Train epoch 94 ============
+ SVHN       | Pmodel | Train Loss: 0.2156 | Train Acc: 0.9583
+ USPS       | Pmodel | Train Loss: 0.0060 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0089 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0118 | Train Acc: 1.0000
+============ Train epoch 95 ============
+ SVHN       | Pmodel | Train Loss: 0.2156 | Train Acc: 0.9596
+ USPS       | Pmodel | Train Loss: 0.0045 | Train Acc: 1.0000
+ SynthDigits| Pmodel | Train Loss: 0.0071 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0088 | Train Acc: 1.0000
+============ Train epoch 96 ============
+ SVHN       | Pmodel | Train Loss: 0.1882 | Train Acc: 0.9664
+ USPS       | Pmodel | Train Loss: 0.0059 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0082 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0085 | Train Acc: 1.0000
+============ Train epoch 97 ============
+ SVHN       | Pmodel | Train Loss: 0.1547 | Train Acc: 0.9812
+ USPS       | Pmodel | Train Loss: 0.0061 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0065 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0123 | Train Acc: 1.0000
+============ Train epoch 98 ============
+ SVHN       | Pmodel | Train Loss: 0.1448 | Train Acc: 0.9812
+ USPS       | Pmodel | Train Loss: 0.0042 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0066 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0093 | Train Acc: 1.0000
+============ Train epoch 99 ============
+ SVHN       | Pmodel | Train Loss: 0.1352 | Train Acc: 0.9906
+ USPS       | Pmodel | Train Loss: 0.0052 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0067 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0086 | Train Acc: 1.0000
+ SVHN       | Pmodel |Test  Loss: 0.9508 | Test  Acc: 0.7000
+ USPS       | Pmodel |Test  Loss: 0.1307 | Test  Acc: 0.9581
+ SynthDigits| Pmodel |Test  Loss: 0.4720 | Test  Acc: 0.8568
+ MNIST-M    | Pmodel |Test  Loss: 0.6318 | Test  Acc: 0.8014
+ MNIST      | Pmodel: SVHN         |Test  Loss: 0.1697 | Test  Acc: 0.9471
+ MNIST      | Pmodel: USPS         |Test  Loss: 0.1462 | Test  Acc: 0.9535
+ MNIST      | Pmodel: SynthDigits  |Test  Loss: 0.1725 | Test  Acc: 0.9449
+ MNIST      | Pmodel: MNIST-M      |Test  Loss: 0.1668 | Test  Acc: 0.9484
+============ Train epoch 100 ============
+ SVHN       | Pmodel | Train Loss: 0.1550 | Train Acc: 0.9744
+ USPS       | Pmodel | Train Loss: 0.0043 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0065 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0098 | Train Acc: 1.0000
+============ Train epoch 101 ============
+ SVHN       | Pmodel | Train Loss: 0.1626 | Train Acc: 0.9758
+ USPS       | Pmodel | Train Loss: 0.0045 | Train Acc: 1.0000
+ SynthDigits| Pmodel | Train Loss: 0.0070 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0101 | Train Acc: 1.0000
+============ Train epoch 102 ============
+ SVHN       | Pmodel | Train Loss: 0.1670 | Train Acc: 0.9771
+ USPS       | Pmodel | Train Loss: 0.0045 | Train Acc: 1.0000
+ SynthDigits| Pmodel | Train Loss: 0.0060 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0098 | Train Acc: 1.0000
+============ Train epoch 103 ============
+ SVHN       | Pmodel | Train Loss: 0.1559 | Train Acc: 0.9812
+ USPS       | Pmodel | Train Loss: 0.0040 | Train Acc: 1.0000
+ SynthDigits| Pmodel | Train Loss: 0.0059 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0082 | Train Acc: 1.0000
+============ Train epoch 104 ============
+ SVHN       | Pmodel | Train Loss: 0.1768 | Train Acc: 0.9677
+ USPS       | Pmodel | Train Loss: 0.0036 | Train Acc: 1.0000
+ SynthDigits| Pmodel | Train Loss: 0.0063 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0094 | Train Acc: 1.0000
+============ Train epoch 105 ============
+ SVHN       | Pmodel | Train Loss: 0.1754 | Train Acc: 0.9717
+ USPS       | Pmodel | Train Loss: 0.0063 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0060 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0107 | Train Acc: 1.0000
+============ Train epoch 106 ============
+ SVHN       | Pmodel | Train Loss: 0.1629 | Train Acc: 0.9798
+ USPS       | Pmodel | Train Loss: 0.0048 | Train Acc: 1.0000
+ SynthDigits| Pmodel | Train Loss: 0.0059 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0099 | Train Acc: 1.0000
+============ Train epoch 107 ============
+ SVHN       | Pmodel | Train Loss: 0.1518 | Train Acc: 0.9771
+ USPS       | Pmodel | Train Loss: 0.0049 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0057 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0079 | Train Acc: 1.0000
+============ Train epoch 108 ============
+ SVHN       | Pmodel | Train Loss: 0.2654 | Train Acc: 0.9341
+ USPS       | Pmodel | Train Loss: 0.0038 | Train Acc: 1.0000
+ SynthDigits| Pmodel | Train Loss: 0.0102 | Train Acc: 0.9987
+ MNIST-M    | Pmodel | Train Loss: 0.0156 | Train Acc: 1.0000
+============ Train epoch 109 ============
+ SVHN       | Pmodel | Train Loss: 0.2623 | Train Acc: 0.9327
+ USPS       | Pmodel | Train Loss: 0.0076 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0132 | Train Acc: 0.9987
+ MNIST-M    | Pmodel | Train Loss: 0.0114 | Train Acc: 1.0000
+ SVHN       | Pmodel |Test  Loss: 1.1468 | Test  Acc: 0.6437
+ USPS       | Pmodel |Test  Loss: 0.1415 | Test  Acc: 0.9554
+ SynthDigits| Pmodel |Test  Loss: 0.5002 | Test  Acc: 0.8487
+ MNIST-M    | Pmodel |Test  Loss: 0.6405 | Test  Acc: 0.8030
+ MNIST      | Pmodel: SVHN         |Test  Loss: 0.1627 | Test  Acc: 0.9494
+ MNIST      | Pmodel: USPS         |Test  Loss: 0.1487 | Test  Acc: 0.9527
+ MNIST      | Pmodel: SynthDigits  |Test  Loss: 0.1650 | Test  Acc: 0.9478
+ MNIST      | Pmodel: MNIST-M      |Test  Loss: 0.1566 | Test  Acc: 0.9519
+============ Train epoch 110 ============
+ SVHN       | Pmodel | Train Loss: 0.2612 | Train Acc: 0.9408
+ USPS       | Pmodel | Train Loss: 0.0074 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0070 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0109 | Train Acc: 1.0000
+============ Train epoch 111 ============
+ SVHN       | Pmodel | Train Loss: 0.1835 | Train Acc: 0.9637
+ USPS       | Pmodel | Train Loss: 0.0066 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0072 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0082 | Train Acc: 1.0000
+============ Train epoch 112 ============
+ SVHN       | Pmodel | Train Loss: 0.1765 | Train Acc: 0.9664
+ USPS       | Pmodel | Train Loss: 0.0046 | Train Acc: 1.0000
+ SynthDigits| Pmodel | Train Loss: 0.0067 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0070 | Train Acc: 1.0000
+============ Train epoch 113 ============
+ SVHN       | Pmodel | Train Loss: 0.1797 | Train Acc: 0.9637
+ USPS       | Pmodel | Train Loss: 0.0068 | Train Acc: 0.9973
+ SynthDigits| Pmodel | Train Loss: 0.0066 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0081 | Train Acc: 1.0000
+============ Train epoch 114 ============
+ SVHN       | Pmodel | Train Loss: 0.3560 | Train Acc: 0.8910
+ USPS       | Pmodel | Train Loss: 0.0048 | Train Acc: 1.0000
+ SynthDigits| Pmodel | Train Loss: 0.0117 | Train Acc: 0.9987
+ MNIST-M    | Pmodel | Train Loss: 0.0304 | Train Acc: 0.9933
+============ Train epoch 115 ============
+ SVHN       | Pmodel | Train Loss: 0.2160 | Train Acc: 0.9596
+ USPS       | Pmodel | Train Loss: 0.0079 | Train Acc: 0.9973
+ SynthDigits| Pmodel | Train Loss: 0.0063 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0215 | Train Acc: 0.9973
+============ Train epoch 116 ============
+ SVHN       | Pmodel | Train Loss: 0.2199 | Train Acc: 0.9596
+ USPS       | Pmodel | Train Loss: 0.0065 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0068 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0160 | Train Acc: 1.0000
+============ Train epoch 117 ============
+ SVHN       | Pmodel | Train Loss: 0.1879 | Train Acc: 0.9650
+ USPS       | Pmodel | Train Loss: 0.0062 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0056 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0172 | Train Acc: 1.0000
+============ Train epoch 118 ============
+ SVHN       | Pmodel | Train Loss: 0.2023 | Train Acc: 0.9542
+ USPS       | Pmodel | Train Loss: 0.0078 | Train Acc: 0.9973
+ SynthDigits| Pmodel | Train Loss: 0.0074 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0098 | Train Acc: 1.0000
+============ Train epoch 119 ============
+ SVHN       | Pmodel | Train Loss: 0.2105 | Train Acc: 0.9569
+ USPS       | Pmodel | Train Loss: 0.0063 | Train Acc: 0.9987
+ SynthDigits| Pmodel | Train Loss: 0.0065 | Train Acc: 1.0000
+ MNIST-M    | Pmodel | Train Loss: 0.0128 | Train Acc: 1.0000
+ SVHN       | Pmodel |Test  Loss: 1.0783 | Test  Acc: 0.6683
+ USPS       | Pmodel |Test  Loss: 0.1390 | Test  Acc: 0.9554
+ SynthDigits| Pmodel |Test  Loss: 0.4814 | Test  Acc: 0.8528
+ MNIST-M    | Pmodel |Test  Loss: 0.6937 | Test  Acc: 0.7839
+ MNIST      | Pmodel: SVHN         |Test  Loss: 0.1827 | Test  Acc: 0.9442
+ MNIST      | Pmodel: USPS         |Test  Loss: 0.1568 | Test  Acc: 0.9508
+ MNIST      | Pmodel: SynthDigits  |Test  Loss: 0.1785 | Test  Acc: 0.9448
+ MNIST      | Pmodel: MNIST-M      |Test  Loss: 0.1755 | Test  Acc: 0.9463
+
+[RESULT] pfeddr/digits/unseen0 (last_round):
+  Seen   : mean=0.8151
+  Unseen : mean=0.9465

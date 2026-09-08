@@ -1,0 +1,2107 @@
+===2026-08-27 02:50:00===
+===Setting===
+seed: 0
+args: Namespace(batch=32, beta=2, beta_logit=0.1, gate_unseen_weight=0.1, gpu='0', iters=120, log=True, lr=None, mode='pfeddr', mu=0.001, opt='adamw', proto_weight=0.1, resume=False, save_path='../checkpoint/domainnet_pfeddr/pfeddr_beta2', seed=0, test=False, unseen_client=0, warmup=10, wk_iters=5)
+============ Train epoch 0 ============
+============ Train epoch 1 ============
+============ Train epoch 2 ============
+============ Train epoch 3 ============
+============ Train epoch 4 ============
+ Site-Infograph | Train Loss: 2.1223 | Train Acc: 0.2762
+ Site-Painting  | Train Loss: 2.0899 | Train Acc: 0.2476
+ Site-Quickdraw | Train Loss: 2.2365 | Train Acc: 0.1429
+ Site-Real      | Train Loss: 2.0160 | Train Acc: 0.2762
+ Site-Sketch    | Train Loss: 2.2703 | Train Acc: 0.1333
+ Site-Infograph | Val  Loss: 2.1844 | Val  Acc: 0.2381
+ Site-Painting  | Val  Loss: 2.1895 | Val  Acc: 0.2190
+ Site-Quickdraw | Val  Loss: 2.2860 | Val  Acc: 0.1714
+ Site-Real      | Val  Loss: 2.0490 | Val  Acc: 0.2762
+ Site-Sketch    | Val  Loss: 2.2929 | Val  Acc: 0.1143
+ Best site-Infograph  | Epoch:0 | Val Acc: 0.2381
+ Best site-Painting   | Epoch:0 | Val Acc: 0.2190
+ Best site-Quickdraw  | Epoch:0 | Val Acc: 0.1714
+ Best site-Real       | Epoch:0 | Val Acc: 0.2762
+ Best site-Sketch     | Epoch:0 | Val Acc: 0.1143
+============ Train epoch 5 ============
+============ Train epoch 6 ============
+============ Train epoch 7 ============
+============ Train epoch 8 ============
+============ Train epoch 9 ============
+ Site-Infograph | Train Loss: 2.1009 | Train Acc: 0.2381
+ Site-Painting  | Train Loss: 2.0736 | Train Acc: 0.2476
+ Site-Quickdraw | Train Loss: 2.4087 | Train Acc: 0.1048
+ Site-Real      | Train Loss: 1.9144 | Train Acc: 0.3143
+ Site-Sketch    | Train Loss: 2.2851 | Train Acc: 0.1333
+ Site-Infograph | Val  Loss: 2.1893 | Val  Acc: 0.2476
+ Site-Painting  | Val  Loss: 2.2208 | Val  Acc: 0.2476
+ Site-Quickdraw | Val  Loss: 2.4583 | Val  Acc: 0.1238
+ Site-Real      | Val  Loss: 1.9795 | Val  Acc: 0.2857
+ Site-Sketch    | Val  Loss: 2.3680 | Val  Acc: 0.1333
+ Best site-Infograph  | Epoch:1 | Val Acc: 0.2476
+ Best site-Painting   | Epoch:1 | Val Acc: 0.2476
+ Best site-Quickdraw  | Epoch:1 | Val Acc: 0.1238
+ Best site-Real       | Epoch:1 | Val Acc: 0.2857
+ Best site-Sketch     | Epoch:1 | Val Acc: 0.1333
+============ Train epoch 10 ============
+============ Train epoch 11 ============
+============ Train epoch 12 ============
+============ Train epoch 13 ============
+============ Train epoch 14 ============
+ Site-Infograph | Train Loss: 2.0871 | Train Acc: 0.2857
+ Site-Painting  | Train Loss: 1.9133 | Train Acc: 0.2952
+ Site-Quickdraw | Train Loss: 2.5538 | Train Acc: 0.1333
+ Site-Real      | Train Loss: 2.0218 | Train Acc: 0.3238
+ Site-Sketch    | Train Loss: 2.3282 | Train Acc: 0.1810
+ Site-Infograph | Val  Loss: 2.2420 | Val  Acc: 0.2667
+ Site-Painting  | Val  Loss: 2.1488 | Val  Acc: 0.2476
+ Site-Quickdraw | Val  Loss: 2.5630 | Val  Acc: 0.2000
+ Site-Real      | Val  Loss: 2.0168 | Val  Acc: 0.2667
+ Site-Sketch    | Val  Loss: 2.3724 | Val  Acc: 0.1619
+ Best site-Infograph  | Epoch:2 | Val Acc: 0.2667
+ Best site-Painting   | Epoch:2 | Val Acc: 0.2476
+ Best site-Quickdraw  | Epoch:2 | Val Acc: 0.2000
+ Best site-Real       | Epoch:2 | Val Acc: 0.2667
+ Best site-Sketch     | Epoch:2 | Val Acc: 0.1619
+============ Train epoch 15 ============
+============ Train epoch 16 ============
+============ Train epoch 17 ============
+============ Train epoch 18 ============
+============ Train epoch 19 ============
+ Site-Infograph | Train Loss: 2.2629 | Train Acc: 0.2095
+ Site-Painting  | Train Loss: 1.9122 | Train Acc: 0.3333
+ Site-Quickdraw | Train Loss: 2.3140 | Train Acc: 0.1333
+ Site-Real      | Train Loss: 2.4823 | Train Acc: 0.2476
+ Site-Sketch    | Train Loss: 2.3732 | Train Acc: 0.1810
+ Site-Infograph | Val  Loss: 2.2835 | Val  Acc: 0.2286
+ Site-Painting  | Val  Loss: 2.0819 | Val  Acc: 0.2667
+ Site-Quickdraw | Val  Loss: 2.3896 | Val  Acc: 0.1143
+ Site-Real      | Val  Loss: 2.3492 | Val  Acc: 0.2286
+ Site-Sketch    | Val  Loss: 2.3496 | Val  Acc: 0.2095
+============ Train epoch 20 ============
+============ Train epoch 21 ============
+============ Train epoch 22 ============
+============ Train epoch 23 ============
+============ Train epoch 24 ============
+ Site-Infograph | Train Loss: 2.1517 | Train Acc: 0.2000
+ Site-Painting  | Train Loss: 1.9968 | Train Acc: 0.3524
+ Site-Quickdraw | Train Loss: 2.1598 | Train Acc: 0.2381
+ Site-Real      | Train Loss: 2.0660 | Train Acc: 0.3333
+ Site-Sketch    | Train Loss: 2.5378 | Train Acc: 0.1714
+ Site-Infograph | Val  Loss: 2.2423 | Val  Acc: 0.2571
+ Site-Painting  | Val  Loss: 2.1168 | Val  Acc: 0.2762
+ Site-Quickdraw | Val  Loss: 2.2424 | Val  Acc: 0.2000
+ Site-Real      | Val  Loss: 2.0698 | Val  Acc: 0.3143
+ Site-Sketch    | Val  Loss: 2.4412 | Val  Acc: 0.1905
+ Best site-Infograph  | Epoch:4 | Val Acc: 0.2571
+ Best site-Painting   | Epoch:4 | Val Acc: 0.2762
+ Best site-Quickdraw  | Epoch:4 | Val Acc: 0.2000
+ Best site-Real       | Epoch:4 | Val Acc: 0.3143
+ Best site-Sketch     | Epoch:4 | Val Acc: 0.1905
+============ Train epoch 25 ============
+============ Train epoch 26 ============
+============ Train epoch 27 ============
+============ Train epoch 28 ============
+============ Train epoch 29 ============
+ Site-Infograph | Train Loss: 2.2130 | Train Acc: 0.2762
+ Site-Painting  | Train Loss: 1.9353 | Train Acc: 0.3619
+ Site-Quickdraw | Train Loss: 2.2077 | Train Acc: 0.2000
+ Site-Real      | Train Loss: 1.9780 | Train Acc: 0.3429
+ Site-Sketch    | Train Loss: 2.1821 | Train Acc: 0.2190
+ Site-Infograph | Val  Loss: 2.2995 | Val  Acc: 0.1810
+ Site-Painting  | Val  Loss: 2.0300 | Val  Acc: 0.2952
+ Site-Quickdraw | Val  Loss: 2.3180 | Val  Acc: 0.1619
+ Site-Real      | Val  Loss: 2.0792 | Val  Acc: 0.2381
+ Site-Sketch    | Val  Loss: 2.2968 | Val  Acc: 0.2381
+============ Train epoch 30 ============
+============ Train epoch 31 ============
+============ Train epoch 32 ============
+============ Train epoch 33 ============
+============ Train epoch 34 ============
+ Site-Infograph | Train Loss: 2.2593 | Train Acc: 0.2095
+ Site-Painting  | Train Loss: 1.9819 | Train Acc: 0.3429
+ Site-Quickdraw | Train Loss: 2.3898 | Train Acc: 0.2000
+ Site-Real      | Train Loss: 1.8822 | Train Acc: 0.3238
+ Site-Sketch    | Train Loss: 2.3602 | Train Acc: 0.2000
+ Site-Infograph | Val  Loss: 2.3913 | Val  Acc: 0.1524
+ Site-Painting  | Val  Loss: 2.0268 | Val  Acc: 0.3333
+ Site-Quickdraw | Val  Loss: 2.7045 | Val  Acc: 0.1619
+ Site-Real      | Val  Loss: 2.0111 | Val  Acc: 0.3333
+ Site-Sketch    | Val  Loss: 2.2767 | Val  Acc: 0.2190
+============ Train epoch 35 ============
+============ Train epoch 36 ============
+============ Train epoch 37 ============
+============ Train epoch 38 ============
+============ Train epoch 39 ============
+ Site-Infograph | Train Loss: 2.2089 | Train Acc: 0.2286
+ Site-Painting  | Train Loss: 1.8737 | Train Acc: 0.3238
+ Site-Quickdraw | Train Loss: 2.5324 | Train Acc: 0.1429
+ Site-Real      | Train Loss: 1.9560 | Train Acc: 0.2952
+ Site-Sketch    | Train Loss: 2.1673 | Train Acc: 0.2286
+ Site-Infograph | Val  Loss: 2.2921 | Val  Acc: 0.2286
+ Site-Painting  | Val  Loss: 2.1414 | Val  Acc: 0.2667
+ Site-Quickdraw | Val  Loss: 2.5056 | Val  Acc: 0.1333
+ Site-Real      | Val  Loss: 1.9981 | Val  Acc: 0.2952
+ Site-Sketch    | Val  Loss: 2.5034 | Val  Acc: 0.1238
+============ Train epoch 40 ============
+============ Train epoch 41 ============
+============ Train epoch 42 ============
+============ Train epoch 43 ============
+============ Train epoch 44 ============
+ Site-Infograph | Train Loss: 2.1048 | Train Acc: 0.3238
+ Site-Painting  | Train Loss: 2.0330 | Train Acc: 0.2952
+ Site-Quickdraw | Train Loss: 2.0916 | Train Acc: 0.2667
+ Site-Real      | Train Loss: 2.0468 | Train Acc: 0.2095
+ Site-Sketch    | Train Loss: 2.3720 | Train Acc: 0.1429
+ Site-Infograph | Val  Loss: 2.2553 | Val  Acc: 0.2571
+ Site-Painting  | Val  Loss: 2.0987 | Val  Acc: 0.2857
+ Site-Quickdraw | Val  Loss: 2.2723 | Val  Acc: 0.2667
+ Site-Real      | Val  Loss: 2.0993 | Val  Acc: 0.2952
+ Site-Sketch    | Val  Loss: 2.4411 | Val  Acc: 0.1429
+ Best site-Infograph  | Epoch:8 | Val Acc: 0.2571
+ Best site-Painting   | Epoch:8 | Val Acc: 0.2857
+ Best site-Quickdraw  | Epoch:8 | Val Acc: 0.2667
+ Best site-Real       | Epoch:8 | Val Acc: 0.2952
+ Best site-Sketch     | Epoch:8 | Val Acc: 0.1429
+============ Train epoch 45 ============
+============ Train epoch 46 ============
+============ Train epoch 47 ============
+============ Train epoch 48 ============
+============ Train epoch 49 ============
+ Site-Infograph | Train Loss: 2.2939 | Train Acc: 0.2095
+ Site-Painting  | Train Loss: 2.0837 | Train Acc: 0.2762
+ Site-Quickdraw | Train Loss: 2.3999 | Train Acc: 0.1429
+ Site-Real      | Train Loss: 2.2252 | Train Acc: 0.3048
+ Site-Sketch    | Train Loss: 2.1986 | Train Acc: 0.1524
+ Site-Infograph | Val  Loss: 2.3315 | Val  Acc: 0.1905
+ Site-Painting  | Val  Loss: 2.2174 | Val  Acc: 0.2667
+ Site-Quickdraw | Val  Loss: 2.6172 | Val  Acc: 0.1143
+ Site-Real      | Val  Loss: 2.1800 | Val  Acc: 0.2762
+ Site-Sketch    | Val  Loss: 2.2364 | Val  Acc: 0.2095
+
+========== Testing at Round 10 ==========
+ Test site-Infograph | Epoch:10 | Test Acc: 0.1963
+ Test site-Painting  | Epoch:10 | Test Acc: 0.2892
+ Test site-Quickdraw | Epoch:10 | Test Acc: 0.1700
+ Test site-Real      | Epoch:10 | Test Acc: 0.2654
+ Test site-Sketch    | Epoch:10 | Test Acc: 0.1895
+Unseen site-Clipart    |Test site-Infograph | Epoch:10 | Test Acc: 0.2300
+Unseen site-Clipart    |Test site-Painting  | Epoch:10 | Test Acc: 0.2795
+Unseen site-Clipart    |Test site-Quickdraw | Epoch:10 | Test Acc: 0.2510
+Unseen site-Clipart    |Test site-Real      | Epoch:10 | Test Acc: 0.2471
+Unseen site-Clipart    |Test site-Sketch    | Epoch:10 | Test Acc: 0.2053
+============ Train epoch 50 ============
+============ Train epoch 51 ============
+============ Train epoch 52 ============
+============ Train epoch 53 ============
+============ Train epoch 54 ============
+ Site-Infograph | Train Loss: 2.1526 | Train Acc: 0.2667
+ Site-Painting  | Train Loss: 1.8916 | Train Acc: 0.3524
+ Site-Quickdraw | Train Loss: 1.9017 | Train Acc: 0.3524
+ Site-Real      | Train Loss: 1.8776 | Train Acc: 0.3333
+ Site-Sketch    | Train Loss: 2.2804 | Train Acc: 0.2571
+ Site-Infograph | Val  Loss: 2.2735 | Val  Acc: 0.1905
+ Site-Painting  | Val  Loss: 2.1219 | Val  Acc: 0.3048
+ Site-Quickdraw | Val  Loss: 2.0950 | Val  Acc: 0.3048
+ Site-Real      | Val  Loss: 2.1009 | Val  Acc: 0.3429
+ Site-Sketch    | Val  Loss: 2.6399 | Val  Acc: 0.2095
+ Best site-Infograph  | Epoch:10 | Val Acc: 0.1905
+ Best site-Painting   | Epoch:10 | Val Acc: 0.3048
+ Best site-Quickdraw  | Epoch:10 | Val Acc: 0.3048
+ Best site-Real       | Epoch:10 | Val Acc: 0.3429
+ Best site-Sketch     | Epoch:10 | Val Acc: 0.2095
+============ Train epoch 55 ============
+============ Train epoch 56 ============
+============ Train epoch 57 ============
+============ Train epoch 58 ============
+============ Train epoch 59 ============
+ Site-Infograph | Train Loss: 2.0738 | Train Acc: 0.2857
+ Site-Painting  | Train Loss: 1.9010 | Train Acc: 0.3810
+ Site-Quickdraw | Train Loss: 2.0385 | Train Acc: 0.2571
+ Site-Real      | Train Loss: 1.6990 | Train Acc: 0.3714
+ Site-Sketch    | Train Loss: 2.0995 | Train Acc: 0.2286
+ Site-Infograph | Val  Loss: 2.2903 | Val  Acc: 0.2190
+ Site-Painting  | Val  Loss: 2.1369 | Val  Acc: 0.2762
+ Site-Quickdraw | Val  Loss: 2.3159 | Val  Acc: 0.2381
+ Site-Real      | Val  Loss: 1.9227 | Val  Acc: 0.3524
+ Site-Sketch    | Val  Loss: 2.3214 | Val  Acc: 0.1810
+============ Train epoch 60 ============
+============ Train epoch 61 ============
+============ Train epoch 62 ============
+============ Train epoch 63 ============
+============ Train epoch 64 ============
+ Site-Infograph | Train Loss: 2.0340 | Train Acc: 0.2952
+ Site-Painting  | Train Loss: 1.7616 | Train Acc: 0.3905
+ Site-Quickdraw | Train Loss: 1.9158 | Train Acc: 0.3524
+ Site-Real      | Train Loss: 1.7455 | Train Acc: 0.3524
+ Site-Sketch    | Train Loss: 1.9898 | Train Acc: 0.2952
+ Site-Infograph | Val  Loss: 2.3660 | Val  Acc: 0.1714
+ Site-Painting  | Val  Loss: 2.1065 | Val  Acc: 0.3524
+ Site-Quickdraw | Val  Loss: 2.1832 | Val  Acc: 0.2762
+ Site-Real      | Val  Loss: 1.8631 | Val  Acc: 0.3714
+ Site-Sketch    | Val  Loss: 2.4296 | Val  Acc: 0.2190
+ Best site-Infograph  | Epoch:12 | Val Acc: 0.1714
+ Best site-Painting   | Epoch:12 | Val Acc: 0.3524
+ Best site-Quickdraw  | Epoch:12 | Val Acc: 0.2762
+ Best site-Real       | Epoch:12 | Val Acc: 0.3714
+ Best site-Sketch     | Epoch:12 | Val Acc: 0.2190
+============ Train epoch 65 ============
+============ Train epoch 66 ============
+============ Train epoch 67 ============
+============ Train epoch 68 ============
+============ Train epoch 69 ============
+ Site-Infograph | Train Loss: 2.3115 | Train Acc: 0.2571
+ Site-Painting  | Train Loss: 1.7678 | Train Acc: 0.4762
+ Site-Quickdraw | Train Loss: 1.8749 | Train Acc: 0.3524
+ Site-Real      | Train Loss: 1.6294 | Train Acc: 0.4000
+ Site-Sketch    | Train Loss: 2.1625 | Train Acc: 0.2286
+ Site-Infograph | Val  Loss: 2.5436 | Val  Acc: 0.2476
+ Site-Painting  | Val  Loss: 2.0597 | Val  Acc: 0.3048
+ Site-Quickdraw | Val  Loss: 2.2787 | Val  Acc: 0.2857
+ Site-Real      | Val  Loss: 1.8012 | Val  Acc: 0.4476
+ Site-Sketch    | Val  Loss: 2.3622 | Val  Acc: 0.2381
+ Best site-Infograph  | Epoch:13 | Val Acc: 0.2476
+ Best site-Painting   | Epoch:13 | Val Acc: 0.3048
+ Best site-Quickdraw  | Epoch:13 | Val Acc: 0.2857
+ Best site-Real       | Epoch:13 | Val Acc: 0.4476
+ Best site-Sketch     | Epoch:13 | Val Acc: 0.2381
+============ Train epoch 70 ============
+============ Train epoch 71 ============
+============ Train epoch 72 ============
+============ Train epoch 73 ============
+============ Train epoch 74 ============
+ Site-Infograph | Train Loss: 1.8536 | Train Acc: 0.4000
+ Site-Painting  | Train Loss: 1.7676 | Train Acc: 0.4667
+ Site-Quickdraw | Train Loss: 2.1147 | Train Acc: 0.2952
+ Site-Real      | Train Loss: 1.5293 | Train Acc: 0.4476
+ Site-Sketch    | Train Loss: 2.2861 | Train Acc: 0.1524
+ Site-Infograph | Val  Loss: 2.3336 | Val  Acc: 0.2286
+ Site-Painting  | Val  Loss: 2.1689 | Val  Acc: 0.3524
+ Site-Quickdraw | Val  Loss: 2.4704 | Val  Acc: 0.2095
+ Site-Real      | Val  Loss: 1.8463 | Val  Acc: 0.4000
+ Site-Sketch    | Val  Loss: 2.5074 | Val  Acc: 0.2381
+============ Train epoch 75 ============
+============ Train epoch 76 ============
+============ Train epoch 77 ============
+============ Train epoch 78 ============
+============ Train epoch 79 ============
+ Site-Infograph | Train Loss: 1.9946 | Train Acc: 0.3524
+ Site-Painting  | Train Loss: 1.7299 | Train Acc: 0.4190
+ Site-Quickdraw | Train Loss: 1.9764 | Train Acc: 0.3333
+ Site-Real      | Train Loss: 1.4430 | Train Acc: 0.5429
+ Site-Sketch    | Train Loss: 2.0528 | Train Acc: 0.3143
+ Site-Infograph | Val  Loss: 2.3382 | Val  Acc: 0.2095
+ Site-Painting  | Val  Loss: 2.0055 | Val  Acc: 0.3810
+ Site-Quickdraw | Val  Loss: 2.4441 | Val  Acc: 0.2762
+ Site-Real      | Val  Loss: 1.8310 | Val  Acc: 0.4667
+ Site-Sketch    | Val  Loss: 2.3165 | Val  Acc: 0.1905
+============ Train epoch 80 ============
+============ Train epoch 81 ============
+============ Train epoch 82 ============
+============ Train epoch 83 ============
+============ Train epoch 84 ============
+ Site-Infograph | Train Loss: 1.9420 | Train Acc: 0.4286
+ Site-Painting  | Train Loss: 1.7249 | Train Acc: 0.4667
+ Site-Quickdraw | Train Loss: 2.2751 | Train Acc: 0.2667
+ Site-Real      | Train Loss: 1.6299 | Train Acc: 0.4476
+ Site-Sketch    | Train Loss: 1.9359 | Train Acc: 0.3524
+ Site-Infograph | Val  Loss: 2.3397 | Val  Acc: 0.2000
+ Site-Painting  | Val  Loss: 2.0022 | Val  Acc: 0.3905
+ Site-Quickdraw | Val  Loss: 2.3780 | Val  Acc: 0.2857
+ Site-Real      | Val  Loss: 1.9988 | Val  Acc: 0.4000
+ Site-Sketch    | Val  Loss: 2.5028 | Val  Acc: 0.1619
+============ Train epoch 85 ============
+============ Train epoch 86 ============
+============ Train epoch 87 ============
+============ Train epoch 88 ============
+============ Train epoch 89 ============
+ Site-Infograph | Train Loss: 1.8737 | Train Acc: 0.3238
+ Site-Painting  | Train Loss: 1.6983 | Train Acc: 0.3810
+ Site-Quickdraw | Train Loss: 1.8063 | Train Acc: 0.4381
+ Site-Real      | Train Loss: 1.8018 | Train Acc: 0.4381
+ Site-Sketch    | Train Loss: 1.8672 | Train Acc: 0.3714
+ Site-Infograph | Val  Loss: 2.2697 | Val  Acc: 0.1714
+ Site-Painting  | Val  Loss: 2.1883 | Val  Acc: 0.3333
+ Site-Quickdraw | Val  Loss: 2.0251 | Val  Acc: 0.4190
+ Site-Real      | Val  Loss: 2.1276 | Val  Acc: 0.3810
+ Site-Sketch    | Val  Loss: 2.3449 | Val  Acc: 0.2095
+============ Train epoch 90 ============
+============ Train epoch 91 ============
+============ Train epoch 92 ============
+============ Train epoch 93 ============
+============ Train epoch 94 ============
+ Site-Infograph | Train Loss: 1.8896 | Train Acc: 0.3619
+ Site-Painting  | Train Loss: 1.6190 | Train Acc: 0.5048
+ Site-Quickdraw | Train Loss: 2.1104 | Train Acc: 0.2857
+ Site-Real      | Train Loss: 1.5072 | Train Acc: 0.4952
+ Site-Sketch    | Train Loss: 1.7616 | Train Acc: 0.3905
+ Site-Infograph | Val  Loss: 2.3351 | Val  Acc: 0.2286
+ Site-Painting  | Val  Loss: 2.0737 | Val  Acc: 0.3714
+ Site-Quickdraw | Val  Loss: 2.6688 | Val  Acc: 0.1619
+ Site-Real      | Val  Loss: 1.8767 | Val  Acc: 0.3810
+ Site-Sketch    | Val  Loss: 2.3601 | Val  Acc: 0.2857
+============ Train epoch 95 ============
+============ Train epoch 96 ============
+============ Train epoch 97 ============
+============ Train epoch 98 ============
+============ Train epoch 99 ============
+ Site-Infograph | Train Loss: 1.7786 | Train Acc: 0.4381
+ Site-Painting  | Train Loss: 1.6390 | Train Acc: 0.5238
+ Site-Quickdraw | Train Loss: 1.7357 | Train Acc: 0.4190
+ Site-Real      | Train Loss: 1.4621 | Train Acc: 0.5143
+ Site-Sketch    | Train Loss: 1.7520 | Train Acc: 0.3429
+ Site-Infograph | Val  Loss: 2.4555 | Val  Acc: 0.1810
+ Site-Painting  | Val  Loss: 2.1857 | Val  Acc: 0.3524
+ Site-Quickdraw | Val  Loss: 2.3111 | Val  Acc: 0.3905
+ Site-Real      | Val  Loss: 1.9598 | Val  Acc: 0.4190
+ Site-Sketch    | Val  Loss: 2.5529 | Val  Acc: 0.2095
+ Best site-Infograph  | Epoch:19 | Val Acc: 0.1810
+ Best site-Painting   | Epoch:19 | Val Acc: 0.3524
+ Best site-Quickdraw  | Epoch:19 | Val Acc: 0.3905
+ Best site-Real       | Epoch:19 | Val Acc: 0.4190
+ Best site-Sketch     | Epoch:19 | Val Acc: 0.2095
+
+========== Testing at Round 20 ==========
+ Test site-Infograph | Epoch:20 | Test Acc: 0.2161
+ Test site-Painting  | Epoch:20 | Test Acc: 0.3279
+ Test site-Quickdraw | Epoch:20 | Test Acc: 0.4190
+ Test site-Real      | Epoch:20 | Test Acc: 0.3722
+ Test site-Sketch    | Epoch:20 | Test Acc: 0.1986
+Unseen site-Clipart    |Test site-Infograph | Epoch:20 | Test Acc: 0.2510
+Unseen site-Clipart    |Test site-Painting  | Epoch:20 | Test Acc: 0.3099
+Unseen site-Clipart    |Test site-Quickdraw | Epoch:20 | Test Acc: 0.2643
+Unseen site-Clipart    |Test site-Real      | Epoch:20 | Test Acc: 0.2871
+Unseen site-Clipart    |Test site-Sketch    | Epoch:20 | Test Acc: 0.2738
+============ Train epoch 100 ============
+============ Train epoch 101 ============
+============ Train epoch 102 ============
+============ Train epoch 103 ============
+============ Train epoch 104 ============
+ Site-Infograph | Train Loss: 1.8244 | Train Acc: 0.4286
+ Site-Painting  | Train Loss: 1.6746 | Train Acc: 0.5048
+ Site-Quickdraw | Train Loss: 1.8533 | Train Acc: 0.4381
+ Site-Real      | Train Loss: 1.4232 | Train Acc: 0.5810
+ Site-Sketch    | Train Loss: 1.9686 | Train Acc: 0.3524
+ Site-Infograph | Val  Loss: 2.4314 | Val  Acc: 0.1905
+ Site-Painting  | Val  Loss: 2.0450 | Val  Acc: 0.3619
+ Site-Quickdraw | Val  Loss: 2.6021 | Val  Acc: 0.3143
+ Site-Real      | Val  Loss: 1.8713 | Val  Acc: 0.4286
+ Site-Sketch    | Val  Loss: 2.2287 | Val  Acc: 0.2667
+ Best site-Infograph  | Epoch:20 | Val Acc: 0.1905
+ Best site-Painting   | Epoch:20 | Val Acc: 0.3619
+ Best site-Quickdraw  | Epoch:20 | Val Acc: 0.3143
+ Best site-Real       | Epoch:20 | Val Acc: 0.4286
+ Best site-Sketch     | Epoch:20 | Val Acc: 0.2667
+============ Train epoch 105 ============
+============ Train epoch 106 ============
+============ Train epoch 107 ============
+============ Train epoch 108 ============
+============ Train epoch 109 ============
+ Site-Infograph | Train Loss: 1.8327 | Train Acc: 0.3714
+ Site-Painting  | Train Loss: 1.4748 | Train Acc: 0.5048
+ Site-Quickdraw | Train Loss: 1.8148 | Train Acc: 0.4190
+ Site-Real      | Train Loss: 1.3278 | Train Acc: 0.5905
+ Site-Sketch    | Train Loss: 3.4392 | Train Acc: 0.1619
+ Site-Infograph | Val  Loss: 2.4492 | Val  Acc: 0.1810
+ Site-Painting  | Val  Loss: 2.0337 | Val  Acc: 0.3619
+ Site-Quickdraw | Val  Loss: 2.3638 | Val  Acc: 0.3714
+ Site-Real      | Val  Loss: 1.7902 | Val  Acc: 0.4095
+ Site-Sketch    | Val  Loss: 3.4552 | Val  Acc: 0.1238
+ Saving the local and server checkpoint to ../checkpoint/domainnet_pfeddr/pfeddr_beta2/pfeddr_seed0_unseen0...
+============ Train epoch 110 ============
+============ Train epoch 111 ============
+============ Train epoch 112 ============
+============ Train epoch 113 ============
+============ Train epoch 114 ============
+ Site-Infograph | Train Loss: 1.9765 | Train Acc: 0.3810
+ Site-Painting  | Train Loss: 1.5156 | Train Acc: 0.5333
+ Site-Quickdraw | Train Loss: 1.6857 | Train Acc: 0.5048
+ Site-Real      | Train Loss: 1.3799 | Train Acc: 0.5524
+ Site-Sketch    | Train Loss: 1.7171 | Train Acc: 0.3810
+ Site-Infograph | Val  Loss: 2.2494 | Val  Acc: 0.2095
+ Site-Painting  | Val  Loss: 1.9734 | Val  Acc: 0.4000
+ Site-Quickdraw | Val  Loss: 2.1399 | Val  Acc: 0.4190
+ Site-Real      | Val  Loss: 1.8219 | Val  Acc: 0.4190
+ Site-Sketch    | Val  Loss: 2.2384 | Val  Acc: 0.2857
+ Best site-Infograph  | Epoch:22 | Val Acc: 0.2095
+ Best site-Painting   | Epoch:22 | Val Acc: 0.4000
+ Best site-Quickdraw  | Epoch:22 | Val Acc: 0.4190
+ Best site-Real       | Epoch:22 | Val Acc: 0.4190
+ Best site-Sketch     | Epoch:22 | Val Acc: 0.2857
+ Saving the local and server checkpoint to ../checkpoint/domainnet_pfeddr/pfeddr_beta2/pfeddr_seed0_unseen0...
+============ Train epoch 115 ============
+============ Train epoch 116 ============
+============ Train epoch 117 ============
+============ Train epoch 118 ============
+============ Train epoch 119 ============
+ Site-Infograph | Train Loss: 1.8976 | Train Acc: 0.3524
+ Site-Painting  | Train Loss: 1.4642 | Train Acc: 0.5619
+ Site-Quickdraw | Train Loss: 1.8134 | Train Acc: 0.4381
+ Site-Real      | Train Loss: 1.2821 | Train Acc: 0.5905
+ Site-Sketch    | Train Loss: 2.0731 | Train Acc: 0.3619
+ Site-Infograph | Val  Loss: 2.4463 | Val  Acc: 0.2381
+ Site-Painting  | Val  Loss: 1.9988 | Val  Acc: 0.3905
+ Site-Quickdraw | Val  Loss: 2.2895 | Val  Acc: 0.3619
+ Site-Real      | Val  Loss: 1.8522 | Val  Acc: 0.4762
+ Site-Sketch    | Val  Loss: 2.5934 | Val  Acc: 0.2095
+============ Train epoch 120 ============
+============ Train epoch 121 ============
+============ Train epoch 122 ============
+============ Train epoch 123 ============
+============ Train epoch 124 ============
+ Site-Infograph | Train Loss: 1.7346 | Train Acc: 0.4095
+ Site-Painting  | Train Loss: 1.5190 | Train Acc: 0.6095
+ Site-Quickdraw | Train Loss: 1.8129 | Train Acc: 0.4476
+ Site-Real      | Train Loss: 1.1844 | Train Acc: 0.6667
+ Site-Sketch    | Train Loss: 1.6456 | Train Acc: 0.4952
+ Site-Infograph | Val  Loss: 2.3711 | Val  Acc: 0.2095
+ Site-Painting  | Val  Loss: 2.0382 | Val  Acc: 0.3714
+ Site-Quickdraw | Val  Loss: 2.2559 | Val  Acc: 0.3429
+ Site-Real      | Val  Loss: 1.8970 | Val  Acc: 0.3619
+ Site-Sketch    | Val  Loss: 2.2412 | Val  Acc: 0.3714
+============ Train epoch 125 ============
+============ Train epoch 126 ============
+============ Train epoch 127 ============
+============ Train epoch 128 ============
+============ Train epoch 129 ============
+ Site-Infograph | Train Loss: 1.6712 | Train Acc: 0.4286
+ Site-Painting  | Train Loss: 1.4737 | Train Acc: 0.5048
+ Site-Quickdraw | Train Loss: 1.5673 | Train Acc: 0.5810
+ Site-Real      | Train Loss: 1.2890 | Train Acc: 0.6667
+ Site-Sketch    | Train Loss: 1.6166 | Train Acc: 0.4762
+ Site-Infograph | Val  Loss: 2.4260 | Val  Acc: 0.2190
+ Site-Painting  | Val  Loss: 2.1606 | Val  Acc: 0.3524
+ Site-Quickdraw | Val  Loss: 2.2569 | Val  Acc: 0.4476
+ Site-Real      | Val  Loss: 1.8456 | Val  Acc: 0.4476
+ Site-Sketch    | Val  Loss: 2.2745 | Val  Acc: 0.2952
+ Best site-Infograph  | Epoch:25 | Val Acc: 0.2190
+ Best site-Painting   | Epoch:25 | Val Acc: 0.3524
+ Best site-Quickdraw  | Epoch:25 | Val Acc: 0.4476
+ Best site-Real       | Epoch:25 | Val Acc: 0.4476
+ Best site-Sketch     | Epoch:25 | Val Acc: 0.2952
+ Saving the local and server checkpoint to ../checkpoint/domainnet_pfeddr/pfeddr_beta2/pfeddr_seed0_unseen0...
+============ Train epoch 130 ============
+============ Train epoch 131 ============
+============ Train epoch 132 ============
+============ Train epoch 133 ============
+============ Train epoch 134 ============
+ Site-Infograph | Train Loss: 1.6667 | Train Acc: 0.4857
+ Site-Painting  | Train Loss: 1.3631 | Train Acc: 0.5905
+ Site-Quickdraw | Train Loss: 1.4720 | Train Acc: 0.6381
+ Site-Real      | Train Loss: 1.1865 | Train Acc: 0.6762
+ Site-Sketch    | Train Loss: 1.6191 | Train Acc: 0.4762
+ Site-Infograph | Val  Loss: 2.5424 | Val  Acc: 0.1905
+ Site-Painting  | Val  Loss: 2.0462 | Val  Acc: 0.4000
+ Site-Quickdraw | Val  Loss: 2.0025 | Val  Acc: 0.4476
+ Site-Real      | Val  Loss: 1.9198 | Val  Acc: 0.4000
+ Site-Sketch    | Val  Loss: 2.2224 | Val  Acc: 0.3238
+ Best site-Infograph  | Epoch:26 | Val Acc: 0.1905
+ Best site-Painting   | Epoch:26 | Val Acc: 0.4000
+ Best site-Quickdraw  | Epoch:26 | Val Acc: 0.4476
+ Best site-Real       | Epoch:26 | Val Acc: 0.4000
+ Best site-Sketch     | Epoch:26 | Val Acc: 0.3238
+ Saving the local and server checkpoint to ../checkpoint/domainnet_pfeddr/pfeddr_beta2/pfeddr_seed0_unseen0...
+============ Train epoch 135 ============
+============ Train epoch 136 ============
+============ Train epoch 137 ============
+============ Train epoch 138 ============
+============ Train epoch 139 ============
+ Site-Infograph | Train Loss: 1.5638 | Train Acc: 0.4571
+ Site-Painting  | Train Loss: 1.3876 | Train Acc: 0.5143
+ Site-Quickdraw | Train Loss: 1.7562 | Train Acc: 0.5429
+ Site-Real      | Train Loss: 1.1299 | Train Acc: 0.7333
+ Site-Sketch    | Train Loss: 1.5466 | Train Acc: 0.4952
+ Site-Infograph | Val  Loss: 2.4473 | Val  Acc: 0.2190
+ Site-Painting  | Val  Loss: 2.0811 | Val  Acc: 0.3619
+ Site-Quickdraw | Val  Loss: 2.1215 | Val  Acc: 0.3905
+ Site-Real      | Val  Loss: 1.8729 | Val  Acc: 0.4000
+ Site-Sketch    | Val  Loss: 2.3221 | Val  Acc: 0.2952
+============ Train epoch 140 ============
+============ Train epoch 141 ============
+============ Train epoch 142 ============
+============ Train epoch 143 ============
+============ Train epoch 144 ============
+ Site-Infograph | Train Loss: 1.6682 | Train Acc: 0.4476
+ Site-Painting  | Train Loss: 1.4270 | Train Acc: 0.6476
+ Site-Quickdraw | Train Loss: 1.5268 | Train Acc: 0.5524
+ Site-Real      | Train Loss: 1.2366 | Train Acc: 0.7143
+ Site-Sketch    | Train Loss: 1.5022 | Train Acc: 0.5333
+ Site-Infograph | Val  Loss: 2.5831 | Val  Acc: 0.1619
+ Site-Painting  | Val  Loss: 1.9667 | Val  Acc: 0.3905
+ Site-Quickdraw | Val  Loss: 2.1763 | Val  Acc: 0.4762
+ Site-Real      | Val  Loss: 2.0359 | Val  Acc: 0.3810
+ Site-Sketch    | Val  Loss: 2.2166 | Val  Acc: 0.3333
+============ Train epoch 145 ============
+============ Train epoch 146 ============
+============ Train epoch 147 ============
+============ Train epoch 148 ============
+============ Train epoch 149 ============
+ Site-Infograph | Train Loss: 1.5256 | Train Acc: 0.5905
+ Site-Painting  | Train Loss: 1.3742 | Train Acc: 0.5905
+ Site-Quickdraw | Train Loss: 1.3816 | Train Acc: 0.6190
+ Site-Real      | Train Loss: 1.0543 | Train Acc: 0.7714
+ Site-Sketch    | Train Loss: 1.5923 | Train Acc: 0.4952
+ Site-Infograph | Val  Loss: 2.3700 | Val  Acc: 0.2571
+ Site-Painting  | Val  Loss: 2.0038 | Val  Acc: 0.4286
+ Site-Quickdraw | Val  Loss: 1.7896 | Val  Acc: 0.4857
+ Site-Real      | Val  Loss: 1.9095 | Val  Acc: 0.4000
+ Site-Sketch    | Val  Loss: 2.2913 | Val  Acc: 0.3619
+ Best site-Infograph  | Epoch:29 | Val Acc: 0.2571
+ Best site-Painting   | Epoch:29 | Val Acc: 0.4286
+ Best site-Quickdraw  | Epoch:29 | Val Acc: 0.4857
+ Best site-Real       | Epoch:29 | Val Acc: 0.4000
+ Best site-Sketch     | Epoch:29 | Val Acc: 0.3619
+ Saving the local and server checkpoint to ../checkpoint/domainnet_pfeddr/pfeddr_beta2/pfeddr_seed0_unseen0...
+
+========== Testing at Round 30 ==========
+ Test site-Infograph | Epoch:30 | Test Acc: 0.2344
+ Test site-Painting  | Epoch:30 | Test Acc: 0.3829
+ Test site-Quickdraw | Epoch:30 | Test Acc: 0.5540
+ Test site-Real      | Epoch:30 | Test Acc: 0.4437
+ Test site-Sketch    | Epoch:30 | Test Acc: 0.3357
+Unseen site-Clipart    |Test site-Infograph | Epoch:30 | Test Acc: 0.3517
+Unseen site-Clipart    |Test site-Painting  | Epoch:30 | Test Acc: 0.3783
+Unseen site-Clipart    |Test site-Quickdraw | Epoch:30 | Test Acc: 0.3593
+Unseen site-Clipart    |Test site-Real      | Epoch:30 | Test Acc: 0.3669
+Unseen site-Clipart    |Test site-Sketch    | Epoch:30 | Test Acc: 0.3422
+============ Train epoch 150 ============
+============ Train epoch 151 ============
+============ Train epoch 152 ============
+============ Train epoch 153 ============
+============ Train epoch 154 ============
+ Site-Infograph | Train Loss: 1.6003 | Train Acc: 0.5619
+ Site-Painting  | Train Loss: 1.1967 | Train Acc: 0.7143
+ Site-Quickdraw | Train Loss: 1.5246 | Train Acc: 0.5619
+ Site-Real      | Train Loss: 1.1267 | Train Acc: 0.6571
+ Site-Sketch    | Train Loss: 1.3365 | Train Acc: 0.6000
+ Site-Infograph | Val  Loss: 2.4888 | Val  Acc: 0.2476
+ Site-Painting  | Val  Loss: 1.9554 | Val  Acc: 0.4476
+ Site-Quickdraw | Val  Loss: 1.9648 | Val  Acc: 0.4571
+ Site-Real      | Val  Loss: 1.9883 | Val  Acc: 0.4095
+ Site-Sketch    | Val  Loss: 2.4297 | Val  Acc: 0.2857
+============ Train epoch 155 ============
+============ Train epoch 156 ============
+============ Train epoch 157 ============
+============ Train epoch 158 ============
+============ Train epoch 159 ============
+ Site-Infograph | Train Loss: 1.4306 | Train Acc: 0.5810
+ Site-Painting  | Train Loss: 1.1878 | Train Acc: 0.6667
+ Site-Quickdraw | Train Loss: 1.4299 | Train Acc: 0.6476
+ Site-Real      | Train Loss: 1.1072 | Train Acc: 0.7333
+ Site-Sketch    | Train Loss: 1.2691 | Train Acc: 0.6476
+ Site-Infograph | Val  Loss: 2.6309 | Val  Acc: 0.2095
+ Site-Painting  | Val  Loss: 1.9664 | Val  Acc: 0.4190
+ Site-Quickdraw | Val  Loss: 1.8481 | Val  Acc: 0.4857
+ Site-Real      | Val  Loss: 1.8994 | Val  Acc: 0.4381
+ Site-Sketch    | Val  Loss: 2.2348 | Val  Acc: 0.3333
+============ Train epoch 160 ============
+============ Train epoch 161 ============
+============ Train epoch 162 ============
+============ Train epoch 163 ============
+============ Train epoch 164 ============
+ Site-Infograph | Train Loss: 1.5028 | Train Acc: 0.5143
+ Site-Painting  | Train Loss: 1.2593 | Train Acc: 0.6667
+ Site-Quickdraw | Train Loss: 1.2410 | Train Acc: 0.7048
+ Site-Real      | Train Loss: 1.0528 | Train Acc: 0.7714
+ Site-Sketch    | Train Loss: 1.2784 | Train Acc: 0.6476
+ Site-Infograph | Val  Loss: 2.5891 | Val  Acc: 0.1619
+ Site-Painting  | Val  Loss: 1.9256 | Val  Acc: 0.4095
+ Site-Quickdraw | Val  Loss: 1.7918 | Val  Acc: 0.5524
+ Site-Real      | Val  Loss: 2.0717 | Val  Acc: 0.3714
+ Site-Sketch    | Val  Loss: 2.0696 | Val  Acc: 0.4190
+============ Train epoch 165 ============
+============ Train epoch 166 ============
+============ Train epoch 167 ============
+============ Train epoch 168 ============
+============ Train epoch 169 ============
+ Site-Infograph | Train Loss: 1.2423 | Train Acc: 0.6857
+ Site-Painting  | Train Loss: 1.0737 | Train Acc: 0.7619
+ Site-Quickdraw | Train Loss: 1.3604 | Train Acc: 0.6952
+ Site-Real      | Train Loss: 0.8540 | Train Acc: 0.8952
+ Site-Sketch    | Train Loss: 1.4302 | Train Acc: 0.5905
+ Site-Infograph | Val  Loss: 2.7428 | Val  Acc: 0.1714
+ Site-Painting  | Val  Loss: 1.8953 | Val  Acc: 0.4190
+ Site-Quickdraw | Val  Loss: 1.9803 | Val  Acc: 0.5048
+ Site-Real      | Val  Loss: 1.8862 | Val  Acc: 0.4381
+ Site-Sketch    | Val  Loss: 2.0767 | Val  Acc: 0.3524
+============ Train epoch 170 ============
+============ Train epoch 171 ============
+============ Train epoch 172 ============
+============ Train epoch 173 ============
+============ Train epoch 174 ============
+ Site-Infograph | Train Loss: 1.3395 | Train Acc: 0.6286
+ Site-Painting  | Train Loss: 1.0918 | Train Acc: 0.7429
+ Site-Quickdraw | Train Loss: 1.3949 | Train Acc: 0.6000
+ Site-Real      | Train Loss: 1.1841 | Train Acc: 0.7238
+ Site-Sketch    | Train Loss: 1.1904 | Train Acc: 0.6857
+ Site-Infograph | Val  Loss: 2.7428 | Val  Acc: 0.2190
+ Site-Painting  | Val  Loss: 1.9544 | Val  Acc: 0.4190
+ Site-Quickdraw | Val  Loss: 1.7627 | Val  Acc: 0.4762
+ Site-Real      | Val  Loss: 1.9312 | Val  Acc: 0.4190
+ Site-Sketch    | Val  Loss: 2.3146 | Val  Acc: 0.3810
+============ Train epoch 175 ============
+============ Train epoch 176 ============
+============ Train epoch 177 ============
+============ Train epoch 178 ============
+============ Train epoch 179 ============
+ Site-Infograph | Train Loss: 1.2908 | Train Acc: 0.6476
+ Site-Painting  | Train Loss: 1.1392 | Train Acc: 0.7048
+ Site-Quickdraw | Train Loss: 1.1540 | Train Acc: 0.7238
+ Site-Real      | Train Loss: 1.0784 | Train Acc: 0.8000
+ Site-Sketch    | Train Loss: 1.0712 | Train Acc: 0.7619
+ Site-Infograph | Val  Loss: 2.7203 | Val  Acc: 0.1810
+ Site-Painting  | Val  Loss: 2.0706 | Val  Acc: 0.3905
+ Site-Quickdraw | Val  Loss: 1.7736 | Val  Acc: 0.5619
+ Site-Real      | Val  Loss: 2.0033 | Val  Acc: 0.4286
+ Site-Sketch    | Val  Loss: 2.1952 | Val  Acc: 0.3714
+============ Train epoch 180 ============
+============ Train epoch 181 ============
+============ Train epoch 182 ============
+============ Train epoch 183 ============
+============ Train epoch 184 ============
+ Site-Infograph | Train Loss: 1.3140 | Train Acc: 0.6190
+ Site-Painting  | Train Loss: 1.0679 | Train Acc: 0.8381
+ Site-Quickdraw | Train Loss: 1.1427 | Train Acc: 0.7333
+ Site-Real      | Train Loss: 0.9086 | Train Acc: 0.8762
+ Site-Sketch    | Train Loss: 1.1121 | Train Acc: 0.7048
+ Site-Infograph | Val  Loss: 2.8517 | Val  Acc: 0.1905
+ Site-Painting  | Val  Loss: 1.9940 | Val  Acc: 0.3619
+ Site-Quickdraw | Val  Loss: 1.7924 | Val  Acc: 0.5333
+ Site-Real      | Val  Loss: 1.9474 | Val  Acc: 0.4095
+ Site-Sketch    | Val  Loss: 2.1470 | Val  Acc: 0.3619
+============ Train epoch 185 ============
+============ Train epoch 186 ============
+============ Train epoch 187 ============
+============ Train epoch 188 ============
+============ Train epoch 189 ============
+ Site-Infograph | Train Loss: 1.2183 | Train Acc: 0.6571
+ Site-Painting  | Train Loss: 1.0328 | Train Acc: 0.8095
+ Site-Quickdraw | Train Loss: 1.2539 | Train Acc: 0.6667
+ Site-Real      | Train Loss: 0.9198 | Train Acc: 0.8762
+ Site-Sketch    | Train Loss: 1.0673 | Train Acc: 0.7524
+ Site-Infograph | Val  Loss: 2.6666 | Val  Acc: 0.1905
+ Site-Painting  | Val  Loss: 2.0285 | Val  Acc: 0.4381
+ Site-Quickdraw | Val  Loss: 1.8811 | Val  Acc: 0.5333
+ Site-Real      | Val  Loss: 1.9298 | Val  Acc: 0.4095
+ Site-Sketch    | Val  Loss: 2.1846 | Val  Acc: 0.4095
+ Best site-Infograph  | Epoch:37 | Val Acc: 0.1905
+ Best site-Painting   | Epoch:37 | Val Acc: 0.4381
+ Best site-Quickdraw  | Epoch:37 | Val Acc: 0.5333
+ Best site-Real       | Epoch:37 | Val Acc: 0.4095
+ Best site-Sketch     | Epoch:37 | Val Acc: 0.4095
+ Saving the local and server checkpoint to ../checkpoint/domainnet_pfeddr/pfeddr_beta2/pfeddr_seed0_unseen0...
+============ Train epoch 190 ============
+============ Train epoch 191 ============
+============ Train epoch 192 ============
+============ Train epoch 193 ============
+============ Train epoch 194 ============
+ Site-Infograph | Train Loss: 1.2004 | Train Acc: 0.7429
+ Site-Painting  | Train Loss: 1.1184 | Train Acc: 0.7524
+ Site-Quickdraw | Train Loss: 1.3613 | Train Acc: 0.7048
+ Site-Real      | Train Loss: 0.8878 | Train Acc: 0.8667
+ Site-Sketch    | Train Loss: 1.0335 | Train Acc: 0.8095
+ Site-Infograph | Val  Loss: 2.7682 | Val  Acc: 0.1619
+ Site-Painting  | Val  Loss: 1.9865 | Val  Acc: 0.4381
+ Site-Quickdraw | Val  Loss: 1.7950 | Val  Acc: 0.4857
+ Site-Real      | Val  Loss: 1.9669 | Val  Acc: 0.4190
+ Site-Sketch    | Val  Loss: 2.1560 | Val  Acc: 0.3524
+============ Train epoch 195 ============
+============ Train epoch 196 ============
+============ Train epoch 197 ============
+============ Train epoch 198 ============
+============ Train epoch 199 ============
+ Site-Infograph | Train Loss: 1.0484 | Train Acc: 0.7714
+ Site-Painting  | Train Loss: 0.9462 | Train Acc: 0.8381
+ Site-Quickdraw | Train Loss: 1.2253 | Train Acc: 0.7143
+ Site-Real      | Train Loss: 0.8912 | Train Acc: 0.8667
+ Site-Sketch    | Train Loss: 1.2419 | Train Acc: 0.6381
+ Site-Infograph | Val  Loss: 2.6861 | Val  Acc: 0.2000
+ Site-Painting  | Val  Loss: 1.9048 | Val  Acc: 0.4286
+ Site-Quickdraw | Val  Loss: 1.8002 | Val  Acc: 0.4952
+ Site-Real      | Val  Loss: 1.9892 | Val  Acc: 0.4190
+ Site-Sketch    | Val  Loss: 2.1691 | Val  Acc: 0.3524
+
+========== Testing at Round 40 ==========
+ Test site-Infograph | Epoch:40 | Test Acc: 0.2481
+ Test site-Painting  | Epoch:40 | Test Acc: 0.4120
+ Test site-Quickdraw | Epoch:40 | Test Acc: 0.5760
+ Test site-Real      | Epoch:40 | Test Acc: 0.4544
+ Test site-Sketch    | Epoch:40 | Test Acc: 0.3105
+Unseen site-Clipart    |Test site-Infograph | Epoch:40 | Test Acc: 0.3745
+Unseen site-Clipart    |Test site-Painting  | Epoch:40 | Test Acc: 0.3802
+Unseen site-Clipart    |Test site-Quickdraw | Epoch:40 | Test Acc: 0.3308
+Unseen site-Clipart    |Test site-Real      | Epoch:40 | Test Acc: 0.3593
+Unseen site-Clipart    |Test site-Sketch    | Epoch:40 | Test Acc: 0.3536
+============ Train epoch 200 ============
+============ Train epoch 201 ============
+============ Train epoch 202 ============
+============ Train epoch 203 ============
+============ Train epoch 204 ============
+ Site-Infograph | Train Loss: 1.1029 | Train Acc: 0.7619
+ Site-Painting  | Train Loss: 1.0856 | Train Acc: 0.7714
+ Site-Quickdraw | Train Loss: 1.0733 | Train Acc: 0.7143
+ Site-Real      | Train Loss: 0.8201 | Train Acc: 0.8667
+ Site-Sketch    | Train Loss: 1.1278 | Train Acc: 0.7143
+ Site-Infograph | Val  Loss: 2.7233 | Val  Acc: 0.1810
+ Site-Painting  | Val  Loss: 1.9550 | Val  Acc: 0.4476
+ Site-Quickdraw | Val  Loss: 1.7026 | Val  Acc: 0.4952
+ Site-Real      | Val  Loss: 1.9717 | Val  Acc: 0.4286
+ Site-Sketch    | Val  Loss: 2.3144 | Val  Acc: 0.3429
+============ Train epoch 205 ============
+============ Train epoch 206 ============
+============ Train epoch 207 ============
+============ Train epoch 208 ============
+============ Train epoch 209 ============
+ Site-Infograph | Train Loss: 0.9821 | Train Acc: 0.8286
+ Site-Painting  | Train Loss: 1.0911 | Train Acc: 0.7714
+ Site-Quickdraw | Train Loss: 1.0614 | Train Acc: 0.7619
+ Site-Real      | Train Loss: 0.8400 | Train Acc: 0.9048
+ Site-Sketch    | Train Loss: 1.0492 | Train Acc: 0.7714
+ Site-Infograph | Val  Loss: 2.6731 | Val  Acc: 0.2190
+ Site-Painting  | Val  Loss: 2.0254 | Val  Acc: 0.4381
+ Site-Quickdraw | Val  Loss: 1.6297 | Val  Acc: 0.5429
+ Site-Real      | Val  Loss: 2.0148 | Val  Acc: 0.3905
+ Site-Sketch    | Val  Loss: 2.0677 | Val  Acc: 0.3905
+ Best site-Infograph  | Epoch:41 | Val Acc: 0.2190
+ Best site-Painting   | Epoch:41 | Val Acc: 0.4381
+ Best site-Quickdraw  | Epoch:41 | Val Acc: 0.5429
+ Best site-Real       | Epoch:41 | Val Acc: 0.3905
+ Best site-Sketch     | Epoch:41 | Val Acc: 0.3905
+ Saving the local and server checkpoint to ../checkpoint/domainnet_pfeddr/pfeddr_beta2/pfeddr_seed0_unseen0...
+============ Train epoch 210 ============
+============ Train epoch 211 ============
+============ Train epoch 212 ============
+============ Train epoch 213 ============
+============ Train epoch 214 ============
+ Site-Infograph | Train Loss: 1.0721 | Train Acc: 0.7905
+ Site-Painting  | Train Loss: 0.9028 | Train Acc: 0.8381
+ Site-Quickdraw | Train Loss: 1.0376 | Train Acc: 0.7619
+ Site-Real      | Train Loss: 0.7631 | Train Acc: 0.9524
+ Site-Sketch    | Train Loss: 1.0756 | Train Acc: 0.7238
+ Site-Infograph | Val  Loss: 2.6794 | Val  Acc: 0.1810
+ Site-Painting  | Val  Loss: 1.9215 | Val  Acc: 0.4476
+ Site-Quickdraw | Val  Loss: 1.6424 | Val  Acc: 0.5714
+ Site-Real      | Val  Loss: 1.9683 | Val  Acc: 0.3905
+ Site-Sketch    | Val  Loss: 2.0236 | Val  Acc: 0.4286
+ Best site-Infograph  | Epoch:42 | Val Acc: 0.1810
+ Best site-Painting   | Epoch:42 | Val Acc: 0.4476
+ Best site-Quickdraw  | Epoch:42 | Val Acc: 0.5714
+ Best site-Real       | Epoch:42 | Val Acc: 0.3905
+ Best site-Sketch     | Epoch:42 | Val Acc: 0.4286
+ Saving the local and server checkpoint to ../checkpoint/domainnet_pfeddr/pfeddr_beta2/pfeddr_seed0_unseen0...
+============ Train epoch 215 ============
+============ Train epoch 216 ============
+============ Train epoch 217 ============
+============ Train epoch 218 ============
+============ Train epoch 219 ============
+ Site-Infograph | Train Loss: 0.9741 | Train Acc: 0.8190
+ Site-Painting  | Train Loss: 1.0328 | Train Acc: 0.8000
+ Site-Quickdraw | Train Loss: 1.0206 | Train Acc: 0.7429
+ Site-Real      | Train Loss: 0.7753 | Train Acc: 0.8952
+ Site-Sketch    | Train Loss: 0.8830 | Train Acc: 0.8667
+ Site-Infograph | Val  Loss: 2.7475 | Val  Acc: 0.1905
+ Site-Painting  | Val  Loss: 2.0383 | Val  Acc: 0.4381
+ Site-Quickdraw | Val  Loss: 1.7071 | Val  Acc: 0.5619
+ Site-Real      | Val  Loss: 1.9235 | Val  Acc: 0.4190
+ Site-Sketch    | Val  Loss: 2.0549 | Val  Acc: 0.4095
+============ Train epoch 220 ============
+============ Train epoch 221 ============
+============ Train epoch 222 ============
+============ Train epoch 223 ============
+============ Train epoch 224 ============
+ Site-Infograph | Train Loss: 0.9656 | Train Acc: 0.8667
+ Site-Painting  | Train Loss: 0.8484 | Train Acc: 0.8571
+ Site-Quickdraw | Train Loss: 1.0495 | Train Acc: 0.8000
+ Site-Real      | Train Loss: 0.7572 | Train Acc: 0.9048
+ Site-Sketch    | Train Loss: 0.9070 | Train Acc: 0.8286
+ Site-Infograph | Val  Loss: 2.7678 | Val  Acc: 0.2190
+ Site-Painting  | Val  Loss: 2.1062 | Val  Acc: 0.4286
+ Site-Quickdraw | Val  Loss: 1.7689 | Val  Acc: 0.5714
+ Site-Real      | Val  Loss: 1.8905 | Val  Acc: 0.4000
+ Site-Sketch    | Val  Loss: 2.0054 | Val  Acc: 0.4381
+ Best site-Infograph  | Epoch:44 | Val Acc: 0.2190
+ Best site-Painting   | Epoch:44 | Val Acc: 0.4286
+ Best site-Quickdraw  | Epoch:44 | Val Acc: 0.5714
+ Best site-Real       | Epoch:44 | Val Acc: 0.4000
+ Best site-Sketch     | Epoch:44 | Val Acc: 0.4381
+ Saving the local and server checkpoint to ../checkpoint/domainnet_pfeddr/pfeddr_beta2/pfeddr_seed0_unseen0...
+============ Train epoch 225 ============
+============ Train epoch 226 ============
+============ Train epoch 227 ============
+============ Train epoch 228 ============
+============ Train epoch 229 ============
+ Site-Infograph | Train Loss: 1.0360 | Train Acc: 0.8381
+ Site-Painting  | Train Loss: 0.9531 | Train Acc: 0.8571
+ Site-Quickdraw | Train Loss: 1.0426 | Train Acc: 0.7524
+ Site-Real      | Train Loss: 0.6824 | Train Acc: 0.9238
+ Site-Sketch    | Train Loss: 0.9568 | Train Acc: 0.7810
+ Site-Infograph | Val  Loss: 2.7949 | Val  Acc: 0.1905
+ Site-Painting  | Val  Loss: 2.0496 | Val  Acc: 0.4476
+ Site-Quickdraw | Val  Loss: 1.8017 | Val  Acc: 0.5524
+ Site-Real      | Val  Loss: 2.0744 | Val  Acc: 0.4286
+ Site-Sketch    | Val  Loss: 2.0251 | Val  Acc: 0.3619
+============ Train epoch 230 ============
+============ Train epoch 231 ============
+============ Train epoch 232 ============
+============ Train epoch 233 ============
+============ Train epoch 234 ============
+ Site-Infograph | Train Loss: 0.8997 | Train Acc: 0.8762
+ Site-Painting  | Train Loss: 0.8828 | Train Acc: 0.8381
+ Site-Quickdraw | Train Loss: 1.2058 | Train Acc: 0.6571
+ Site-Real      | Train Loss: 0.8007 | Train Acc: 0.9143
+ Site-Sketch    | Train Loss: 0.8750 | Train Acc: 0.9143
+ Site-Infograph | Val  Loss: 2.7761 | Val  Acc: 0.2190
+ Site-Painting  | Val  Loss: 2.1186 | Val  Acc: 0.4667
+ Site-Quickdraw | Val  Loss: 1.8838 | Val  Acc: 0.5619
+ Site-Real      | Val  Loss: 2.0924 | Val  Acc: 0.3905
+ Site-Sketch    | Val  Loss: 2.1640 | Val  Acc: 0.4286
+ Best site-Infograph  | Epoch:46 | Val Acc: 0.2190
+ Best site-Painting   | Epoch:46 | Val Acc: 0.4667
+ Best site-Quickdraw  | Epoch:46 | Val Acc: 0.5619
+ Best site-Real       | Epoch:46 | Val Acc: 0.3905
+ Best site-Sketch     | Epoch:46 | Val Acc: 0.4286
+ Saving the local and server checkpoint to ../checkpoint/domainnet_pfeddr/pfeddr_beta2/pfeddr_seed0_unseen0...
+============ Train epoch 235 ============
+============ Train epoch 236 ============
+============ Train epoch 237 ============
+============ Train epoch 238 ============
+============ Train epoch 239 ============
+ Site-Infograph | Train Loss: 0.9129 | Train Acc: 0.9143
+ Site-Painting  | Train Loss: 0.8200 | Train Acc: 0.9048
+ Site-Quickdraw | Train Loss: 1.0257 | Train Acc: 0.7810
+ Site-Real      | Train Loss: 0.7357 | Train Acc: 0.9333
+ Site-Sketch    | Train Loss: 0.9734 | Train Acc: 0.8095
+ Site-Infograph | Val  Loss: 2.7277 | Val  Acc: 0.2286
+ Site-Painting  | Val  Loss: 2.0792 | Val  Acc: 0.4762
+ Site-Quickdraw | Val  Loss: 1.7553 | Val  Acc: 0.5143
+ Site-Real      | Val  Loss: 1.9967 | Val  Acc: 0.4571
+ Site-Sketch    | Val  Loss: 2.0235 | Val  Acc: 0.4095
+ Best site-Infograph  | Epoch:47 | Val Acc: 0.2286
+ Best site-Painting   | Epoch:47 | Val Acc: 0.4762
+ Best site-Quickdraw  | Epoch:47 | Val Acc: 0.5143
+ Best site-Real       | Epoch:47 | Val Acc: 0.4571
+ Best site-Sketch     | Epoch:47 | Val Acc: 0.4095
+ Saving the local and server checkpoint to ../checkpoint/domainnet_pfeddr/pfeddr_beta2/pfeddr_seed0_unseen0...
+============ Train epoch 240 ============
+============ Train epoch 241 ============
+============ Train epoch 242 ============
+============ Train epoch 243 ============
+============ Train epoch 244 ============
+ Site-Infograph | Train Loss: 0.8889 | Train Acc: 0.8667
+ Site-Painting  | Train Loss: 0.8614 | Train Acc: 0.8762
+ Site-Quickdraw | Train Loss: 1.0795 | Train Acc: 0.7524
+ Site-Real      | Train Loss: 0.7186 | Train Acc: 0.9333
+ Site-Sketch    | Train Loss: 0.8890 | Train Acc: 0.9143
+ Site-Infograph | Val  Loss: 2.7125 | Val  Acc: 0.2667
+ Site-Painting  | Val  Loss: 1.9291 | Val  Acc: 0.4762
+ Site-Quickdraw | Val  Loss: 1.8711 | Val  Acc: 0.5238
+ Site-Real      | Val  Loss: 1.9843 | Val  Acc: 0.4095
+ Site-Sketch    | Val  Loss: 1.9935 | Val  Acc: 0.4095
+============ Train epoch 245 ============
+============ Train epoch 246 ============
+============ Train epoch 247 ============
+============ Train epoch 248 ============
+============ Train epoch 249 ============
+ Site-Infograph | Train Loss: 0.8477 | Train Acc: 0.8381
+ Site-Painting  | Train Loss: 0.8399 | Train Acc: 0.8762
+ Site-Quickdraw | Train Loss: 0.8888 | Train Acc: 0.8286
+ Site-Real      | Train Loss: 0.7728 | Train Acc: 0.9238
+ Site-Sketch    | Train Loss: 0.8945 | Train Acc: 0.8667
+ Site-Infograph | Val  Loss: 2.8212 | Val  Acc: 0.2095
+ Site-Painting  | Val  Loss: 2.0488 | Val  Acc: 0.4667
+ Site-Quickdraw | Val  Loss: 1.6824 | Val  Acc: 0.5333
+ Site-Real      | Val  Loss: 2.0781 | Val  Acc: 0.4190
+ Site-Sketch    | Val  Loss: 1.9219 | Val  Acc: 0.4667
+ Best site-Infograph  | Epoch:49 | Val Acc: 0.2095
+ Best site-Painting   | Epoch:49 | Val Acc: 0.4667
+ Best site-Quickdraw  | Epoch:49 | Val Acc: 0.5333
+ Best site-Real       | Epoch:49 | Val Acc: 0.4190
+ Best site-Sketch     | Epoch:49 | Val Acc: 0.4667
+ Saving the local and server checkpoint to ../checkpoint/domainnet_pfeddr/pfeddr_beta2/pfeddr_seed0_unseen0...
+
+========== Testing at Round 50 ==========
+ Test site-Infograph | Epoch:50 | Test Acc: 0.2192
+ Test site-Painting  | Epoch:50 | Test Acc: 0.3926
+ Test site-Quickdraw | Epoch:50 | Test Acc: 0.6480
+ Test site-Real      | Epoch:50 | Test Acc: 0.4790
+ Test site-Sketch    | Epoch:50 | Test Acc: 0.3863
+Unseen site-Clipart    |Test site-Infograph | Epoch:50 | Test Acc: 0.3935
+Unseen site-Clipart    |Test site-Painting  | Epoch:50 | Test Acc: 0.3992
+Unseen site-Clipart    |Test site-Quickdraw | Epoch:50 | Test Acc: 0.3802
+Unseen site-Clipart    |Test site-Real      | Epoch:50 | Test Acc: 0.3764
+Unseen site-Clipart    |Test site-Sketch    | Epoch:50 | Test Acc: 0.3460
+============ Train epoch 250 ============
+============ Train epoch 251 ============
+============ Train epoch 252 ============
+============ Train epoch 253 ============
+============ Train epoch 254 ============
+ Site-Infograph | Train Loss: 0.7791 | Train Acc: 0.9143
+ Site-Painting  | Train Loss: 0.7490 | Train Acc: 0.9429
+ Site-Quickdraw | Train Loss: 0.8926 | Train Acc: 0.8190
+ Site-Real      | Train Loss: 0.7998 | Train Acc: 0.8667
+ Site-Sketch    | Train Loss: 0.8571 | Train Acc: 0.9048
+ Site-Infograph | Val  Loss: 2.8471 | Val  Acc: 0.2286
+ Site-Painting  | Val  Loss: 1.9896 | Val  Acc: 0.4571
+ Site-Quickdraw | Val  Loss: 1.6307 | Val  Acc: 0.5619
+ Site-Real      | Val  Loss: 1.9309 | Val  Acc: 0.4476
+ Site-Sketch    | Val  Loss: 1.9959 | Val  Acc: 0.4190
+ Best site-Infograph  | Epoch:50 | Val Acc: 0.2286
+ Best site-Painting   | Epoch:50 | Val Acc: 0.4571
+ Best site-Quickdraw  | Epoch:50 | Val Acc: 0.5619
+ Best site-Real       | Epoch:50 | Val Acc: 0.4476
+ Best site-Sketch     | Epoch:50 | Val Acc: 0.4190
+ Saving the local and server checkpoint to ../checkpoint/domainnet_pfeddr/pfeddr_beta2/pfeddr_seed0_unseen0...
+============ Train epoch 255 ============
+============ Train epoch 256 ============
+============ Train epoch 257 ============
+============ Train epoch 258 ============
+============ Train epoch 259 ============
+ Site-Infograph | Train Loss: 0.8417 | Train Acc: 0.8952
+ Site-Painting  | Train Loss: 0.7273 | Train Acc: 0.9143
+ Site-Quickdraw | Train Loss: 0.9346 | Train Acc: 0.8190
+ Site-Real      | Train Loss: 0.7069 | Train Acc: 0.8952
+ Site-Sketch    | Train Loss: 0.7668 | Train Acc: 0.8762
+ Site-Infograph | Val  Loss: 2.7872 | Val  Acc: 0.1905
+ Site-Painting  | Val  Loss: 1.9861 | Val  Acc: 0.4667
+ Site-Quickdraw | Val  Loss: 1.6423 | Val  Acc: 0.5905
+ Site-Real      | Val  Loss: 1.8972 | Val  Acc: 0.4762
+ Site-Sketch    | Val  Loss: 1.8872 | Val  Acc: 0.4286
+ Best site-Infograph  | Epoch:51 | Val Acc: 0.1905
+ Best site-Painting   | Epoch:51 | Val Acc: 0.4667
+ Best site-Quickdraw  | Epoch:51 | Val Acc: 0.5905
+ Best site-Real       | Epoch:51 | Val Acc: 0.4762
+ Best site-Sketch     | Epoch:51 | Val Acc: 0.4286
+ Saving the local and server checkpoint to ../checkpoint/domainnet_pfeddr/pfeddr_beta2/pfeddr_seed0_unseen0...
+============ Train epoch 260 ============
+============ Train epoch 261 ============
+============ Train epoch 262 ============
+============ Train epoch 263 ============
+============ Train epoch 264 ============
+ Site-Infograph | Train Loss: 0.7574 | Train Acc: 0.9143
+ Site-Painting  | Train Loss: 0.7802 | Train Acc: 0.9619
+ Site-Quickdraw | Train Loss: 0.8408 | Train Acc: 0.8762
+ Site-Real      | Train Loss: 0.7112 | Train Acc: 0.9048
+ Site-Sketch    | Train Loss: 0.7521 | Train Acc: 0.8952
+ Site-Infograph | Val  Loss: 2.7325 | Val  Acc: 0.2000
+ Site-Painting  | Val  Loss: 1.9625 | Val  Acc: 0.4571
+ Site-Quickdraw | Val  Loss: 1.6759 | Val  Acc: 0.5333
+ Site-Real      | Val  Loss: 1.9033 | Val  Acc: 0.4381
+ Site-Sketch    | Val  Loss: 1.8864 | Val  Acc: 0.4476
+============ Train epoch 265 ============
+============ Train epoch 266 ============
+============ Train epoch 267 ============
+============ Train epoch 268 ============
+============ Train epoch 269 ============
+ Site-Infograph | Train Loss: 0.7812 | Train Acc: 0.9238
+ Site-Painting  | Train Loss: 0.6904 | Train Acc: 0.9524
+ Site-Quickdraw | Train Loss: 0.8262 | Train Acc: 0.8952
+ Site-Real      | Train Loss: 0.6872 | Train Acc: 0.9429
+ Site-Sketch    | Train Loss: 0.9021 | Train Acc: 0.8667
+ Site-Infograph | Val  Loss: 2.6882 | Val  Acc: 0.2190
+ Site-Painting  | Val  Loss: 1.9643 | Val  Acc: 0.4476
+ Site-Quickdraw | Val  Loss: 1.6020 | Val  Acc: 0.5619
+ Site-Real      | Val  Loss: 1.9123 | Val  Acc: 0.4381
+ Site-Sketch    | Val  Loss: 1.9418 | Val  Acc: 0.4476
+============ Train epoch 270 ============
+============ Train epoch 271 ============
+============ Train epoch 272 ============
+============ Train epoch 273 ============
+============ Train epoch 274 ============
+ Site-Infograph | Train Loss: 0.7426 | Train Acc: 0.9238
+ Site-Painting  | Train Loss: 0.7449 | Train Acc: 0.9333
+ Site-Quickdraw | Train Loss: 0.8684 | Train Acc: 0.9048
+ Site-Real      | Train Loss: 0.6997 | Train Acc: 0.9143
+ Site-Sketch    | Train Loss: 0.7834 | Train Acc: 0.8857
+ Site-Infograph | Val  Loss: 2.7188 | Val  Acc: 0.2095
+ Site-Painting  | Val  Loss: 1.9261 | Val  Acc: 0.4857
+ Site-Quickdraw | Val  Loss: 1.6181 | Val  Acc: 0.6095
+ Site-Real      | Val  Loss: 1.8795 | Val  Acc: 0.4667
+ Site-Sketch    | Val  Loss: 1.9310 | Val  Acc: 0.4381
+ Best site-Infograph  | Epoch:54 | Val Acc: 0.2095
+ Best site-Painting   | Epoch:54 | Val Acc: 0.4857
+ Best site-Quickdraw  | Epoch:54 | Val Acc: 0.6095
+ Best site-Real       | Epoch:54 | Val Acc: 0.4667
+ Best site-Sketch     | Epoch:54 | Val Acc: 0.4381
+ Saving the local and server checkpoint to ../checkpoint/domainnet_pfeddr/pfeddr_beta2/pfeddr_seed0_unseen0...
+============ Train epoch 275 ============
+============ Train epoch 276 ============
+============ Train epoch 277 ============
+============ Train epoch 278 ============
+============ Train epoch 279 ============
+ Site-Infograph | Train Loss: 0.8792 | Train Acc: 0.8762
+ Site-Painting  | Train Loss: 0.7195 | Train Acc: 0.9333
+ Site-Quickdraw | Train Loss: 0.8482 | Train Acc: 0.8571
+ Site-Real      | Train Loss: 0.6887 | Train Acc: 0.9524
+ Site-Sketch    | Train Loss: 0.7360 | Train Acc: 0.9143
+ Site-Infograph | Val  Loss: 2.6241 | Val  Acc: 0.2190
+ Site-Painting  | Val  Loss: 1.9319 | Val  Acc: 0.4476
+ Site-Quickdraw | Val  Loss: 1.6664 | Val  Acc: 0.6000
+ Site-Real      | Val  Loss: 1.8449 | Val  Acc: 0.4190
+ Site-Sketch    | Val  Loss: 1.8566 | Val  Acc: 0.4667
+============ Train epoch 280 ============
+============ Train epoch 281 ============
+============ Train epoch 282 ============
+============ Train epoch 283 ============
+============ Train epoch 284 ============
+ Site-Infograph | Train Loss: 0.7309 | Train Acc: 0.9429
+ Site-Painting  | Train Loss: 0.6360 | Train Acc: 0.9810
+ Site-Quickdraw | Train Loss: 0.8232 | Train Acc: 0.9143
+ Site-Real      | Train Loss: 0.6632 | Train Acc: 0.9524
+ Site-Sketch    | Train Loss: 0.7570 | Train Acc: 0.8952
+ Site-Infograph | Val  Loss: 2.6479 | Val  Acc: 0.2381
+ Site-Painting  | Val  Loss: 1.8688 | Val  Acc: 0.4476
+ Site-Quickdraw | Val  Loss: 1.7030 | Val  Acc: 0.5619
+ Site-Real      | Val  Loss: 1.8018 | Val  Acc: 0.4762
+ Site-Sketch    | Val  Loss: 1.9155 | Val  Acc: 0.4381
+============ Train epoch 285 ============
+============ Train epoch 286 ============
+============ Train epoch 287 ============
+============ Train epoch 288 ============
+============ Train epoch 289 ============
+ Site-Infograph | Train Loss: 0.7596 | Train Acc: 0.9333
+ Site-Painting  | Train Loss: 0.7305 | Train Acc: 0.9238
+ Site-Quickdraw | Train Loss: 0.8818 | Train Acc: 0.8857
+ Site-Real      | Train Loss: 0.6799 | Train Acc: 0.9524
+ Site-Sketch    | Train Loss: 0.6578 | Train Acc: 0.9619
+ Site-Infograph | Val  Loss: 2.6532 | Val  Acc: 0.2381
+ Site-Painting  | Val  Loss: 1.8663 | Val  Acc: 0.4857
+ Site-Quickdraw | Val  Loss: 1.7043 | Val  Acc: 0.5714
+ Site-Real      | Val  Loss: 1.7992 | Val  Acc: 0.4000
+ Site-Sketch    | Val  Loss: 1.8312 | Val  Acc: 0.4476
+============ Train epoch 290 ============
+============ Train epoch 291 ============
+============ Train epoch 292 ============
+============ Train epoch 293 ============
+============ Train epoch 294 ============
+ Site-Infograph | Train Loss: 0.7920 | Train Acc: 0.9048
+ Site-Painting  | Train Loss: 0.6955 | Train Acc: 0.9619
+ Site-Quickdraw | Train Loss: 0.7991 | Train Acc: 0.8952
+ Site-Real      | Train Loss: 0.7390 | Train Acc: 0.9429
+ Site-Sketch    | Train Loss: 0.7550 | Train Acc: 0.9524
+ Site-Infograph | Val  Loss: 2.6947 | Val  Acc: 0.2381
+ Site-Painting  | Val  Loss: 1.9095 | Val  Acc: 0.4762
+ Site-Quickdraw | Val  Loss: 1.6015 | Val  Acc: 0.5619
+ Site-Real      | Val  Loss: 1.7722 | Val  Acc: 0.4286
+ Site-Sketch    | Val  Loss: 1.7959 | Val  Acc: 0.4571
+============ Train epoch 295 ============
+============ Train epoch 296 ============
+============ Train epoch 297 ============
+============ Train epoch 298 ============
+============ Train epoch 299 ============
+ Site-Infograph | Train Loss: 0.6991 | Train Acc: 0.9619
+ Site-Painting  | Train Loss: 0.6981 | Train Acc: 0.9429
+ Site-Quickdraw | Train Loss: 0.7213 | Train Acc: 0.9429
+ Site-Real      | Train Loss: 0.7117 | Train Acc: 0.9143
+ Site-Sketch    | Train Loss: 0.6846 | Train Acc: 0.9524
+ Site-Infograph | Val  Loss: 2.6262 | Val  Acc: 0.2571
+ Site-Painting  | Val  Loss: 2.0212 | Val  Acc: 0.4476
+ Site-Quickdraw | Val  Loss: 1.5864 | Val  Acc: 0.5810
+ Site-Real      | Val  Loss: 1.8640 | Val  Acc: 0.4476
+ Site-Sketch    | Val  Loss: 1.8296 | Val  Acc: 0.4095
+
+========== Testing at Round 60 ==========
+ Test site-Infograph | Epoch:60 | Test Acc: 0.2527
+ Test site-Painting  | Epoch:60 | Test Acc: 0.3958
+ Test site-Quickdraw | Epoch:60 | Test Acc: 0.6570
+ Test site-Real      | Epoch:60 | Test Acc: 0.4947
+ Test site-Sketch    | Epoch:60 | Test Acc: 0.4061
+Unseen site-Clipart    |Test site-Infograph | Epoch:60 | Test Acc: 0.3631
+Unseen site-Clipart    |Test site-Painting  | Epoch:60 | Test Acc: 0.3631
+Unseen site-Clipart    |Test site-Quickdraw | Epoch:60 | Test Acc: 0.3574
+Unseen site-Clipart    |Test site-Real      | Epoch:60 | Test Acc: 0.3479
+Unseen site-Clipart    |Test site-Sketch    | Epoch:60 | Test Acc: 0.3650
+============ Train epoch 300 ============
+============ Train epoch 301 ============
+============ Train epoch 302 ============
+============ Train epoch 303 ============
+============ Train epoch 304 ============
+ Site-Infograph | Train Loss: 0.7265 | Train Acc: 0.9524
+ Site-Painting  | Train Loss: 0.6260 | Train Acc: 0.9714
+ Site-Quickdraw | Train Loss: 0.8112 | Train Acc: 0.9048
+ Site-Real      | Train Loss: 0.6677 | Train Acc: 0.9714
+ Site-Sketch    | Train Loss: 0.7522 | Train Acc: 0.9524
+ Site-Infograph | Val  Loss: 2.6573 | Val  Acc: 0.2190
+ Site-Painting  | Val  Loss: 1.8666 | Val  Acc: 0.4095
+ Site-Quickdraw | Val  Loss: 1.6786 | Val  Acc: 0.5524
+ Site-Real      | Val  Loss: 1.9059 | Val  Acc: 0.4667
+ Site-Sketch    | Val  Loss: 1.8297 | Val  Acc: 0.4381
+============ Train epoch 305 ============
+============ Train epoch 306 ============
+============ Train epoch 307 ============
+============ Train epoch 308 ============
+============ Train epoch 309 ============
+ Site-Infograph | Train Loss: 0.7595 | Train Acc: 0.9429
+ Site-Painting  | Train Loss: 0.6838 | Train Acc: 0.9619
+ Site-Quickdraw | Train Loss: 0.6886 | Train Acc: 0.9238
+ Site-Real      | Train Loss: 0.6814 | Train Acc: 0.9619
+ Site-Sketch    | Train Loss: 0.7039 | Train Acc: 0.9238
+ Site-Infograph | Val  Loss: 2.6943 | Val  Acc: 0.2476
+ Site-Painting  | Val  Loss: 1.9181 | Val  Acc: 0.4095
+ Site-Quickdraw | Val  Loss: 1.7056 | Val  Acc: 0.5619
+ Site-Real      | Val  Loss: 1.8856 | Val  Acc: 0.4190
+ Site-Sketch    | Val  Loss: 1.8621 | Val  Acc: 0.4476
+============ Train epoch 310 ============
+============ Train epoch 311 ============
+============ Train epoch 312 ============
+============ Train epoch 313 ============
+============ Train epoch 314 ============
+ Site-Infograph | Train Loss: 0.8212 | Train Acc: 0.9143
+ Site-Painting  | Train Loss: 0.6223 | Train Acc: 0.9714
+ Site-Quickdraw | Train Loss: 0.7138 | Train Acc: 0.9429
+ Site-Real      | Train Loss: 0.6767 | Train Acc: 0.9429
+ Site-Sketch    | Train Loss: 0.6958 | Train Acc: 0.9524
+ Site-Infograph | Val  Loss: 2.6261 | Val  Acc: 0.2381
+ Site-Painting  | Val  Loss: 1.8908 | Val  Acc: 0.4000
+ Site-Quickdraw | Val  Loss: 1.6864 | Val  Acc: 0.5905
+ Site-Real      | Val  Loss: 1.8513 | Val  Acc: 0.4952
+ Site-Sketch    | Val  Loss: 1.8835 | Val  Acc: 0.4762
+============ Train epoch 315 ============
+============ Train epoch 316 ============
+============ Train epoch 317 ============
+============ Train epoch 318 ============
+============ Train epoch 319 ============
+ Site-Infograph | Train Loss: 0.7211 | Train Acc: 0.9619
+ Site-Painting  | Train Loss: 0.6648 | Train Acc: 0.9619
+ Site-Quickdraw | Train Loss: 0.8349 | Train Acc: 0.8667
+ Site-Real      | Train Loss: 0.6448 | Train Acc: 0.9714
+ Site-Sketch    | Train Loss: 0.6592 | Train Acc: 0.9905
+ Site-Infograph | Val  Loss: 2.6372 | Val  Acc: 0.2381
+ Site-Painting  | Val  Loss: 1.8649 | Val  Acc: 0.4571
+ Site-Quickdraw | Val  Loss: 1.7121 | Val  Acc: 0.6095
+ Site-Real      | Val  Loss: 1.7904 | Val  Acc: 0.4857
+ Site-Sketch    | Val  Loss: 1.8349 | Val  Acc: 0.4667
+ Best site-Infograph  | Epoch:63 | Val Acc: 0.2381
+ Best site-Painting   | Epoch:63 | Val Acc: 0.4571
+ Best site-Quickdraw  | Epoch:63 | Val Acc: 0.6095
+ Best site-Real       | Epoch:63 | Val Acc: 0.4857
+ Best site-Sketch     | Epoch:63 | Val Acc: 0.4667
+ Saving the local and server checkpoint to ../checkpoint/domainnet_pfeddr/pfeddr_beta2/pfeddr_seed0_unseen0...
+============ Train epoch 320 ============
+============ Train epoch 321 ============
+============ Train epoch 322 ============
+============ Train epoch 323 ============
+============ Train epoch 324 ============
+ Site-Infograph | Train Loss: 0.8511 | Train Acc: 0.9619
+ Site-Painting  | Train Loss: 0.6573 | Train Acc: 0.9524
+ Site-Quickdraw | Train Loss: 0.7727 | Train Acc: 0.9143
+ Site-Real      | Train Loss: 0.6148 | Train Acc: 0.9714
+ Site-Sketch    | Train Loss: 0.7108 | Train Acc: 0.9143
+ Site-Infograph | Val  Loss: 2.6867 | Val  Acc: 0.2000
+ Site-Painting  | Val  Loss: 1.9372 | Val  Acc: 0.4476
+ Site-Quickdraw | Val  Loss: 1.6478 | Val  Acc: 0.6190
+ Site-Real      | Val  Loss: 1.8034 | Val  Acc: 0.4857
+ Site-Sketch    | Val  Loss: 1.9633 | Val  Acc: 0.4381
+============ Train epoch 325 ============
+============ Train epoch 326 ============
+============ Train epoch 327 ============
+============ Train epoch 328 ============
+============ Train epoch 329 ============
+ Site-Infograph | Train Loss: 0.6622 | Train Acc: 0.9810
+ Site-Painting  | Train Loss: 0.6304 | Train Acc: 0.9714
+ Site-Quickdraw | Train Loss: 0.6953 | Train Acc: 0.9524
+ Site-Real      | Train Loss: 0.6104 | Train Acc: 0.9810
+ Site-Sketch    | Train Loss: 0.6838 | Train Acc: 0.9429
+ Site-Infograph | Val  Loss: 2.6670 | Val  Acc: 0.2571
+ Site-Painting  | Val  Loss: 1.9079 | Val  Acc: 0.4095
+ Site-Quickdraw | Val  Loss: 1.6195 | Val  Acc: 0.5905
+ Site-Real      | Val  Loss: 1.7755 | Val  Acc: 0.4857
+ Site-Sketch    | Val  Loss: 1.7900 | Val  Acc: 0.4667
+============ Train epoch 330 ============
+============ Train epoch 331 ============
+============ Train epoch 332 ============
+============ Train epoch 333 ============
+============ Train epoch 334 ============
+ Site-Infograph | Train Loss: 0.6725 | Train Acc: 0.9714
+ Site-Painting  | Train Loss: 0.6003 | Train Acc: 0.9905
+ Site-Quickdraw | Train Loss: 0.7319 | Train Acc: 0.9429
+ Site-Real      | Train Loss: 0.5806 | Train Acc: 0.9810
+ Site-Sketch    | Train Loss: 0.6751 | Train Acc: 0.9429
+ Site-Infograph | Val  Loss: 2.6337 | Val  Acc: 0.2667
+ Site-Painting  | Val  Loss: 1.8954 | Val  Acc: 0.4190
+ Site-Quickdraw | Val  Loss: 1.6277 | Val  Acc: 0.5810
+ Site-Real      | Val  Loss: 1.7283 | Val  Acc: 0.5143
+ Site-Sketch    | Val  Loss: 1.7919 | Val  Acc: 0.4762
+============ Train epoch 335 ============
+============ Train epoch 336 ============
+============ Train epoch 337 ============
+============ Train epoch 338 ============
+============ Train epoch 339 ============
+ Site-Infograph | Train Loss: 0.7021 | Train Acc: 0.9619
+ Site-Painting  | Train Loss: 0.6248 | Train Acc: 0.9714
+ Site-Quickdraw | Train Loss: 0.7014 | Train Acc: 0.9333
+ Site-Real      | Train Loss: 0.5945 | Train Acc: 0.9905
+ Site-Sketch    | Train Loss: 0.6376 | Train Acc: 0.9714
+ Site-Infograph | Val  Loss: 2.6760 | Val  Acc: 0.2095
+ Site-Painting  | Val  Loss: 1.9216 | Val  Acc: 0.4286
+ Site-Quickdraw | Val  Loss: 1.6604 | Val  Acc: 0.6095
+ Site-Real      | Val  Loss: 1.7484 | Val  Acc: 0.4857
+ Site-Sketch    | Val  Loss: 1.8345 | Val  Acc: 0.4952
+============ Train epoch 340 ============
+============ Train epoch 341 ============
+============ Train epoch 342 ============
+============ Train epoch 343 ============
+============ Train epoch 344 ============
+ Site-Infograph | Train Loss: 0.7024 | Train Acc: 0.9333
+ Site-Painting  | Train Loss: 0.6610 | Train Acc: 0.9429
+ Site-Quickdraw | Train Loss: 0.6995 | Train Acc: 0.9238
+ Site-Real      | Train Loss: 0.6149 | Train Acc: 0.9619
+ Site-Sketch    | Train Loss: 0.6069 | Train Acc: 0.9810
+ Site-Infograph | Val  Loss: 2.6879 | Val  Acc: 0.2286
+ Site-Painting  | Val  Loss: 2.0120 | Val  Acc: 0.4190
+ Site-Quickdraw | Val  Loss: 1.6729 | Val  Acc: 0.5905
+ Site-Real      | Val  Loss: 1.7689 | Val  Acc: 0.4476
+ Site-Sketch    | Val  Loss: 1.8122 | Val  Acc: 0.4857
+============ Train epoch 345 ============
+============ Train epoch 346 ============
+============ Train epoch 347 ============
+============ Train epoch 348 ============
+============ Train epoch 349 ============
+ Site-Infograph | Train Loss: 0.6551 | Train Acc: 0.9810
+ Site-Painting  | Train Loss: 0.6041 | Train Acc: 0.9810
+ Site-Quickdraw | Train Loss: 0.6926 | Train Acc: 0.9810
+ Site-Real      | Train Loss: 0.5839 | Train Acc: 0.9905
+ Site-Sketch    | Train Loss: 0.6357 | Train Acc: 0.9810
+ Site-Infograph | Val  Loss: 2.6659 | Val  Acc: 0.2476
+ Site-Painting  | Val  Loss: 1.9256 | Val  Acc: 0.4476
+ Site-Quickdraw | Val  Loss: 1.5848 | Val  Acc: 0.6000
+ Site-Real      | Val  Loss: 1.7158 | Val  Acc: 0.4857
+ Site-Sketch    | Val  Loss: 1.8000 | Val  Acc: 0.4476
+
+========== Testing at Round 70 ==========
+ Test site-Infograph | Epoch:70 | Test Acc: 0.2588
+ Test site-Painting  | Epoch:70 | Test Acc: 0.4071
+ Test site-Quickdraw | Epoch:70 | Test Acc: 0.6630
+ Test site-Real      | Epoch:70 | Test Acc: 0.5267
+ Test site-Sketch    | Epoch:70 | Test Acc: 0.4278
+Unseen site-Clipart    |Test site-Infograph | Epoch:70 | Test Acc: 0.3555
+Unseen site-Clipart    |Test site-Painting  | Epoch:70 | Test Acc: 0.3897
+Unseen site-Clipart    |Test site-Quickdraw | Epoch:70 | Test Acc: 0.3802
+Unseen site-Clipart    |Test site-Real      | Epoch:70 | Test Acc: 0.3726
+Unseen site-Clipart    |Test site-Sketch    | Epoch:70 | Test Acc: 0.3821
+============ Train epoch 350 ============
+============ Train epoch 351 ============
+============ Train epoch 352 ============
+============ Train epoch 353 ============
+============ Train epoch 354 ============
+ Site-Infograph | Train Loss: 0.6413 | Train Acc: 0.9714
+ Site-Painting  | Train Loss: 0.6030 | Train Acc: 0.9905
+ Site-Quickdraw | Train Loss: 0.7161 | Train Acc: 0.9333
+ Site-Real      | Train Loss: 0.6164 | Train Acc: 0.9429
+ Site-Sketch    | Train Loss: 0.6443 | Train Acc: 0.9810
+ Site-Infograph | Val  Loss: 2.7148 | Val  Acc: 0.2095
+ Site-Painting  | Val  Loss: 1.9061 | Val  Acc: 0.4381
+ Site-Quickdraw | Val  Loss: 1.6164 | Val  Acc: 0.5905
+ Site-Real      | Val  Loss: 1.7681 | Val  Acc: 0.4762
+ Site-Sketch    | Val  Loss: 1.7967 | Val  Acc: 0.4571
+============ Train epoch 355 ============
+============ Train epoch 356 ============
+============ Train epoch 357 ============
+============ Train epoch 358 ============
+============ Train epoch 359 ============
+ Site-Infograph | Train Loss: 0.6760 | Train Acc: 0.9429
+ Site-Painting  | Train Loss: 0.6046 | Train Acc: 0.9714
+ Site-Quickdraw | Train Loss: 0.7446 | Train Acc: 0.9524
+ Site-Real      | Train Loss: 0.5919 | Train Acc: 1.0000
+ Site-Sketch    | Train Loss: 0.6613 | Train Acc: 0.9714
+ Site-Infograph | Val  Loss: 2.6922 | Val  Acc: 0.2190
+ Site-Painting  | Val  Loss: 1.9370 | Val  Acc: 0.3905
+ Site-Quickdraw | Val  Loss: 1.5852 | Val  Acc: 0.6190
+ Site-Real      | Val  Loss: 1.7092 | Val  Acc: 0.5048
+ Site-Sketch    | Val  Loss: 1.7192 | Val  Acc: 0.4762
+============ Train epoch 360 ============
+============ Train epoch 361 ============
+============ Train epoch 362 ============
+============ Train epoch 363 ============
+============ Train epoch 364 ============
+ Site-Infograph | Train Loss: 0.6651 | Train Acc: 0.9524
+ Site-Painting  | Train Loss: 0.6699 | Train Acc: 0.9619
+ Site-Quickdraw | Train Loss: 0.6776 | Train Acc: 0.9619
+ Site-Real      | Train Loss: 0.5698 | Train Acc: 0.9905
+ Site-Sketch    | Train Loss: 0.6174 | Train Acc: 0.9714
+ Site-Infograph | Val  Loss: 2.6328 | Val  Acc: 0.2381
+ Site-Painting  | Val  Loss: 1.9241 | Val  Acc: 0.4762
+ Site-Quickdraw | Val  Loss: 1.5536 | Val  Acc: 0.6095
+ Site-Real      | Val  Loss: 1.7467 | Val  Acc: 0.5143
+ Site-Sketch    | Val  Loss: 1.8088 | Val  Acc: 0.4286
+ Best site-Infograph  | Epoch:72 | Val Acc: 0.2381
+ Best site-Painting   | Epoch:72 | Val Acc: 0.4762
+ Best site-Quickdraw  | Epoch:72 | Val Acc: 0.6095
+ Best site-Real       | Epoch:72 | Val Acc: 0.5143
+ Best site-Sketch     | Epoch:72 | Val Acc: 0.4286
+ Saving the local and server checkpoint to ../checkpoint/domainnet_pfeddr/pfeddr_beta2/pfeddr_seed0_unseen0...
+============ Train epoch 365 ============
+============ Train epoch 366 ============
+============ Train epoch 367 ============
+============ Train epoch 368 ============
+============ Train epoch 369 ============
+ Site-Infograph | Train Loss: 0.6274 | Train Acc: 0.9714
+ Site-Painting  | Train Loss: 0.6081 | Train Acc: 0.9714
+ Site-Quickdraw | Train Loss: 0.6537 | Train Acc: 0.9714
+ Site-Real      | Train Loss: 0.5821 | Train Acc: 0.9810
+ Site-Sketch    | Train Loss: 0.6577 | Train Acc: 0.9810
+ Site-Infograph | Val  Loss: 2.6169 | Val  Acc: 0.2476
+ Site-Painting  | Val  Loss: 1.9092 | Val  Acc: 0.4762
+ Site-Quickdraw | Val  Loss: 1.5995 | Val  Acc: 0.6190
+ Site-Real      | Val  Loss: 1.6997 | Val  Acc: 0.5238
+ Site-Sketch    | Val  Loss: 1.7372 | Val  Acc: 0.4857
+ Best site-Infograph  | Epoch:73 | Val Acc: 0.2476
+ Best site-Painting   | Epoch:73 | Val Acc: 0.4762
+ Best site-Quickdraw  | Epoch:73 | Val Acc: 0.6190
+ Best site-Real       | Epoch:73 | Val Acc: 0.5238
+ Best site-Sketch     | Epoch:73 | Val Acc: 0.4857
+ Saving the local and server checkpoint to ../checkpoint/domainnet_pfeddr/pfeddr_beta2/pfeddr_seed0_unseen0...
+============ Train epoch 370 ============
+============ Train epoch 371 ============
+============ Train epoch 372 ============
+============ Train epoch 373 ============
+============ Train epoch 374 ============
+ Site-Infograph | Train Loss: 0.6166 | Train Acc: 0.9714
+ Site-Painting  | Train Loss: 0.6337 | Train Acc: 0.9714
+ Site-Quickdraw | Train Loss: 0.6780 | Train Acc: 0.9429
+ Site-Real      | Train Loss: 0.5825 | Train Acc: 0.9810
+ Site-Sketch    | Train Loss: 0.6201 | Train Acc: 0.9810
+ Site-Infograph | Val  Loss: 2.6589 | Val  Acc: 0.2286
+ Site-Painting  | Val  Loss: 1.9869 | Val  Acc: 0.4762
+ Site-Quickdraw | Val  Loss: 1.5726 | Val  Acc: 0.6095
+ Site-Real      | Val  Loss: 1.7354 | Val  Acc: 0.5143
+ Site-Sketch    | Val  Loss: 1.8413 | Val  Acc: 0.4571
+============ Train epoch 375 ============
+============ Train epoch 376 ============
+============ Train epoch 377 ============
+============ Train epoch 378 ============
+============ Train epoch 379 ============
+ Site-Infograph | Train Loss: 0.6082 | Train Acc: 0.9714
+ Site-Painting  | Train Loss: 0.6249 | Train Acc: 0.9810
+ Site-Quickdraw | Train Loss: 0.6398 | Train Acc: 0.9810
+ Site-Real      | Train Loss: 0.5766 | Train Acc: 1.0000
+ Site-Sketch    | Train Loss: 0.5842 | Train Acc: 0.9810
+ Site-Infograph | Val  Loss: 2.6510 | Val  Acc: 0.2000
+ Site-Painting  | Val  Loss: 1.9583 | Val  Acc: 0.4857
+ Site-Quickdraw | Val  Loss: 1.5357 | Val  Acc: 0.6095
+ Site-Real      | Val  Loss: 1.7475 | Val  Acc: 0.4952
+ Site-Sketch    | Val  Loss: 1.8122 | Val  Acc: 0.4190
+============ Train epoch 380 ============
+============ Train epoch 381 ============
+============ Train epoch 382 ============
+============ Train epoch 383 ============
+============ Train epoch 384 ============
+ Site-Infograph | Train Loss: 0.6347 | Train Acc: 0.9810
+ Site-Painting  | Train Loss: 0.5903 | Train Acc: 0.9810
+ Site-Quickdraw | Train Loss: 0.7013 | Train Acc: 0.9429
+ Site-Real      | Train Loss: 0.5663 | Train Acc: 0.9905
+ Site-Sketch    | Train Loss: 0.6277 | Train Acc: 0.9905
+ Site-Infograph | Val  Loss: 2.6153 | Val  Acc: 0.2190
+ Site-Painting  | Val  Loss: 1.9387 | Val  Acc: 0.4952
+ Site-Quickdraw | Val  Loss: 1.5398 | Val  Acc: 0.6381
+ Site-Real      | Val  Loss: 1.7562 | Val  Acc: 0.4952
+ Site-Sketch    | Val  Loss: 1.7922 | Val  Acc: 0.4381
+============ Train epoch 385 ============
+============ Train epoch 386 ============
+============ Train epoch 387 ============
+============ Train epoch 388 ============
+============ Train epoch 389 ============
+ Site-Infograph | Train Loss: 0.5927 | Train Acc: 0.9905
+ Site-Painting  | Train Loss: 0.6258 | Train Acc: 0.9810
+ Site-Quickdraw | Train Loss: 0.6667 | Train Acc: 0.9429
+ Site-Real      | Train Loss: 0.5657 | Train Acc: 0.9905
+ Site-Sketch    | Train Loss: 0.6991 | Train Acc: 0.9429
+ Site-Infograph | Val  Loss: 2.6301 | Val  Acc: 0.2381
+ Site-Painting  | Val  Loss: 1.9468 | Val  Acc: 0.4857
+ Site-Quickdraw | Val  Loss: 1.5438 | Val  Acc: 0.6381
+ Site-Real      | Val  Loss: 1.7553 | Val  Acc: 0.4857
+ Site-Sketch    | Val  Loss: 1.8029 | Val  Acc: 0.4381
+============ Train epoch 390 ============
+============ Train epoch 391 ============
+============ Train epoch 392 ============
+============ Train epoch 393 ============
+============ Train epoch 394 ============
+ Site-Infograph | Train Loss: 0.6447 | Train Acc: 0.9905
+ Site-Painting  | Train Loss: 0.5890 | Train Acc: 0.9905
+ Site-Quickdraw | Train Loss: 0.6298 | Train Acc: 0.9905
+ Site-Real      | Train Loss: 0.5877 | Train Acc: 0.9714
+ Site-Sketch    | Train Loss: 0.5783 | Train Acc: 0.9905
+ Site-Infograph | Val  Loss: 2.6250 | Val  Acc: 0.2286
+ Site-Painting  | Val  Loss: 1.9172 | Val  Acc: 0.4857
+ Site-Quickdraw | Val  Loss: 1.5216 | Val  Acc: 0.6381
+ Site-Real      | Val  Loss: 1.7705 | Val  Acc: 0.5048
+ Site-Sketch    | Val  Loss: 1.8045 | Val  Acc: 0.4571
+============ Train epoch 395 ============
+============ Train epoch 396 ============
+============ Train epoch 397 ============
+============ Train epoch 398 ============
+============ Train epoch 399 ============
+ Site-Infograph | Train Loss: 0.6041 | Train Acc: 1.0000
+ Site-Painting  | Train Loss: 0.5884 | Train Acc: 0.9905
+ Site-Quickdraw | Train Loss: 0.7712 | Train Acc: 0.9333
+ Site-Real      | Train Loss: 0.5672 | Train Acc: 0.9905
+ Site-Sketch    | Train Loss: 0.5708 | Train Acc: 1.0000
+ Site-Infograph | Val  Loss: 2.7121 | Val  Acc: 0.2476
+ Site-Painting  | Val  Loss: 1.9122 | Val  Acc: 0.4857
+ Site-Quickdraw | Val  Loss: 1.4877 | Val  Acc: 0.6095
+ Site-Real      | Val  Loss: 1.7559 | Val  Acc: 0.4952
+ Site-Sketch    | Val  Loss: 1.7951 | Val  Acc: 0.4476
+
+========== Testing at Round 80 ==========
+ Test site-Infograph | Epoch:80 | Test Acc: 0.2557
+ Test site-Painting  | Epoch:80 | Test Acc: 0.4168
+ Test site-Quickdraw | Epoch:80 | Test Acc: 0.6780
+ Test site-Real      | Epoch:80 | Test Acc: 0.5407
+ Test site-Sketch    | Epoch:80 | Test Acc: 0.4350
+Unseen site-Clipart    |Test site-Infograph | Epoch:80 | Test Acc: 0.3859
+Unseen site-Clipart    |Test site-Painting  | Epoch:80 | Test Acc: 0.3897
+Unseen site-Clipart    |Test site-Quickdraw | Epoch:80 | Test Acc: 0.4030
+Unseen site-Clipart    |Test site-Real      | Epoch:80 | Test Acc: 0.3878
+Unseen site-Clipart    |Test site-Sketch    | Epoch:80 | Test Acc: 0.4163
+============ Train epoch 400 ============
+============ Train epoch 401 ============
+============ Train epoch 402 ============
+============ Train epoch 403 ============
+============ Train epoch 404 ============
+ Site-Infograph | Train Loss: 0.6442 | Train Acc: 0.9810
+ Site-Painting  | Train Loss: 0.5855 | Train Acc: 1.0000
+ Site-Quickdraw | Train Loss: 0.6276 | Train Acc: 0.9619
+ Site-Real      | Train Loss: 0.5646 | Train Acc: 0.9905
+ Site-Sketch    | Train Loss: 0.5814 | Train Acc: 0.9905
+ Site-Infograph | Val  Loss: 2.7243 | Val  Acc: 0.2095
+ Site-Painting  | Val  Loss: 1.8462 | Val  Acc: 0.5143
+ Site-Quickdraw | Val  Loss: 1.4789 | Val  Acc: 0.6286
+ Site-Real      | Val  Loss: 1.7842 | Val  Acc: 0.4952
+ Site-Sketch    | Val  Loss: 1.7954 | Val  Acc: 0.4571
+============ Train epoch 405 ============
+============ Train epoch 406 ============
+============ Train epoch 407 ============
+============ Train epoch 408 ============
+============ Train epoch 409 ============
+ Site-Infograph | Train Loss: 0.6386 | Train Acc: 0.9619
+ Site-Painting  | Train Loss: 0.5971 | Train Acc: 0.9810
+ Site-Quickdraw | Train Loss: 0.6227 | Train Acc: 0.9619
+ Site-Real      | Train Loss: 0.5718 | Train Acc: 0.9810
+ Site-Sketch    | Train Loss: 0.5970 | Train Acc: 0.9714
+ Site-Infograph | Val  Loss: 2.6552 | Val  Acc: 0.2667
+ Site-Painting  | Val  Loss: 1.8781 | Val  Acc: 0.4571
+ Site-Quickdraw | Val  Loss: 1.4891 | Val  Acc: 0.6190
+ Site-Real      | Val  Loss: 1.7364 | Val  Acc: 0.5143
+ Site-Sketch    | Val  Loss: 1.7803 | Val  Acc: 0.4476
+============ Train epoch 410 ============
+============ Train epoch 411 ============
+============ Train epoch 412 ============
+============ Train epoch 413 ============
+============ Train epoch 414 ============
+ Site-Infograph | Train Loss: 0.5749 | Train Acc: 0.9905
+ Site-Painting  | Train Loss: 0.5643 | Train Acc: 0.9905
+ Site-Quickdraw | Train Loss: 0.6484 | Train Acc: 0.9714
+ Site-Real      | Train Loss: 0.5749 | Train Acc: 0.9905
+ Site-Sketch    | Train Loss: 0.6309 | Train Acc: 0.9619
+ Site-Infograph | Val  Loss: 2.6769 | Val  Acc: 0.2286
+ Site-Painting  | Val  Loss: 1.9022 | Val  Acc: 0.4476
+ Site-Quickdraw | Val  Loss: 1.4716 | Val  Acc: 0.6381
+ Site-Real      | Val  Loss: 1.7440 | Val  Acc: 0.5238
+ Site-Sketch    | Val  Loss: 1.8056 | Val  Acc: 0.4190
+============ Train epoch 415 ============
+============ Train epoch 416 ============
+============ Train epoch 417 ============
+============ Train epoch 418 ============
+============ Train epoch 419 ============
+ Site-Infograph | Train Loss: 0.6228 | Train Acc: 0.9714
+ Site-Painting  | Train Loss: 0.5768 | Train Acc: 1.0000
+ Site-Quickdraw | Train Loss: 0.6727 | Train Acc: 0.9333
+ Site-Real      | Train Loss: 0.5681 | Train Acc: 0.9810
+ Site-Sketch    | Train Loss: 0.5918 | Train Acc: 0.9714
+ Site-Infograph | Val  Loss: 2.6942 | Val  Acc: 0.2095
+ Site-Painting  | Val  Loss: 1.8978 | Val  Acc: 0.4571
+ Site-Quickdraw | Val  Loss: 1.5128 | Val  Acc: 0.6095
+ Site-Real      | Val  Loss: 1.7631 | Val  Acc: 0.5333
+ Site-Sketch    | Val  Loss: 1.7790 | Val  Acc: 0.4571
+============ Train epoch 420 ============
+============ Train epoch 421 ============
+============ Train epoch 422 ============
+============ Train epoch 423 ============
+============ Train epoch 424 ============
+ Site-Infograph | Train Loss: 0.6737 | Train Acc: 0.9714
+ Site-Painting  | Train Loss: 0.5625 | Train Acc: 0.9905
+ Site-Quickdraw | Train Loss: 0.6322 | Train Acc: 0.9905
+ Site-Real      | Train Loss: 0.5539 | Train Acc: 1.0000
+ Site-Sketch    | Train Loss: 0.6245 | Train Acc: 0.9714
+ Site-Infograph | Val  Loss: 2.6572 | Val  Acc: 0.2476
+ Site-Painting  | Val  Loss: 1.8748 | Val  Acc: 0.4667
+ Site-Quickdraw | Val  Loss: 1.4449 | Val  Acc: 0.6571
+ Site-Real      | Val  Loss: 1.7347 | Val  Acc: 0.5238
+ Site-Sketch    | Val  Loss: 1.7834 | Val  Acc: 0.4476
+============ Train epoch 425 ============
+============ Train epoch 426 ============
+============ Train epoch 427 ============
+============ Train epoch 428 ============
+============ Train epoch 429 ============
+ Site-Infograph | Train Loss: 0.5831 | Train Acc: 0.9905
+ Site-Painting  | Train Loss: 0.6024 | Train Acc: 0.9714
+ Site-Quickdraw | Train Loss: 0.5879 | Train Acc: 0.9810
+ Site-Real      | Train Loss: 0.5566 | Train Acc: 0.9905
+ Site-Sketch    | Train Loss: 0.5980 | Train Acc: 0.9905
+ Site-Infograph | Val  Loss: 2.6464 | Val  Acc: 0.2476
+ Site-Painting  | Val  Loss: 1.8650 | Val  Acc: 0.5048
+ Site-Quickdraw | Val  Loss: 1.5034 | Val  Acc: 0.6286
+ Site-Real      | Val  Loss: 1.7462 | Val  Acc: 0.5048
+ Site-Sketch    | Val  Loss: 1.7518 | Val  Acc: 0.4571
+============ Train epoch 430 ============
+============ Train epoch 431 ============
+============ Train epoch 432 ============
+============ Train epoch 433 ============
+============ Train epoch 434 ============
+ Site-Infograph | Train Loss: 0.5819 | Train Acc: 0.9810
+ Site-Painting  | Train Loss: 0.5885 | Train Acc: 0.9714
+ Site-Quickdraw | Train Loss: 0.6486 | Train Acc: 0.9714
+ Site-Real      | Train Loss: 0.5448 | Train Acc: 1.0000
+ Site-Sketch    | Train Loss: 0.5745 | Train Acc: 1.0000
+ Site-Infograph | Val  Loss: 2.6527 | Val  Acc: 0.2095
+ Site-Painting  | Val  Loss: 1.8176 | Val  Acc: 0.4857
+ Site-Quickdraw | Val  Loss: 1.4716 | Val  Acc: 0.6476
+ Site-Real      | Val  Loss: 1.7732 | Val  Acc: 0.5429
+ Site-Sketch    | Val  Loss: 1.7416 | Val  Acc: 0.4667
+============ Train epoch 435 ============
+============ Train epoch 436 ============
+============ Train epoch 437 ============
+============ Train epoch 438 ============
+============ Train epoch 439 ============
+ Site-Infograph | Train Loss: 0.5915 | Train Acc: 0.9905
+ Site-Painting  | Train Loss: 0.5688 | Train Acc: 0.9905
+ Site-Quickdraw | Train Loss: 0.6040 | Train Acc: 0.9714
+ Site-Real      | Train Loss: 0.5810 | Train Acc: 0.9905
+ Site-Sketch    | Train Loss: 0.5756 | Train Acc: 0.9810
+ Site-Infograph | Val  Loss: 2.5857 | Val  Acc: 0.2190
+ Site-Painting  | Val  Loss: 1.8374 | Val  Acc: 0.4857
+ Site-Quickdraw | Val  Loss: 1.4982 | Val  Acc: 0.6381
+ Site-Real      | Val  Loss: 1.7307 | Val  Acc: 0.5048
+ Site-Sketch    | Val  Loss: 1.7181 | Val  Acc: 0.4571
+============ Train epoch 440 ============
+============ Train epoch 441 ============
+============ Train epoch 442 ============
+============ Train epoch 443 ============
+============ Train epoch 444 ============
+ Site-Infograph | Train Loss: 0.6185 | Train Acc: 0.9714
+ Site-Painting  | Train Loss: 0.5814 | Train Acc: 0.9905
+ Site-Quickdraw | Train Loss: 0.6098 | Train Acc: 1.0000
+ Site-Real      | Train Loss: 0.5608 | Train Acc: 1.0000
+ Site-Sketch    | Train Loss: 0.5997 | Train Acc: 1.0000
+ Site-Infograph | Val  Loss: 2.6049 | Val  Acc: 0.2571
+ Site-Painting  | Val  Loss: 1.8490 | Val  Acc: 0.4667
+ Site-Quickdraw | Val  Loss: 1.4918 | Val  Acc: 0.6571
+ Site-Real      | Val  Loss: 1.7403 | Val  Acc: 0.5048
+ Site-Sketch    | Val  Loss: 1.7537 | Val  Acc: 0.4476
+============ Train epoch 445 ============
+============ Train epoch 446 ============
+============ Train epoch 447 ============
+============ Train epoch 448 ============
+============ Train epoch 449 ============
+ Site-Infograph | Train Loss: 0.6125 | Train Acc: 0.9810
+ Site-Painting  | Train Loss: 0.5915 | Train Acc: 0.9810
+ Site-Quickdraw | Train Loss: 0.5922 | Train Acc: 0.9905
+ Site-Real      | Train Loss: 0.5916 | Train Acc: 0.9905
+ Site-Sketch    | Train Loss: 0.5621 | Train Acc: 0.9905
+ Site-Infograph | Val  Loss: 2.5795 | Val  Acc: 0.2381
+ Site-Painting  | Val  Loss: 1.8496 | Val  Acc: 0.4857
+ Site-Quickdraw | Val  Loss: 1.4535 | Val  Acc: 0.6857
+ Site-Real      | Val  Loss: 1.7412 | Val  Acc: 0.4952
+ Site-Sketch    | Val  Loss: 1.7322 | Val  Acc: 0.4476
+
+========== Testing at Round 90 ==========
+ Test site-Infograph | Epoch:90 | Test Acc: 0.2374
+ Test site-Painting  | Epoch:90 | Test Acc: 0.4039
+ Test site-Quickdraw | Epoch:90 | Test Acc: 0.6950
+ Test site-Real      | Epoch:90 | Test Acc: 0.5341
+ Test site-Sketch    | Epoch:90 | Test Acc: 0.4440
+Unseen site-Clipart    |Test site-Infograph | Epoch:90 | Test Acc: 0.3707
+Unseen site-Clipart    |Test site-Painting  | Epoch:90 | Test Acc: 0.3916
+Unseen site-Clipart    |Test site-Quickdraw | Epoch:90 | Test Acc: 0.4030
+Unseen site-Clipart    |Test site-Real      | Epoch:90 | Test Acc: 0.3802
+Unseen site-Clipart    |Test site-Sketch    | Epoch:90 | Test Acc: 0.4144
+============ Train epoch 450 ============
+============ Train epoch 451 ============
+============ Train epoch 452 ============
+============ Train epoch 453 ============
+============ Train epoch 454 ============
+ Site-Infograph | Train Loss: 0.6063 | Train Acc: 0.9810
+ Site-Painting  | Train Loss: 0.5864 | Train Acc: 0.9905
+ Site-Quickdraw | Train Loss: 0.5892 | Train Acc: 0.9714
+ Site-Real      | Train Loss: 0.5928 | Train Acc: 0.9810
+ Site-Sketch    | Train Loss: 0.5634 | Train Acc: 0.9905
+ Site-Infograph | Val  Loss: 2.6175 | Val  Acc: 0.2476
+ Site-Painting  | Val  Loss: 1.8512 | Val  Acc: 0.4762
+ Site-Quickdraw | Val  Loss: 1.4317 | Val  Acc: 0.6667
+ Site-Real      | Val  Loss: 1.7343 | Val  Acc: 0.5048
+ Site-Sketch    | Val  Loss: 1.7679 | Val  Acc: 0.4381
+============ Train epoch 455 ============
+============ Train epoch 456 ============
+============ Train epoch 457 ============
+============ Train epoch 458 ============
+============ Train epoch 459 ============
+ Site-Infograph | Train Loss: 0.6166 | Train Acc: 0.9810
+ Site-Painting  | Train Loss: 0.5440 | Train Acc: 1.0000
+ Site-Quickdraw | Train Loss: 0.5798 | Train Acc: 0.9810
+ Site-Real      | Train Loss: 0.5642 | Train Acc: 0.9714
+ Site-Sketch    | Train Loss: 0.5760 | Train Acc: 0.9905
+ Site-Infograph | Val  Loss: 2.6044 | Val  Acc: 0.2476
+ Site-Painting  | Val  Loss: 1.8833 | Val  Acc: 0.4762
+ Site-Quickdraw | Val  Loss: 1.4037 | Val  Acc: 0.6762
+ Site-Real      | Val  Loss: 1.7180 | Val  Acc: 0.5048
+ Site-Sketch    | Val  Loss: 1.7325 | Val  Acc: 0.4476
+============ Train epoch 460 ============
+============ Train epoch 461 ============
+============ Train epoch 462 ============
+============ Train epoch 463 ============
+============ Train epoch 464 ============
+ Site-Infograph | Train Loss: 0.5914 | Train Acc: 0.9905
+ Site-Painting  | Train Loss: 0.5904 | Train Acc: 0.9905
+ Site-Quickdraw | Train Loss: 0.6058 | Train Acc: 0.9714
+ Site-Real      | Train Loss: 0.5570 | Train Acc: 0.9905
+ Site-Sketch    | Train Loss: 0.5680 | Train Acc: 0.9810
+ Site-Infograph | Val  Loss: 2.5903 | Val  Acc: 0.2286
+ Site-Painting  | Val  Loss: 1.8896 | Val  Acc: 0.4667
+ Site-Quickdraw | Val  Loss: 1.4233 | Val  Acc: 0.6381
+ Site-Real      | Val  Loss: 1.7197 | Val  Acc: 0.5143
+ Site-Sketch    | Val  Loss: 1.7420 | Val  Acc: 0.4381
+============ Train epoch 465 ============
+============ Train epoch 466 ============
+============ Train epoch 467 ============
+============ Train epoch 468 ============
+============ Train epoch 469 ============
+ Site-Infograph | Train Loss: 0.6246 | Train Acc: 0.9619
+ Site-Painting  | Train Loss: 0.6085 | Train Acc: 0.9714
+ Site-Quickdraw | Train Loss: 0.5740 | Train Acc: 1.0000
+ Site-Real      | Train Loss: 0.5483 | Train Acc: 0.9905
+ Site-Sketch    | Train Loss: 0.5537 | Train Acc: 1.0000
+ Site-Infograph | Val  Loss: 2.6159 | Val  Acc: 0.2286
+ Site-Painting  | Val  Loss: 1.8834 | Val  Acc: 0.4857
+ Site-Quickdraw | Val  Loss: 1.4304 | Val  Acc: 0.6571
+ Site-Real      | Val  Loss: 1.7363 | Val  Acc: 0.5048
+ Site-Sketch    | Val  Loss: 1.7083 | Val  Acc: 0.4571
+============ Train epoch 470 ============
+============ Train epoch 471 ============
+============ Train epoch 472 ============
+============ Train epoch 473 ============
+============ Train epoch 474 ============
+ Site-Infograph | Train Loss: 0.5924 | Train Acc: 0.9810
+ Site-Painting  | Train Loss: 0.5724 | Train Acc: 1.0000
+ Site-Quickdraw | Train Loss: 0.5763 | Train Acc: 0.9905
+ Site-Real      | Train Loss: 0.5598 | Train Acc: 1.0000
+ Site-Sketch    | Train Loss: 0.5711 | Train Acc: 0.9905
+ Site-Infograph | Val  Loss: 2.6317 | Val  Acc: 0.2190
+ Site-Painting  | Val  Loss: 1.8826 | Val  Acc: 0.4667
+ Site-Quickdraw | Val  Loss: 1.4108 | Val  Acc: 0.6762
+ Site-Real      | Val  Loss: 1.7110 | Val  Acc: 0.5143
+ Site-Sketch    | Val  Loss: 1.6981 | Val  Acc: 0.4571
+============ Train epoch 475 ============
+============ Train epoch 476 ============
+============ Train epoch 477 ============
+============ Train epoch 478 ============
+============ Train epoch 479 ============
+ Site-Infograph | Train Loss: 0.5730 | Train Acc: 0.9905
+ Site-Painting  | Train Loss: 0.5825 | Train Acc: 0.9905
+ Site-Quickdraw | Train Loss: 0.5887 | Train Acc: 0.9810
+ Site-Real      | Train Loss: 0.5599 | Train Acc: 1.0000
+ Site-Sketch    | Train Loss: 0.5792 | Train Acc: 0.9905
+ Site-Infograph | Val  Loss: 2.6054 | Val  Acc: 0.2286
+ Site-Painting  | Val  Loss: 1.8801 | Val  Acc: 0.4857
+ Site-Quickdraw | Val  Loss: 1.4228 | Val  Acc: 0.6667
+ Site-Real      | Val  Loss: 1.7246 | Val  Acc: 0.5048
+ Site-Sketch    | Val  Loss: 1.7265 | Val  Acc: 0.4381
+============ Train epoch 480 ============
+============ Train epoch 481 ============
+============ Train epoch 482 ============
+============ Train epoch 483 ============
+============ Train epoch 484 ============
+ Site-Infograph | Train Loss: 0.5733 | Train Acc: 1.0000
+ Site-Painting  | Train Loss: 0.5828 | Train Acc: 0.9714
+ Site-Quickdraw | Train Loss: 0.6033 | Train Acc: 0.9810
+ Site-Real      | Train Loss: 0.5397 | Train Acc: 0.9905
+ Site-Sketch    | Train Loss: 0.5607 | Train Acc: 1.0000
+ Site-Infograph | Val  Loss: 2.6056 | Val  Acc: 0.2476
+ Site-Painting  | Val  Loss: 1.8841 | Val  Acc: 0.4667
+ Site-Quickdraw | Val  Loss: 1.4047 | Val  Acc: 0.6762
+ Site-Real      | Val  Loss: 1.6883 | Val  Acc: 0.5143
+ Site-Sketch    | Val  Loss: 1.7409 | Val  Acc: 0.4381
+============ Train epoch 485 ============
+============ Train epoch 486 ============
+============ Train epoch 487 ============
+============ Train epoch 488 ============
+============ Train epoch 489 ============
+ Site-Infograph | Train Loss: 0.5657 | Train Acc: 1.0000
+ Site-Painting  | Train Loss: 0.6007 | Train Acc: 0.9810
+ Site-Quickdraw | Train Loss: 0.6107 | Train Acc: 0.9905
+ Site-Real      | Train Loss: 0.5415 | Train Acc: 1.0000
+ Site-Sketch    | Train Loss: 0.6098 | Train Acc: 0.9429
+ Site-Infograph | Val  Loss: 2.6223 | Val  Acc: 0.2190
+ Site-Painting  | Val  Loss: 1.8751 | Val  Acc: 0.4667
+ Site-Quickdraw | Val  Loss: 1.4090 | Val  Acc: 0.7048
+ Site-Real      | Val  Loss: 1.7165 | Val  Acc: 0.5048
+ Site-Sketch    | Val  Loss: 1.7785 | Val  Acc: 0.4381
+============ Train epoch 490 ============
+============ Train epoch 491 ============
+============ Train epoch 492 ============
+============ Train epoch 493 ============
+============ Train epoch 494 ============
+ Site-Infograph | Train Loss: 0.6329 | Train Acc: 0.9905
+ Site-Painting  | Train Loss: 0.5727 | Train Acc: 0.9810
+ Site-Quickdraw | Train Loss: 0.5872 | Train Acc: 0.9905
+ Site-Real      | Train Loss: 0.5605 | Train Acc: 0.9905
+ Site-Sketch    | Train Loss: 0.5863 | Train Acc: 1.0000
+ Site-Infograph | Val  Loss: 2.6046 | Val  Acc: 0.2000
+ Site-Painting  | Val  Loss: 1.8831 | Val  Acc: 0.4571
+ Site-Quickdraw | Val  Loss: 1.3926 | Val  Acc: 0.6857
+ Site-Real      | Val  Loss: 1.7030 | Val  Acc: 0.5143
+ Site-Sketch    | Val  Loss: 1.8064 | Val  Acc: 0.4286
+============ Train epoch 495 ============
+============ Train epoch 496 ============
+============ Train epoch 497 ============
+============ Train epoch 498 ============
+============ Train epoch 499 ============
+ Site-Infograph | Train Loss: 0.6354 | Train Acc: 0.9905
+ Site-Painting  | Train Loss: 0.5719 | Train Acc: 0.9810
+ Site-Quickdraw | Train Loss: 0.5754 | Train Acc: 0.9905
+ Site-Real      | Train Loss: 0.5420 | Train Acc: 1.0000
+ Site-Sketch    | Train Loss: 0.5710 | Train Acc: 0.9810
+ Site-Infograph | Val  Loss: 2.6088 | Val  Acc: 0.2095
+ Site-Painting  | Val  Loss: 1.8658 | Val  Acc: 0.4667
+ Site-Quickdraw | Val  Loss: 1.3971 | Val  Acc: 0.6762
+ Site-Real      | Val  Loss: 1.7107 | Val  Acc: 0.5048
+ Site-Sketch    | Val  Loss: 1.7635 | Val  Acc: 0.4381
+
+========== Testing at Round 100 ==========
+ Test site-Infograph | Epoch:100 | Test Acc: 0.2359
+ Test site-Painting  | Epoch:100 | Test Acc: 0.4071
+ Test site-Quickdraw | Epoch:100 | Test Acc: 0.7040
+ Test site-Real      | Epoch:100 | Test Acc: 0.5456
+ Test site-Sketch    | Epoch:100 | Test Acc: 0.4422
+Unseen site-Clipart    |Test site-Infograph | Epoch:100 | Test Acc: 0.3783
+Unseen site-Clipart    |Test site-Painting  | Epoch:100 | Test Acc: 0.3897
+Unseen site-Clipart    |Test site-Quickdraw | Epoch:100 | Test Acc: 0.4163
+Unseen site-Clipart    |Test site-Real      | Epoch:100 | Test Acc: 0.3688
+Unseen site-Clipart    |Test site-Sketch    | Epoch:100 | Test Acc: 0.4144
+============ Train epoch 500 ============
+============ Train epoch 501 ============
+============ Train epoch 502 ============
+============ Train epoch 503 ============
+============ Train epoch 504 ============
+ Site-Infograph | Train Loss: 0.5988 | Train Acc: 0.9905
+ Site-Painting  | Train Loss: 0.6089 | Train Acc: 0.9619
+ Site-Quickdraw | Train Loss: 0.5783 | Train Acc: 0.9905
+ Site-Real      | Train Loss: 0.5406 | Train Acc: 1.0000
+ Site-Sketch    | Train Loss: 0.5941 | Train Acc: 0.9905
+ Site-Infograph | Val  Loss: 2.6174 | Val  Acc: 0.2286
+ Site-Painting  | Val  Loss: 1.8924 | Val  Acc: 0.4571
+ Site-Quickdraw | Val  Loss: 1.3794 | Val  Acc: 0.6857
+ Site-Real      | Val  Loss: 1.7080 | Val  Acc: 0.4857
+ Site-Sketch    | Val  Loss: 1.7651 | Val  Acc: 0.4190
+============ Train epoch 505 ============
+============ Train epoch 506 ============
+============ Train epoch 507 ============
+============ Train epoch 508 ============
+============ Train epoch 509 ============
+ Site-Infograph | Train Loss: 0.5713 | Train Acc: 0.9905
+ Site-Painting  | Train Loss: 0.5543 | Train Acc: 1.0000
+ Site-Quickdraw | Train Loss: 0.5628 | Train Acc: 0.9905
+ Site-Real      | Train Loss: 0.5493 | Train Acc: 1.0000
+ Site-Sketch    | Train Loss: 0.5663 | Train Acc: 1.0000
+ Site-Infograph | Val  Loss: 2.6488 | Val  Acc: 0.2286
+ Site-Painting  | Val  Loss: 1.8827 | Val  Acc: 0.4857
+ Site-Quickdraw | Val  Loss: 1.4063 | Val  Acc: 0.7048
+ Site-Real      | Val  Loss: 1.7182 | Val  Acc: 0.4952
+ Site-Sketch    | Val  Loss: 1.7336 | Val  Acc: 0.4286
+============ Train epoch 510 ============
+============ Train epoch 511 ============
+============ Train epoch 512 ============
+============ Train epoch 513 ============
+============ Train epoch 514 ============
+ Site-Infograph | Train Loss: 0.5758 | Train Acc: 0.9905
+ Site-Painting  | Train Loss: 0.5569 | Train Acc: 1.0000
+ Site-Quickdraw | Train Loss: 0.5752 | Train Acc: 0.9810
+ Site-Real      | Train Loss: 0.5481 | Train Acc: 1.0000
+ Site-Sketch    | Train Loss: 0.5794 | Train Acc: 0.9810
+ Site-Infograph | Val  Loss: 2.6180 | Val  Acc: 0.2286
+ Site-Painting  | Val  Loss: 1.8819 | Val  Acc: 0.4667
+ Site-Quickdraw | Val  Loss: 1.3811 | Val  Acc: 0.7048
+ Site-Real      | Val  Loss: 1.7019 | Val  Acc: 0.4952
+ Site-Sketch    | Val  Loss: 1.7517 | Val  Acc: 0.4286
+============ Train epoch 515 ============
+============ Train epoch 516 ============
+============ Train epoch 517 ============
+============ Train epoch 518 ============
+============ Train epoch 519 ============
+ Site-Infograph | Train Loss: 0.6835 | Train Acc: 0.9810
+ Site-Painting  | Train Loss: 0.5971 | Train Acc: 0.9810
+ Site-Quickdraw | Train Loss: 0.5932 | Train Acc: 0.9905
+ Site-Real      | Train Loss: 0.5609 | Train Acc: 0.9810
+ Site-Sketch    | Train Loss: 0.5585 | Train Acc: 1.0000
+ Site-Infograph | Val  Loss: 2.6266 | Val  Acc: 0.2190
+ Site-Painting  | Val  Loss: 1.8869 | Val  Acc: 0.4667
+ Site-Quickdraw | Val  Loss: 1.3795 | Val  Acc: 0.6952
+ Site-Real      | Val  Loss: 1.7060 | Val  Acc: 0.5143
+ Site-Sketch    | Val  Loss: 1.7147 | Val  Acc: 0.4476
+============ Train epoch 520 ============
+============ Train epoch 521 ============
+============ Train epoch 522 ============
+============ Train epoch 523 ============
+============ Train epoch 524 ============
+ Site-Infograph | Train Loss: 0.5875 | Train Acc: 0.9810
+ Site-Painting  | Train Loss: 0.5512 | Train Acc: 0.9905
+ Site-Quickdraw | Train Loss: 0.6899 | Train Acc: 0.9810
+ Site-Real      | Train Loss: 0.5518 | Train Acc: 0.9905
+ Site-Sketch    | Train Loss: 0.5680 | Train Acc: 1.0000
+ Site-Infograph | Val  Loss: 2.6107 | Val  Acc: 0.2286
+ Site-Painting  | Val  Loss: 1.9060 | Val  Acc: 0.4762
+ Site-Quickdraw | Val  Loss: 1.3893 | Val  Acc: 0.7143
+ Site-Real      | Val  Loss: 1.7046 | Val  Acc: 0.4952
+ Site-Sketch    | Val  Loss: 1.7518 | Val  Acc: 0.4381
+============ Train epoch 525 ============
+============ Train epoch 526 ============
+============ Train epoch 527 ============
+============ Train epoch 528 ============
+============ Train epoch 529 ============
+ Site-Infograph | Train Loss: 0.5778 | Train Acc: 0.9810
+ Site-Painting  | Train Loss: 0.5526 | Train Acc: 1.0000
+ Site-Quickdraw | Train Loss: 0.5746 | Train Acc: 1.0000
+ Site-Real      | Train Loss: 0.5352 | Train Acc: 1.0000
+ Site-Sketch    | Train Loss: 0.5541 | Train Acc: 1.0000
+ Site-Infograph | Val  Loss: 2.6294 | Val  Acc: 0.2095
+ Site-Painting  | Val  Loss: 1.9045 | Val  Acc: 0.4762
+ Site-Quickdraw | Val  Loss: 1.3883 | Val  Acc: 0.7333
+ Site-Real      | Val  Loss: 1.6984 | Val  Acc: 0.5048
+ Site-Sketch    | Val  Loss: 1.7610 | Val  Acc: 0.4286
+============ Train epoch 530 ============
+============ Train epoch 531 ============
+============ Train epoch 532 ============
+============ Train epoch 533 ============
+============ Train epoch 534 ============
+ Site-Infograph | Train Loss: 0.6203 | Train Acc: 0.9810
+ Site-Painting  | Train Loss: 0.6227 | Train Acc: 0.9714
+ Site-Quickdraw | Train Loss: 0.6390 | Train Acc: 0.9619
+ Site-Real      | Train Loss: 0.5599 | Train Acc: 0.9905
+ Site-Sketch    | Train Loss: 0.5548 | Train Acc: 1.0000
+ Site-Infograph | Val  Loss: 2.6310 | Val  Acc: 0.2095
+ Site-Painting  | Val  Loss: 1.9088 | Val  Acc: 0.4762
+ Site-Quickdraw | Val  Loss: 1.3871 | Val  Acc: 0.7143
+ Site-Real      | Val  Loss: 1.7247 | Val  Acc: 0.4952
+ Site-Sketch    | Val  Loss: 1.7374 | Val  Acc: 0.4476
+============ Train epoch 535 ============
+============ Train epoch 536 ============
+============ Train epoch 537 ============
+============ Train epoch 538 ============
+============ Train epoch 539 ============
+ Site-Infograph | Train Loss: 0.5599 | Train Acc: 0.9905
+ Site-Painting  | Train Loss: 0.5487 | Train Acc: 1.0000
+ Site-Quickdraw | Train Loss: 0.5526 | Train Acc: 1.0000
+ Site-Real      | Train Loss: 0.5619 | Train Acc: 0.9810
+ Site-Sketch    | Train Loss: 0.5805 | Train Acc: 1.0000
+ Site-Infograph | Val  Loss: 2.6387 | Val  Acc: 0.2190
+ Site-Painting  | Val  Loss: 1.9002 | Val  Acc: 0.4857
+ Site-Quickdraw | Val  Loss: 1.3763 | Val  Acc: 0.7143
+ Site-Real      | Val  Loss: 1.7102 | Val  Acc: 0.5048
+ Site-Sketch    | Val  Loss: 1.7435 | Val  Acc: 0.4381
+ Best site-Infograph  | Epoch:107 | Val Acc: 0.2190
+ Best site-Painting   | Epoch:107 | Val Acc: 0.4857
+ Best site-Quickdraw  | Epoch:107 | Val Acc: 0.7143
+ Best site-Real       | Epoch:107 | Val Acc: 0.5048
+ Best site-Sketch     | Epoch:107 | Val Acc: 0.4381
+ Saving the local and server checkpoint to ../checkpoint/domainnet_pfeddr/pfeddr_beta2/pfeddr_seed0_unseen0...
+============ Train epoch 540 ============
+============ Train epoch 541 ============
+============ Train epoch 542 ============
+============ Train epoch 543 ============
+============ Train epoch 544 ============
+ Site-Infograph | Train Loss: 0.5858 | Train Acc: 0.9905
+ Site-Painting  | Train Loss: 0.5560 | Train Acc: 1.0000
+ Site-Quickdraw | Train Loss: 0.5797 | Train Acc: 0.9905
+ Site-Real      | Train Loss: 0.5519 | Train Acc: 1.0000
+ Site-Sketch    | Train Loss: 0.5561 | Train Acc: 1.0000
+ Site-Infograph | Val  Loss: 2.6516 | Val  Acc: 0.2095
+ Site-Painting  | Val  Loss: 1.8824 | Val  Acc: 0.4857
+ Site-Quickdraw | Val  Loss: 1.3855 | Val  Acc: 0.7143
+ Site-Real      | Val  Loss: 1.6990 | Val  Acc: 0.5048
+ Site-Sketch    | Val  Loss: 1.7697 | Val  Acc: 0.4381
+============ Train epoch 545 ============
+============ Train epoch 546 ============
+============ Train epoch 547 ============
+============ Train epoch 548 ============
+============ Train epoch 549 ============
+ Site-Infograph | Train Loss: 0.5982 | Train Acc: 0.9714
+ Site-Painting  | Train Loss: 0.5600 | Train Acc: 0.9905
+ Site-Quickdraw | Train Loss: 0.5687 | Train Acc: 1.0000
+ Site-Real      | Train Loss: 0.5547 | Train Acc: 0.9905
+ Site-Sketch    | Train Loss: 0.5669 | Train Acc: 0.9905
+ Site-Infograph | Val  Loss: 2.6406 | Val  Acc: 0.2286
+ Site-Painting  | Val  Loss: 1.8966 | Val  Acc: 0.4667
+ Site-Quickdraw | Val  Loss: 1.3770 | Val  Acc: 0.7238
+ Site-Real      | Val  Loss: 1.6791 | Val  Acc: 0.5048
+ Site-Sketch    | Val  Loss: 1.7594 | Val  Acc: 0.4190
+
+========== Testing at Round 110 ==========
+ Test site-Infograph | Epoch:110 | Test Acc: 0.2466
+ Test site-Painting  | Epoch:110 | Test Acc: 0.4200
+ Test site-Quickdraw | Epoch:110 | Test Acc: 0.7050
+ Test site-Real      | Epoch:110 | Test Acc: 0.5514
+ Test site-Sketch    | Epoch:110 | Test Acc: 0.4549
+Unseen site-Clipart    |Test site-Infograph | Epoch:110 | Test Acc: 0.3783
+Unseen site-Clipart    |Test site-Painting  | Epoch:110 | Test Acc: 0.3973
+Unseen site-Clipart    |Test site-Quickdraw | Epoch:110 | Test Acc: 0.3973
+Unseen site-Clipart    |Test site-Real      | Epoch:110 | Test Acc: 0.3821
+Unseen site-Clipart    |Test site-Sketch    | Epoch:110 | Test Acc: 0.4183
+============ Train epoch 550 ============
+============ Train epoch 551 ============
+============ Train epoch 552 ============
+============ Train epoch 553 ============
+============ Train epoch 554 ============
+ Site-Infograph | Train Loss: 0.5598 | Train Acc: 0.9905
+ Site-Painting  | Train Loss: 0.5670 | Train Acc: 0.9905
+ Site-Quickdraw | Train Loss: 0.5978 | Train Acc: 0.9810
+ Site-Real      | Train Loss: 0.5836 | Train Acc: 0.9905
+ Site-Sketch    | Train Loss: 0.5667 | Train Acc: 0.9905
+ Site-Infograph | Val  Loss: 2.6339 | Val  Acc: 0.2381
+ Site-Painting  | Val  Loss: 1.8987 | Val  Acc: 0.4762
+ Site-Quickdraw | Val  Loss: 1.3880 | Val  Acc: 0.6952
+ Site-Real      | Val  Loss: 1.7063 | Val  Acc: 0.4952
+ Site-Sketch    | Val  Loss: 1.7581 | Val  Acc: 0.4286
+============ Train epoch 555 ============
+============ Train epoch 556 ============
+============ Train epoch 557 ============
+============ Train epoch 558 ============
+============ Train epoch 559 ============
+ Site-Infograph | Train Loss: 0.5818 | Train Acc: 0.9905
+ Site-Painting  | Train Loss: 0.5498 | Train Acc: 0.9905
+ Site-Quickdraw | Train Loss: 0.5686 | Train Acc: 0.9905
+ Site-Real      | Train Loss: 0.5533 | Train Acc: 1.0000
+ Site-Sketch    | Train Loss: 0.5787 | Train Acc: 1.0000
+ Site-Infograph | Val  Loss: 2.6514 | Val  Acc: 0.2190
+ Site-Painting  | Val  Loss: 1.9012 | Val  Acc: 0.4667
+ Site-Quickdraw | Val  Loss: 1.4047 | Val  Acc: 0.6857
+ Site-Real      | Val  Loss: 1.7058 | Val  Acc: 0.4952
+ Site-Sketch    | Val  Loss: 1.7573 | Val  Acc: 0.4286
+============ Train epoch 560 ============
+============ Train epoch 561 ============
+============ Train epoch 562 ============
+============ Train epoch 563 ============
+============ Train epoch 564 ============
+ Site-Infograph | Train Loss: 0.6077 | Train Acc: 0.9905
+ Site-Painting  | Train Loss: 0.5794 | Train Acc: 0.9905
+ Site-Quickdraw | Train Loss: 0.5685 | Train Acc: 0.9905
+ Site-Real      | Train Loss: 0.5520 | Train Acc: 0.9905
+ Site-Sketch    | Train Loss: 0.5878 | Train Acc: 0.9905
+ Site-Infograph | Val  Loss: 2.6315 | Val  Acc: 0.2286
+ Site-Painting  | Val  Loss: 1.8894 | Val  Acc: 0.4667
+ Site-Quickdraw | Val  Loss: 1.3905 | Val  Acc: 0.7048
+ Site-Real      | Val  Loss: 1.6930 | Val  Acc: 0.5048
+ Site-Sketch    | Val  Loss: 1.7532 | Val  Acc: 0.4381
+============ Train epoch 565 ============
+============ Train epoch 566 ============
+============ Train epoch 567 ============
+============ Train epoch 568 ============
+============ Train epoch 569 ============
+ Site-Infograph | Train Loss: 0.5687 | Train Acc: 1.0000
+ Site-Painting  | Train Loss: 0.5729 | Train Acc: 0.9810
+ Site-Quickdraw | Train Loss: 0.5811 | Train Acc: 0.9905
+ Site-Real      | Train Loss: 0.5566 | Train Acc: 0.9810
+ Site-Sketch    | Train Loss: 0.5721 | Train Acc: 0.9810
+ Site-Infograph | Val  Loss: 2.6319 | Val  Acc: 0.2190
+ Site-Painting  | Val  Loss: 1.8971 | Val  Acc: 0.4762
+ Site-Quickdraw | Val  Loss: 1.3850 | Val  Acc: 0.7048
+ Site-Real      | Val  Loss: 1.7100 | Val  Acc: 0.4857
+ Site-Sketch    | Val  Loss: 1.7714 | Val  Acc: 0.4286
+============ Train epoch 570 ============
+============ Train epoch 571 ============
+============ Train epoch 572 ============
+============ Train epoch 573 ============
+============ Train epoch 574 ============
+ Site-Infograph | Train Loss: 0.5749 | Train Acc: 1.0000
+ Site-Painting  | Train Loss: 0.5435 | Train Acc: 1.0000
+ Site-Quickdraw | Train Loss: 0.5635 | Train Acc: 1.0000
+ Site-Real      | Train Loss: 0.5378 | Train Acc: 1.0000
+ Site-Sketch    | Train Loss: 0.5767 | Train Acc: 0.9905
+ Site-Infograph | Val  Loss: 2.6320 | Val  Acc: 0.2190
+ Site-Painting  | Val  Loss: 1.9115 | Val  Acc: 0.4762
+ Site-Quickdraw | Val  Loss: 1.3842 | Val  Acc: 0.6952
+ Site-Real      | Val  Loss: 1.7025 | Val  Acc: 0.5048
+ Site-Sketch    | Val  Loss: 1.7717 | Val  Acc: 0.4286
+============ Train epoch 575 ============
+============ Train epoch 576 ============
+============ Train epoch 577 ============
+============ Train epoch 578 ============
+============ Train epoch 579 ============
+ Site-Infograph | Train Loss: 0.6163 | Train Acc: 0.9714
+ Site-Painting  | Train Loss: 0.5944 | Train Acc: 0.9810
+ Site-Quickdraw | Train Loss: 0.5806 | Train Acc: 0.9810
+ Site-Real      | Train Loss: 0.5512 | Train Acc: 0.9905
+ Site-Sketch    | Train Loss: 0.5680 | Train Acc: 0.9810
+ Site-Infograph | Val  Loss: 2.6398 | Val  Acc: 0.2095
+ Site-Painting  | Val  Loss: 1.9065 | Val  Acc: 0.4762
+ Site-Quickdraw | Val  Loss: 1.3949 | Val  Acc: 0.7048
+ Site-Real      | Val  Loss: 1.7056 | Val  Acc: 0.4952
+ Site-Sketch    | Val  Loss: 1.7761 | Val  Acc: 0.4190
+============ Train epoch 580 ============
+============ Train epoch 581 ============
+============ Train epoch 582 ============
+============ Train epoch 583 ============
+============ Train epoch 584 ============
+ Site-Infograph | Train Loss: 0.5722 | Train Acc: 0.9905
+ Site-Painting  | Train Loss: 0.5833 | Train Acc: 0.9619
+ Site-Quickdraw | Train Loss: 0.5679 | Train Acc: 0.9905
+ Site-Real      | Train Loss: 0.5389 | Train Acc: 1.0000
+ Site-Sketch    | Train Loss: 0.5665 | Train Acc: 0.9905
+ Site-Infograph | Val  Loss: 2.6278 | Val  Acc: 0.2381
+ Site-Painting  | Val  Loss: 1.9057 | Val  Acc: 0.4857
+ Site-Quickdraw | Val  Loss: 1.3800 | Val  Acc: 0.7143
+ Site-Real      | Val  Loss: 1.7098 | Val  Acc: 0.4857
+ Site-Sketch    | Val  Loss: 1.7721 | Val  Acc: 0.4095
+============ Train epoch 585 ============
+============ Train epoch 586 ============
+============ Train epoch 587 ============
+============ Train epoch 588 ============
+============ Train epoch 589 ============
+ Site-Infograph | Train Loss: 0.6038 | Train Acc: 0.9905
+ Site-Painting  | Train Loss: 0.5792 | Train Acc: 0.9714
+ Site-Quickdraw | Train Loss: 0.5565 | Train Acc: 1.0000
+ Site-Real      | Train Loss: 0.5359 | Train Acc: 1.0000
+ Site-Sketch    | Train Loss: 0.5574 | Train Acc: 1.0000
+ Site-Infograph | Val  Loss: 2.6407 | Val  Acc: 0.2190
+ Site-Painting  | Val  Loss: 1.9009 | Val  Acc: 0.4857
+ Site-Quickdraw | Val  Loss: 1.3807 | Val  Acc: 0.7143
+ Site-Real      | Val  Loss: 1.7110 | Val  Acc: 0.4952
+ Site-Sketch    | Val  Loss: 1.7587 | Val  Acc: 0.4381
+============ Train epoch 590 ============
+============ Train epoch 591 ============
+============ Train epoch 592 ============
+============ Train epoch 593 ============
+============ Train epoch 594 ============
+ Site-Infograph | Train Loss: 0.6022 | Train Acc: 0.9714
+ Site-Painting  | Train Loss: 0.5866 | Train Acc: 1.0000
+ Site-Quickdraw | Train Loss: 0.5973 | Train Acc: 0.9810
+ Site-Real      | Train Loss: 0.5419 | Train Acc: 1.0000
+ Site-Sketch    | Train Loss: 0.5813 | Train Acc: 0.9810
+ Site-Infograph | Val  Loss: 2.6504 | Val  Acc: 0.2095
+ Site-Painting  | Val  Loss: 1.8927 | Val  Acc: 0.4762
+ Site-Quickdraw | Val  Loss: 1.3815 | Val  Acc: 0.7143
+ Site-Real      | Val  Loss: 1.7076 | Val  Acc: 0.4952
+ Site-Sketch    | Val  Loss: 1.7678 | Val  Acc: 0.4190
+============ Train epoch 595 ============
+============ Train epoch 596 ============
+============ Train epoch 597 ============
+============ Train epoch 598 ============
+============ Train epoch 599 ============
+ Site-Infograph | Train Loss: 0.5977 | Train Acc: 0.9905
+ Site-Painting  | Train Loss: 0.5572 | Train Acc: 1.0000
+ Site-Quickdraw | Train Loss: 0.5650 | Train Acc: 0.9810
+ Site-Real      | Train Loss: 0.5494 | Train Acc: 1.0000
+ Site-Sketch    | Train Loss: 0.5549 | Train Acc: 0.9905
+ Site-Infograph | Val  Loss: 2.6420 | Val  Acc: 0.2095
+ Site-Painting  | Val  Loss: 1.9014 | Val  Acc: 0.4952
+ Site-Quickdraw | Val  Loss: 1.3921 | Val  Acc: 0.7143
+ Site-Real      | Val  Loss: 1.7013 | Val  Acc: 0.4952
+ Site-Sketch    | Val  Loss: 1.7731 | Val  Acc: 0.4381
+
+========== Testing at Round 120 ==========
+ Test site-Infograph | Epoch:120 | Test Acc: 0.2420
+ Test site-Painting  | Epoch:120 | Test Acc: 0.4120
+ Test site-Quickdraw | Epoch:120 | Test Acc: 0.7030
+ Test site-Real      | Epoch:120 | Test Acc: 0.5448
+ Test site-Sketch    | Epoch:120 | Test Acc: 0.4458
+Unseen site-Clipart    |Test site-Infograph | Epoch:120 | Test Acc: 0.3726
+Unseen site-Clipart    |Test site-Painting  | Epoch:120 | Test Acc: 0.3935
+Unseen site-Clipart    |Test site-Quickdraw | Epoch:120 | Test Acc: 0.3973
+Unseen site-Clipart    |Test site-Real      | Epoch:120 | Test Acc: 0.3897
+Unseen site-Clipart    |Test site-Sketch    | Epoch:120 | Test Acc: 0.4087
